@@ -1,8 +1,13 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(140, 168, 184);
 }
+
+h1{
+color: #195b87 !important;
+}
+
 #main-container{
-    background-color: rgb(150, 189, 194);
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3) );
 padding: 20px;
 border-radius: 10px;
 margin-top: 25px;
