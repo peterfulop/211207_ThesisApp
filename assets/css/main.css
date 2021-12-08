@@ -1,0 +1,54 @@
+#main-container{
+    background-color: rgb(150, 189, 194);
+padding: 20px;
+border-radius: 10px;
+margin-top: 25px;
+
+}
+
+.btn-folder{
+    background-color: rgb(241, 241, 241);
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.btn-folder:hover{
+    background-color:#198754;
+    color: white;
+}
+
+.active{
+    background-color:#195b87 !important;
+    color: white !important;
+}
+.page-link{
+    color: #195b87;
+}
+.page-link.active{
+    border-color: #195b87 !important;
+}
+
+.folder-img{
+    width: 30px;
+}
+
+.thesis-list{
+    background-color: white;
+    border-radius: 5px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.listening-modules {
+opacity: 0;
+transition: opacity 2s;
+}
+
+@media (max-width: 575px) {
+  #main-container {
+      border-radius: 0;
+        min-height: 100vh;
+        margin: 0;
+  }
+}
