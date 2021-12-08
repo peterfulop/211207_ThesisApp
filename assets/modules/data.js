@@ -6,7 +6,7 @@ export const data = [
         items: [
             {
                 id: 1,
-                title: "Egy kis vegyesbolt vezetője felkéri, hogy készítsen egy számítógépes programot, amely a bolt raktárkészletét tartja nyilván.Határozza meg a fejlesztendő szoftver funkcionális és minőségi követelményeit, valamint az alkalmazás szerkezeti felépítését!",
+                title: "Egy kis vegyesbolt vezetője felkéri, hogy készítsen egy számítógépes programot, amely a bolt raktárkészletét tartja nyilván. Határozza meg a fejlesztendő szoftver funkcionális és minőségi követelményeit, valamint az alkalmazás szerkezeti felépítését!",
                 task: "Mutassa be a programtervezés folyamatát! Nevezze meg és jellemezze a tervezés során készítendő dokumentumokat! Határozza meg a fejlesztendő szoftver funkcionális követelményeit! Határozza meg a fejlesztendő szoftver minőségi követelményeit!",
                 keys: ["Programtervezés: követelmények meghatározása, specifikáció, tervezés", "Rendszerkövetelmények, felhasználói követelmények", "A követelményfeltárás módszerei", "Követelményspecifikáció"],
                 content: ""
