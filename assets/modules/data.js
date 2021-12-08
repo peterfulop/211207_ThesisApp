@@ -8,7 +8,7 @@ export const data = [
                 id: 1,
                 title: "Egy kis vegyesbolt vezetője felkéri, hogy készítsen egy számítógépes programot, amely a bolt raktárkészletét tartja nyilván.Határozza meg a fejlesztendő szoftver funkcionális és minőségi követelményeit, valamint az alkalmazás szerkezeti felépítését!",
                 task: "Mutassa be a programtervezés folyamatát! Nevezze meg és jellemezze a tervezés során készítendő dokumentumokat! Határozza meg a fejlesztendő szoftver funkcionális követelményeit! Határozza meg a fejlesztendő szoftver minőségi követelményeit!",
-                keys: ["Programtervezés: követelmények meghatározása, specifikáció, tervezés", "Rendszerkövetelmények, felhasználói követelmények", "A követelményfeltárás módszerei.", "Követelményspecifikáció."],
+                keys: ["Programtervezés: követelmények meghatározása, specifikáció, tervezés", "Rendszerkövetelmények, felhasználói követelmények", "A követelményfeltárás módszerei", "Követelményspecifikáció"],
                 content: ""
             },
             {
@@ -34,28 +34,28 @@ export const data = [
             },
             {
                 id: 5,
-                title: "Egy grafikus, több platformon (desktop, web, mobil) is használható kártyajáték programot kell készíteni.Tegyen javaslatot a programozási nyelv és a fejlesztési környezet kiválasztására!",
+                title: "Egy grafikus, több platformon (desktop, web, mobil) is használható kártyajáték programot kell készíteni. Tegyen javaslatot a programozási nyelv és a fejlesztési környezet kiválasztására!",
                 task: "Tegyen javaslatot a feladathoz megfelelő programozási nyelv kiválasztására! Hasonlítsa össze a választott programozási nyelvet más nyelvekkel, és indokolja választásának előnyeit! Határozza meg a többplatformú alkalmazásfejlesztés kritikus pontjait és korlátait! Válasszon ki egy fejlesztési környezetet és indokolja döntését!",
                 keys: ["Programozási nyelvek típusai és jellemzői", "Alapvető input/output komponensek", "Grafikus komponensek", "GUI alkalmazás készítése", "Alkalmazásplatformok jellemzői", "Multiplatform-alkalmazáskészítés szabályai", "Programozói környezetek (IDE) és jellemzőik"],
                 content: ""
             },
             {
                 id: 6,
-                title: "Egy áruház klimatizálási rendszeréből 10 másodpercenként érkeznek - az egyes helyiségek hőmérsékletét jelző - monitoradatok egy adatbázisba.A megfigyelt helyiségek (beérkező adatok) száma 300 darab.Tegyen javaslatot az adatok rögzítéséhez szükséges adatbázis és alkalmazás felépítésére!",
+                title: "Egy áruház klimatizálási rendszeréből 10 másodpercenként érkeznek - az egyes helyiségek hőmérsékletét jelző - monitoradatok egy adatbázisba. A megfigyelt helyiségek (beérkező adatok) száma 300 darab. Tegyen javaslatot az adatok rögzítéséhez szükséges adatbázis és alkalmazás felépítésére!",
                 task: "Tervezze meg a rendszer működéséhez szükséges architektúrát! Tervezze meg az adatok tárolásához szükséges adatbázis felépítését! Határozza meg az adatok tárolásához szükséges tárterületet! Tervezze meg az adatok rögzítéséhez szükséges alkalmazást! Határozza meg a rendszer működése során jelentkező kritikus pontokat, hibákat és javasoljon megoldásokat!",
                 keys: ["Adatbázis-kezelő rendszer telepítése, alapvető konfigurációs beállítások", "Adatbázisok normalizálása, optimalizálása", "Adatmodellezés: egyed-kapcsolat diagramok, tervezési alapelvek, megszorítások (constraint) modellezése", "Mezőtulajdonságok: típusok, mezőméret, alapérték", "Adatbázis-kapcsolatok megvalósítása. Lokális és hálózati adatbázis használata", "Üzenetközvetítő sorok (MQ)"],
                 content: ""
             },
             {
                 id: 7,
-                title: "Egy utazási iroda online (webalapú) utazásfoglalási rendszert üzemeltet. A klasszikus MVC alkalmazás a cég szerverén fut.Egy sikeres reklámkampány következtében a rendszer felhasználóinak száma 100-szorosára, csúcsidőszakban(pl.ünnepek, nyári hónapok) pedig akár 10000-szeresére is emelkedik.Feladata, hogy az alkalmazás átalakítása nélkül biztosítsa a megnövelt terhelés költséghatékony kiszolgálását.",
+                title: "Egy utazási iroda online (webalapú) utazásfoglalási rendszert üzemeltet. A klasszikus MVC alkalmazás a cég szerverén fut. Egy sikeres reklámkampány következtében a rendszer felhasználóinak száma 100-szorosára, csúcsidőszakban(pl.ünnepek, nyári hónapok) pedig akár 10000-szeresére is emelkedik. Feladata, hogy az alkalmazás átalakítása nélkül biztosítsa a megnövelt terhelés költséghatékony kiszolgálását.",
                 task: "Ismertesse a többfeladatos, többfelhasználós rendszerek működését! Definiálja a klasszikus MCV-alkalmazás felépítését, és térjen ki a skálázhatósági kérdésekre! Jellemezze a virtualizációs szoftverek tulajdonságait! Definiálja a robosztus alkalmazások jellemzőit! Definiálja a csúcsterhelés fogalmát, és magyarázza el ennek költségoldali vonzatát! Tervezzen rendszerarchitektúrát a vázolt probléma megoldására!",
                 keys: ["Számítógép-architektúrák", "Multitask rendszerek. Időosztásos rendszerek. Valósidejű rendszerek", "Virtulizációs szoftverek. Fizikai és virtuális gép kapcsolata, beállítások", "Többrétegű alkalmazások felépítése", "Model–View–Controller (MVC) elv, MVC-elv alkalmazása webtechnológiákban", "Hatékonyság és teljesítmény a webalkalmazásokban", "Felhőalapú rendszerek", "Munkafolyamatokhoz, szolgáltatásokhoz, termékekhez kapcsolódó egyszerű költségkalkuláció."],
                 content: ""
             },
             {
                 id: 8,
-                title: "Egy alkalmazás naplófájlja az egyes eseményeket sorvégejellel, az eseményen belüli adatokat „;” jellel választja el.Egy eseményhez az alábbi adatok tartoznak: időpont, felhasználó, számítógép IP- címe, eseményüzenet.Feladata egy olyan hordozható (portable) alkalmazás készítése, amely a naplófájlban képes különböző adatok alapján eseménybejegyzéseket keresni.",
+                title: "Egy alkalmazás naplófájlja az egyes eseményeket sorvégejellel, az eseményen belüli adatokat „;” jellel választja el. Egy eseményhez az alábbi adatok tartoznak: időpont, felhasználó, számítógép IP- címe, eseményüzenet. Feladata egy olyan hordozható (portable) alkalmazás készítése, amely a naplófájlban képes különböző adatok alapján eseménybejegyzéseket keresni.",
                 task: "Ismertesse a hordozható (portable) alkalmazások jellemzőit és korlátait! Tervezze meg az alkalmazás működését! Optimalizálja a kereséseket kétféle szempont szerint: végrehajtási idő, illetve memóriafoglalás!",
                 keys: ["Lineáris és logaritmikus keresések", "Rendezések", "Végrehajtási idők", "Állománykezelés, Indexelés"],
                 content: ""
@@ -90,7 +90,7 @@ export const data = [
             },
             {
                 id: 13,
-                title: "Egy raktárkezelő program fejlesztése során olyan riportgeneráló modult kell készíteni, amely különféle formátumú fájlokba(PDF, DOC, ODF, XLS, XML, GIF, PNG, JPG, ZIP, RAR) állítja elő a jelentéseket.Feladata, hogy készítsen elemzést a feladathoz szükséges komponensek és formátumok szerzői jogi helyzetével kapcsolatban.",
+                title: "Egy raktárkezelő program fejlesztése során olyan riportgeneráló modult kell készíteni, amely különféle formátumú fájlokba (PDF, DOC, ODF, XLS, XML, GIF, PNG, JPG, ZIP, RAR) állítja elő a jelentéseket. Feladata, hogy készítsen elemzést a feladathoz szükséges komponensek és formátumok szerzői jogi helyzetével kapcsolatban.",
                 task: "Ismertesse az egyes formátumok felhasználásával kapcsolatos szerzői jogokat! Mutassa be a külső szoftverkomponensek beépíthetőségével kapcsolatos jogi lehetőségeket, korlátokat! Ismertesse a külső szoftverkomponensek beépíthetőségével kapcsolatos felhasználási feltételeket üzleti célú alkalmazások esetében!",
                 keys: ["Szoftver fogalma, szoftverek csoportosítása", "Zárt és nyílt forráskódú rendszerek, GPL", "Licenc, licencszerződés, Használati jog", "Szabad szoftverek"],
                 content: ""
@@ -118,7 +118,7 @@ export const data = [
             },
             {
                 id: 17,
-                title: "Egy vállalat információs rendszerében érzékeny adatokat tárolnak, így fokozott támadásveszélynek van kitéve.Tegyen javaslatot a hálózati környezetben dolgozó kliensgépek védelmére!",
+                title: "Egy vállalat információs rendszerében érzékeny adatokat tárolnak, így fokozott támadásveszélynek van kitéve. Tegyen javaslatot a hálózati környezetben dolgozó kliensgépek védelmére!",
                 task: "Ismertesse a kliensgépekre leselkedő informatikai veszélyeket! Javasoljon védekezési módszereket a rosszindulatú programok ellen! Mondja el a biztonságos böngészés módszereit! Javasoljon eszközöket a fokozott védelem megvalósítására!",
                 keys: ["Rosszindulatú szoftverek (vírus, trójai, féreg, adware, spyware)", "Védekezési módok a rosszindulatú szoftverek ellen", "Megtévesztési technikák (social engineering, phishing)", "Biztonságos böngészés, böngésző biztonsági beállításai", "Biztonsági szabályzat", "Mobil eszközök védelme, biometrikus azonosítási módszerek", "IT eszközök fizikai védelme"],
                 content: ""
@@ -132,7 +132,7 @@ export const data = [
             },
             {
                 id: 19,
-                title: "Egy Microsoft Windows operációs rendszerre készült játékprogramot kell más platformra(pl.LINUX) átültetni.Készítsen egy megvalósíthatósági tanulmányt a feladat végrehajtásáról!",
+                title: "Egy Microsoft Windows operációs rendszerre készült játékprogramot kell más platformra (pl.LINUX) átültetni. Készítsen egy megvalósíthatósági tanulmányt a feladat végrehajtásáról!",
                 task: "Hasonlítsa össze a két operációs rendszer fontosabb jellemzőit a megvalósíthatóság szempontjából! Sorolja fel a feladat során jelentkező nehézségeket az egyes alrendszerek szempontjából (pl.grafikus alrendszer, rendszerhívások stb.)! Sorolja fel, hogy milyen feltételek teljesülése esetén lehetséges - a kód jelentős újraírása nélkül - a feladatot megoldani!",
                 keys: ["Windows API felépítése és használata: WIN32 API, MFC", "Fordító- (pl. gcc, make) és fejlesztőeszközök (pl. kDevelop) Unix/Linux használata. Rendszerhívások használata alkalmazói programokban", "Grafikai és multimédia-alrendszerek"],
                 content: ""
@@ -223,14 +223,14 @@ export const data = [
             },
             {
                 id: 11,
-                title: "Önt bízták meg egy junior kolléga kódjának átnézésével. Azt vette észre, hogy az elkészült weblap formázása „inline style” használatával valósul meg.Magyarázza el a kollégának, miért érdemes inkább CSS fájlt használni!",
+                title: "Önt bízták meg egy junior kolléga kódjának átnézésével. Azt vette észre, hogy az elkészült weblap formázása „inline style” használatával valósul meg. Magyarázza el a kollégának, miért érdemes inkább CSS fájlt használni!",
                 task: "Udvariasan közölje a kollégával, hogy mivel bízták meg, és milyen hibát talált! Design elemek változása esetén nem kell a HTML/PHP/stb. kódot változtatni.",
                 keys: ["Stílusosztályok használata", "CSS szelektorok"],
                 content: "Good morning Jane. I’m sorry to disturb you but I know you are new at the company so my boss asked me to check the code you have written. You have been working really successfully so far but I’ve found a small problem with the code. I’ve noticed that you used inline style instead of CSS. It is not really good because  each HTML file is desinged individually, however, it should be designed with the help of CSS. HTML is only used to define the structure of the website. CSS is used to display the style of the website. It is enough to create the style of an element only once and we can reuse it several times. If we use CSS, it is easier to make changes in design because it is enough to make the changes only once. All the colleagues use an already existing CSS file and if you work in a team, you must use this CSS. If you make a different style, it won’t fit the style of the websites which are desinged by the other colleagues. CSS is very easy to learn how to use.It has different selectors for such as tags, class or ID.With the help of the selectors, you can set the style of each element. You should look through the already existing CSS and you are allowed to use these files.If you want to create a new disign, you should go to Mr Smith and make a suggestion to him.If this new style is considered to be good and necessary, you can use it. Anyway, we are satisfied with your job and we are glad to work with you since you are a valuable member of the team. If you have any questions, feel free to ask me for help."
             },
             {
                 id: 12,
-                title: "Ön egy web alkalmazásokat fejlesztő céget vezet. Az egyik ügyfele az ország több pontján dolgozó értékesítő kollégák számára szeretne egy ügyviteli programot készíttetni.Az ügyfél desktop alkalmazást szeretne.Próbálja meggyőzni, hogy egy web alkalmazás jobb döntés lenne!",
+                title: "Ön egy web alkalmazásokat fejlesztő céget vezet. Az egyik ügyfele az ország több pontján dolgozó értékesítő kollégák számára szeretne egy ügyviteli programot készíttetni. Az ügyfél desktop alkalmazást szeretne.Próbálja meggyőzni, hogy egy web alkalmazás jobb döntés lenne!",
                 task: "Ismertesse az újabb verziók telepítésének problémáját! Egyéb lehetséges érvek: Hálózati kapcsolat a desktop alkalmazáshoz is kell, megfelelő beállítások mellett ugyanolyan biztonságos, operációs rendszertől független.",
                 keys: ["On-line rendszerek", "Szoftverek életciklusa", "Folyamatosan változó üzleti igények, újabb program verziók"],
                 content: "Dear Customer, I have received your email in which you are inquiring about a desktop application that could meet your business needs. However, I would recommend the web- based application instead.One of the main reasons why I would prefer it is that the deployment of the programme does not require any technical knowlegde.In addition to that, the upgrading is less problematic than in case of the desktop application.Generally, web applications are refreshed centrally at the server and the employees can always use the most up- to - date version with the help of a web browser. What is more, by applying the same settings it can guarantee the same data security regardless of the operating system. The drawback of the desktop application is that it is dependent on the operating system and it requires information techological knowledge as well as a server.The administrator must do the backups regularly and do the system updates which makes its application more expensive.The programmes must be changed according to the custormers’ demands.These changes cannot be done online so the system administrator must go to each location and do the updates personally.It requires a lot of travelling which makes the process much more expensive.These extra costs do not occur in case of the web - based application. In case of the web - based application the clients’ arising questions can be answered more quickly.Web - based applications are becoming more and more popular and technically supported.As a result of technological development, a lot of problems can be solved with the help of the online applications. If you have any questions in connection with the web - based application, you can ask me any time."
@@ -244,14 +244,14 @@ export const data = [
             },
             {
                 id: 14,
-                title: "A cég, ahol dolgozik, prototípus alapú agilis módszertannal dolgozik. Minden hét végén elkészül a szoftver egy újabb verziója.Magyarázza el az ügyfélnek, hogy mi a módszer lényege, és mi ebben az ő feladata!",
+                title: "A cég, ahol dolgozik, prototípus alapú agilis módszertannal dolgozik. Minden hét végén elkészül a szoftver egy újabb verziója. Magyarázza el az ügyfélnek, hogy mi a módszer lényege, és mi ebben az ő feladata!",
                 task: "Minden héten le kell tesztelnie a szoftvert. Folyamatosan kapcsolatban kell lenniük, ami sok idejét igénybe veheti. A fejlesztés végén az ügyfél pontosan olyan programot kap, amit szeretne.",
                 keys: ["Szoftverfejlesztés lépései", "Kommunikáció fontossága"],
                 content: "A prototype is nothing but a mock version of your ideas in an early stage of the production. This gives the client an actual feel of the system. It also helps them to better understand their desired system requirements. Prototype is not a complete system itself.Many details are not built in the test model either.The main reason of the Prototype model is to provide a system which gives a rough idea about the overall functionality. The prototype will only show the basic test environment of the actual software; thus, some features will not be running completely.This is designed to give an example of the working, look and feel of the final product to the users. This model is used when a client is not sure about the project requirements.Therefore, a close and constant communication between company and client is important for the success. Prototype is an iterative process which finalizes the product with trial and error method."
             },
             {
                 id: 15,
-                title: "Úgy látja, hogy határidőre nem tudja befejezni a kapott feladatot, mert az ügyfél új igényekkel állt elő.Írjon e-mailt, amiben egy hét haladékot kér!",
+                title: "Úgy látja, hogy határidőre nem tudja befejezni a kapott feladatot, mert az ügyfél új igényekkel állt elő. Írjon e-mailt, amiben egy hét haladékot kér!",
                 task: "Soroljon fel néhány kérést, amit az ügyfél kért. Pl.: egy új riport, át kellett dolgozni a keresés ablakot, megváltoztatták az import fájl szerkezetét, ...stb! Adjon becslést arra, hogy mikorra tudja befejezni az Önre bízott feladatot! Mire lenne szüksége ahhoz, hogy a határidőt tartani lehessen?",
                 keys: ["Határidő", "Projekt", "Ügyfél igény"],
                 content: "Dear Mr Taylor, I am writing to you to inform you about the fact that I will not be able to finish the task in time.The reason is that the client has some new request which make it impossible to accomplish the task by the given deadline. The client’s new claims are to make a new report and to change the structure of the import file.Because of the new task, I need to change the structure of the database too.That’s why I need to change more windows which takes more time. To do these additional tasks, I will need three more weeks, unless there is another college help me with the project.If it possible, the project can be finished by next Friday. Thank you for your help in advance.I look forward to you reply."
@@ -265,7 +265,7 @@ export const data = [
             },
             {
                 id: 17,
-                title: "Projekt vezetőként dolgozik egy szoftverfejlesztő cégnél. Feladatként kapja egy ingatlan iroda weboldalának megvalósítását.Az oldalon az iroda aktuális hirdetései szerepelnének képekkel, leírásokkal.",
+                title: "Projekt vezetőként dolgozik egy szoftverfejlesztő cégnél. Feladatként kapja egy ingatlan iroda weboldalának megvalósítását. Az oldalon az iroda aktuális hirdetései szerepelnének képekkel, leírásokkal.",
                 task: "Mondja el milyen lépésekből állna a projekt megvalósítása! Milyen szaktudással rendelkező kollégák szükségesek a projekt csapatba? Fogalmazzon meg egy álláshirdetést az egyik pozícióra!",
                 keys: ["Programozó, web designer", "Projekt rövid leírása"],
                 content: "The aim of this meeting is to present our new project. I am the project leader and my task is to present and discuss the necessary steps to carry out this project. Our software company has been asked to design a website with pictures and adverticements for an estate agency. The first step is to chose a colleague to talk to the client and to discuss the details of the project.The next task is to choose the appropriate web developers who have the necessary qualification and competence to do the job.We need frontend and backend developers.First of all, we must look for a backend developer who has already had experience in PHP and JavaScript.It would be nice if the expert had work experience in SQL. After we have found the appropriate experts for the different tasks, the next step is to start the project.The deadline of this project is three months.Meanwhile, we will have a rengular contact with the client who can follow each part of the project and has the opportunity to ask for changes if necessary. During the project the team has a regular meeting every Monday at 10 am.Here everyone can present the completed tasks and ask questions about the next step. Our software developer company is looking for a backend developer who has already had experience in PHP and JavaScript.The candidate can be a member of a successful team so it is important to be accurate, flexible, hard- working, cooperative and to be able to work individually.We offer competitive salary and bonus as well as a stable job.It is also possible to work from home.If you are interested in this job, please contact me on this email address..."
