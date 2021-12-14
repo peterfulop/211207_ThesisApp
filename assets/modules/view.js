@@ -26,30 +26,25 @@ const renderThesisHTML = (thesis) => {
                         }" aria-expanded="false"
                         aria-controls="flush-collapse_${thesis.id}">
                         <div class="d-block">
-                        <b>${thesis.id}. <small class="">${
-    thesis.title
-  }</small></b>
+                        <b>${thesis.id}. <small class="">${thesis.title}</small></b>
                         </div>
                     </button>
                 </h2>
-                <div id="flush-collapse_${
-                  thesis.id
-                }" class="accordion-collapse collapse" aria-labelledby="flush-${
-    thesis.id
-  }"
+                <div id="flush-collapse_${thesis.id}" class="accordion-collapse collapse" aria-labelledby="flush-${thesis.id}"
                     data-bs-parent="#accordionFlushThesis">
                     <div class="accordion-body">
                         <i><p>${thesis.task}</p></i>
-                        ${
-                          thesis.keys.length > 0
-                            ? `<b>Kulcsszavak:</b><br><p>[${thesis.keys.join(
-                                ", "
-                              )}]</p><br>`
-                            : ""
-                        }
-                        ${thesis.content.length > 0 ? "<b>Tétel:</b><br>" : ""}
+                        <div>
+                          <b><p class="m-0">Kulcsszavak, fogalmak:</p></b>
+                          <ul>
+                            ${renderListItems(thesis.keys)}
+                          </ul>
+                        </div>
+                        <div class="d-flex justify-content-between">${thesis.content.length > 0 ? "<b>Tétel:</b><br>" : ""}</div>
                         <div class="text-content">${thesis.content}</div>
-                        <div class="listening-modules mt-2"></div>
+                        <!--<div class="form-control text textarea-thesis mt-2" contenteditable id="text_${thesis.id}">${thesis.content}</div>-->                        
+                        </div>
+                        <div class="listening-modules mt-2 d-none"></div>
                     </div>
                 </div>
             </div>`;
@@ -82,6 +77,17 @@ const readerControlPanelHTML = () => {
             </div>
         </div>`;
 };
+
+const renderListItems = (list)=>{
+  let myList = "";
+  if(list.length > 0) {
+    list.forEach(e => {
+      myList+= `<li>${e}</li>`;
+    });
+  }
+  return myList;
+
+}
 
 export const loadFolderElements = () => {
   folderBlock.innerHTML = "";

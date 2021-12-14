@@ -3,4 +3,3 @@ export const state = {
     selectedPage: 0,
     selectedLanguage: ""
 }
-

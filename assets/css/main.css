@@ -83,6 +83,12 @@ h1 {
   -webkit-transition: transform 0.25s ease-in-out;
 }
 
+
+.textarea-thesis{
+}
+
+
+/**/
 .ball-btn {
   display: flex;
   padding: 0.5rem;
@@ -106,6 +112,8 @@ h1 {
   cursor: pointer;
   color: white;
 }
+/***/
+
 
 @media (max-width: 575px) {
   #main-container {
