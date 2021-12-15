@@ -33,11 +33,11 @@ const renderThesisHTML = (thesis) => {
                 <div id="flush-collapse_${thesis.id}" class="accordion-collapse collapse" aria-labelledby="flush-${thesis.id}"
                     data-bs-parent="#accordionFlushThesis">
                     <div class="accordion-body">
-                        <i><p>${thesis.task}</p></i>
+                        ${renderListItems(thesis.task,"square")}
                         <div>
-                          <b><p class="m-0">Kulcsszavak, fogalmak:</p></b>
+                          <b><p class="m-0 mt-2">Kulcsszavak, fogalmak:</p></b>
                           <ul>
-                            ${renderListItems(thesis.keys)}
+                          <i>${renderListItems(thesis.keys)}</i>
                           </ul>
                         </div>
                         <div class="d-flex justify-content-between">${thesis.content.length > 0 ? "<b>Tétel:</b><br>" : ""}</div>
@@ -78,11 +78,11 @@ const readerControlPanelHTML = () => {
         </div>`;
 };
 
-const renderListItems = (list)=>{
+const renderListItems = (list,listStye = "disc")=>{
   let myList = "";
   if(list.length > 0) {
     list.forEach(e => {
-      myList+= `<li>${e}</li>`;
+      myList+= `<li style="list-style-type:${listStye}">${e}</li>`;
     });
   }
   return myList;
