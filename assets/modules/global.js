@@ -1,4 +1,4 @@
-export const startSpeech = (
+export const startSpeech = async(
     language,
     text,
     { volume = 1, rate = 1, pitch = 1 } = {},
@@ -27,3 +27,7 @@ export const startSpeech = (
         return a.type;
     });
 };
+
+export const stopSpeech = ()=>{
+    window.speechSynthesis.cancel();
+}

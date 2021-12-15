@@ -173,11 +173,13 @@ const setAccordionEvents = () => {
         if (visible && text.innerHTML.length > 0) {
           listeningBlock.style.opacity = "1";
           setReadingEvents(text.innerHTML);
+
         } else {
           listeningBlock.innerHTML = "";
           listeningBlock.style.opacity = "0";
         }
       }, 500);
+
     });
   });
 };
