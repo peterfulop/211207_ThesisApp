@@ -21,10 +21,7 @@ const renderThesisHTML = (thesis) => {
   return `<div class="thesis accordion-item">
                 <h2 class="accordion-header" id="flush-${thesis.id}">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse_${
-                          thesis.id
-                        }" aria-expanded="false"
-                        aria-controls="flush-collapse_${thesis.id}">
+                        data-bs-target="#flush-collapse_${thesis.id}" aria-expanded="false" aria-controls="flush-collapse_${thesis.id}">
                         <div class="d-block">
                         <b>${thesis.id}. <small class="">${thesis.title}</small></b>
                         </div>
@@ -44,7 +41,7 @@ const renderThesisHTML = (thesis) => {
                         <div class="text-content">${thesis.content}</div>
                         <!--<div class="form-control text textarea-thesis mt-2" contenteditable id="text_${thesis.id}">${thesis.content}</div>-->                        
                         </div>
-                        <div class="listening-modules mt-2 d-none"></div>
+                        <div class="listening-modules mt-2"></div>
                     </div>
                 </div>
             </div>`;
