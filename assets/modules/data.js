@@ -204,7 +204,7 @@ export const data = [
             <li>kevesebb erőforr&aacute;ssal nagyobb piaci lefedetts&eacute;get biztos&iacute;t,</li>
             <li>gyorsabb a piacra ker&uuml;l&eacute;si idő.</li>
         </ol>
-        <p>Ugyanaz az alkalmaz&aacute;s b&aacute;rmilyen eszk&ouml;z&ouml;n k&eacute;pes futni, &eacute;s pont ez&eacute;rt magasabb a piaci el&eacute;r&eacute;se is. K&ouml;lts&eacute;ghat&eacute;kony, mivel nem nat&iacute;v kell minden nyelven minden eszk&ouml;zre lek&oacute;dolni, csak egyszer. Stabil, gyorsabb, hat&eacute;konyabb a hibajav&iacute;t&aacute;s.</p>
+        <p>Ugyanaz az alkalmaz&aacute;s b&aacute;rmilyen eszk&ouml;z&ouml;n k&eacute;pes futni, &eacute;s pont ez&eacute;rt magasabb a piaci el&eacute;r&eacute;se is. Költséghatékony, mivel nem natív kell minden nyelven minden eszközre lekódolni, csak egyszer. Stabil, gyorsabb, hatékonyabb a hibajavítás.</p>
         <p><strong>A legn&eacute;pszerűbb cross-platform keretrendszerek</strong></p>
         <p><strong>1. Xamarin</strong></p>
         <p>A Xamarin 2011-ben indult, elősz&ouml;r f&uuml;ggetlen alkalmaz&aacute;sfejleszt&eacute;si keretrendszerk&eacute;nt, majd 2016-ban a Microsoft megv&aacute;s&aacute;rolta, &iacute;gy sokak sz&aacute;m&aacute;ra megb&iacute;zhat&oacute;bb h&aacute;tt&eacute;rrel műk&ouml;d&ouml;tt a tov&aacute;bbiakban. Ez egy ny&iacute;lt forr&aacute;sk&oacute;d&uacute; rendszer, amely egyar&aacute;nt alkalmas nat&iacute;v &eacute;s cross-platform appok fejleszt&eacute;s&eacute;re.</p>
