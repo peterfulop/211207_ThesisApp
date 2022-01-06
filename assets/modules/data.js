@@ -88,8 +88,7 @@ export const data = [
         <p><strong>Feh&eacute;r dobozos tesztel&eacute;s</strong></p>
         <p>Ez egy olyan szoftver tesztel&eacute;si m&oacute;dszer, amelyben a program belső szerkezete, tervez&eacute;se &eacute;s megval&oacute;s&iacute;t&aacute;sa ismert a tesztelő sz&aacute;m&aacute;ra. A folyamatot a fejlesztők v&eacute;gzik, akik ismerik konkr&eacute;tan a k&oacute;dot, alkalmas algorutmisok tesztel&eacute;s&eacute;re is. Időig&eacute;nyes folyamat. Ilyen pl a unit &eacute;s integr&aacute;ci&oacute;s tesztek.</p>
         <p><strong>Fekete dobozos tesztel&eacute;s</strong></p>
-        <p>Ez egy olyan szoftver tesztel&eacute;si m&oacute;dszer, amelyben a program belső szerkezete, tervez&eacute;se &eacute;s megval&oacute;s&iacute;t&aacute;sa nem ismert a tesztelő sz&aacute;m&aacute;ra. Professzion&aacute;lis tesztelő csapat v&eacute;gzi a munk&aacute;t, nem sz&uuml;ks&eacute;ges a programk&oacute;d ismerete, &iacute;gy algoritmusok tesztel&eacute;s&eacute;re sem alkalmas. Tesztel&eacute;shez m&eacute;rs&eacute;kelten k&eacute;pzett tesztelők is alkalmasak.</p>
-        <p><br></p>`,
+        <p>Ez egy olyan szoftver tesztel&eacute;si m&oacute;dszer, amelyben a program belső szerkezete, tervez&eacute;se &eacute;s megval&oacute;s&iacute;t&aacute;sa nem ismert a tesztelő sz&aacute;m&aacute;ra. Professzion&aacute;lis tesztelő csapat v&eacute;gzi a munk&aacute;t, nem sz&uuml;ks&eacute;ges a programk&oacute;d ismerete, &iacute;gy algoritmusok tesztel&eacute;s&eacute;re sem alkalmas. Tesztel&eacute;shez m&eacute;rs&eacute;kelten k&eacute;pzett tesztelők is alkalmasak.</p>`,
       },
       {
         id: 3,
@@ -144,7 +143,31 @@ export const data = [
           "Felhasználói fiókok védelme",
           "Adatbázisok védelme",
         ],
-        content: "",
+        content: `<p><strong>A webalap&uacute; rendszerek felhaszn&aacute;l&oacute;kezel&eacute;si megold&aacute;sai:</strong></p>
+        <p>Emberek &eacute;s robotok megk&uuml;l&ouml;nb&ouml;ztet&eacute;se, Turing-teszt</p>
+        <p>Captcha haszn&aacute;lata</p>
+        <p>Authentik&aacute;ci&oacute;, hiteles&iacute;t&eacute;s : A felhaszn&aacute;l&oacute; adatainak hiteles&iacute;t&eacute;se, ellenőrz&eacute;se</p>
+        <p>Autoriz&aacute;ci&oacute;, enged&eacute;lyez&eacute;s : A tartalom kiszolg&aacute;l&aacute;sa a hozz&aacute;f&eacute;r&eacute;si jogok alapj&aacute;n</p>
+        <p><strong>Jelszavak kezel&eacute;se:</strong></p>
+        <p>Jelszavak minim&aacute;lis hossz&aacute;nak &eacute;s karakter tartalm&aacute;nak meghat&aacute;roz&aacute;sa</p>
+        <p>A jelszavak adatb&aacute;zisban t&ouml;rt&eacute;nő t&aacute;rol&aacute;sa minden esetben valamilyen titkos&iacute;t&aacute;si m&oacute;dszerrel t&ouml;rt&eacute;nik. Optim&aacute;lis esetben nem visszafejthető megold&aacute;st keres&uuml;nk, pl md5. (egy&eacute;b m&oacute;dszerek: sha256, sha 512)</p>
+        <p>A felhaszn&aacute;l&oacute;k kezel&eacute;se &aacute;ltal&aacute;ban szerepk&ouml;r&uuml;k alapj&aacute;n t&ouml;rt&eacute;nik. Bizonyos szerepekhez bizonyos hozz&aacute;f&eacute;r&eacute;si lehetős&eacute;gek tartoznak. (pl egy adminisztr&aacute;tor, &aacute;tlag user)</p>
+        <p><strong>T&aacute;mad&aacute;si form&aacute;k:</strong></p>
+        <p><strong>1. Szerver t&aacute;mad&aacute;sa</strong></p>
+        <p>DOS, DDOS</p>
+        <p>Egy, vagy t&ouml;bb c&iacute;mről t&ouml;rt&eacute;nő terhel&eacute;s ind&iacute;t&aacute;sa. A folyamat l&eacute;nyege, hogy a terhel&eacute;s ideje alatt az oldal nagyon lass&uacute;, el&eacute;rhetetlen legyen, vagy ak&aacute;r &ouml;ssze is omoljon. Az 1 IP-c&iacute;mről &eacute;rkező k&eacute;r&eacute;seket viszonylag k&ouml;nnyen tudjuk maximaliz&aacute;lni k&uuml;lső bőv&iacute;tm&eacute;nyekkel.</p>
+        <p><strong>2. Felhaszn&aacute;l&oacute; fi&oacute;k t&aacute;mad&aacute;sa</strong></p>
+        <p>Nem a rendszer hib&aacute;ira &eacute;p&iacute;t, hanem a felhaszn&aacute;l&oacute; figyelmetlens&eacute;g&eacute;re. &Aacute;ltal&aacute;ban szem&eacute;lyes adatok gyűjt&eacute;se az elsődleges c&eacute;l. Ilyen lehet jelszavak, email, telefonsz&aacute;m, rosszabb esetben bankk&aacute;rtya adatok.</p>
+        <p><strong>2.1 Dictionary Based (Sz&oacute;t&aacute;r alap&uacute;) t&aacute;mad&aacute;s:</strong></p>
+        <p>A felhaszn&aacute;l&oacute; saj&aacute;t anyanyelv&eacute;ből indul ki. Egy a nyelv &eacute;rtelmes szavait tartalmaz&oacute; t&aacute;bl&aacute;b&oacute;l futtatja le az &ouml;sszes mentett lehetős&eacute;get, &eacute;s pr&oacute;b&aacute;lja meg a bejut&aacute;st. Tan&aacute;csos nem &eacute;rtelmes szavakat, kifejez&eacute;seket haszn&aacute;lni jelsz&oacute;nak.</p>
+        <p><strong>2.2 Brute force (Nyers erő) t&aacute;mad&aacute;s:</strong></p>
+        <p>Egy kicsit hosszabb folyamat mint a dictionary m&oacute;dszer, ugyanis random gener&aacute;lt &eacute;s k&oacute;dolt alfanumerikus karakterl&aacute;conkat pr&oacute;b&aacute;l a rendszer. Tulajdonk&eacute;ppen kellő idő &eacute;s energia r&aacute;ford&iacute;t&aacute;s&aacute;val előbb ut&oacute;bb fejthető lesz a jelsz&oacute;. Jelsz&oacute; gyakori cser&eacute;je megoldhatja a probl&eacute;m&aacute;t.</p>
+        <p><strong>2.3 Phising (Adathal&aacute;sz) m&oacute;dszer:</strong></p>
+        <p>&Aacute;ltal&aacute;ban emailből, vagy egy&eacute;l hivatkoz&aacute;s kattint&aacute;sb&oacute;l sz&aacute;rmaz&oacute; t&aacute;mad&aacute;si forma, amikor egy, a megl&eacute;vőre teljes m&eacute;rt&eacute;kben hasonl&iacute;t&oacute; oldalra navig&aacute;lnak &aacute;t minket. Jellemzően k&ouml;z&ouml;ss&eacute;gi oldalak, bankok, email fi&oacute;kok bejelentkez&eacute;si fel&uuml;let&eacute;t kapjuk, &eacute;s szem&eacute;lyes adataink megad&aacute;s&aacute;t k&eacute;rik től&uuml;nk. Ha nem figyel&uuml;nk mondjuk az URL-re, vagy a gyan&uacute;s elemekre, esetleg helyes&iacute;r&aacute;si hib&aacute;kra, sajnos bejelentkez&eacute;s c&iacute;m&eacute;n megadott adataink rossz k&eacute;zbe ker&uuml;lnek.</p>
+        <p></p>
+        <p><strong>3. Adatb&aacute;zisok t&aacute;mad&aacute;sa</strong></p>
+        <p>Az adatb&aacute;zis kezelő rendszerekben is &eacute;lnek v&eacute;delmi funkci&oacute;k. Előbb azonos&iacute;tani kell magunkat egy n&eacute;vvel &eacute;s egy jelsz&oacute;val, hogy hozz&aacute;f&eacute;rhess&uuml;nk az adatb&aacute;zisban t&aacute;rolt adatokhoz. A sikeres bejelentkez&eacute;s ut&aacute;n itt is csak egy korl&aacute;tozott hozz&aacute;f&eacute;r&eacute;si jogot kapunk az adatb&aacute;zishoz, hiszen mind az elv&eacute;gezhető műveletek, mind pedig az el&eacute;rhető objektumok k&ouml;re csak egy szűk r&eacute;sze az adatb&aacute;zisban let&aacute;rolt &eacute;s biztos&iacute;tott objektumok, funkci&oacute;k halmaz&aacute;nak. </p>
+        <p>&Eacute;rdekess&eacute;g, hogy adott adatb&aacute;zisok felt&ouml;r&eacute;se ut&aacute;n minden jelsz&oacute; &eacute;s szem&eacute;lyes adat is lop&aacute;sra ker&uuml;lhet, m&eacute;g akkor is, ha adott időben a jelszavak felt&ouml;r&eacute;se nem lehets&eacute;ges. A technika fejlőd&eacute;s&eacute;vel nem kiz&aacute;rt, hogy egy szupersz&aacute;m&iacute;t&oacute;g&eacute;p t&ouml;red&eacute;k idő alatt k&eacute;pes lesz elv&eacute;gezni azokat a sz&aacute;m&iacute;t&aacute;sokat, amiket most idő &eacute;s energia hi&aacute;ny&aacute;ban egy rendszer nem tud.</p>`,
       },
       {
         id: 5,
@@ -165,7 +188,38 @@ export const data = [
           "Multiplatform-alkalmazáskészítés szabályai",
           "Programozói környezetek (IDE) és jellemzőik",
         ],
-        content: "",
+        content: `<p><strong>Programoz&aacute;si nyelvek</strong></p>
+        <p><strong>G&eacute;pi k&oacute;d<br></strong>A g&eacute;p k&oacute;d az a v&eacute;gleges form&aacute;ja a k&oacute;dunknak, amit maga a hardver m&aacute;r &eacute;rtelmezni tud.</p>
+        <p><strong>Assemply</strong><br>A g&eacute;pi k&oacute;dhoz legk&ouml;zelebb &aacute;ll&oacute; nyelvek az Assemply nyelvek. Ezek fut&aacute;sideje a leggyorsabb, viszont k&oacute;dol&aacute;suk a legnehezebb, a k&oacute;d legkev&eacute;sb&eacute; &eacute;rtelmezhető a felhaszn&aacute;l&oacute; sz&aacute;m&aacute;ra.</p>
+        <p><strong>Compiler ( ford&iacute;t&oacute;) nyelvek<br></strong>G&eacute;pi k&oacute;dot &aacute;ll&iacute;t elő a program, &iacute;gy azt a rendszer k&ouml;zvetlen&uuml;l k&eacute;pes futtatni. (exe fileok)<br>p&eacute;lda: C, C++, C#, Visual Basic, Java</p>
+        <p><strong>Interpret&aacute;lt (v&aacute;lasztott) nyelvek<br></strong>Nem g&eacute;pi k&oacute;dot &aacute;ll&iacute;t elő a nyelv, sz&uuml;ks&eacute;ges egy ford&iacute;t&oacute; (compiler) nyelv.<br>p&eacute;lda: JavaScript, PHP, Python</p>
+        <p><br></p>
+        <p><strong>Platformf&uuml;ggetlens&eacute;g, multi-platform / cross-platform megold&aacute;sok</strong></p>
+        <p>Ahhoz, hogy egy elkalmaz&aacute;st t&ouml;bb platformon is futtatni tudjunk, 2 lehetősg&uuml;nk van. Vagy idő, &eacute;s energiaig&eacute;nyes m&oacute;don meg&iacute;rjuk minden platformmra a saj&aacute;t nyelv&eacute;n az alkalmaz&aacute;st, vagy v&aacute;lasztunk egy programoz&aacute;si nyelvet, &eacute;s egy cross-platform keretrendszert.</p>
+        <p>Egy platformf&uuml;ggetlen alkalmaz&aacute;s p&eacute;ld&aacute;ul futhat x86-os architekt&uacute;r&aacute;j&uacute; Microsoft Windowson, Linuxon, Mac OS X-en vagy PowerPC-alap&uacute; Mac OS X rendszereken. Egy t&ouml;bbplatformos alkalmaz&aacute;s futhat az &ouml;sszes gyakori platformon vagy egyszerűen csak egyn&eacute;l t&ouml;bb&ouml;n.</p>
+        <p>&Aacute;ltal&aacute;noss&aacute;gban elmondhat&oacute;, hogy a cross-platform appok előnye a nat&iacute;vhoz k&eacute;pest az, hogy:</p>
+        <ol>
+            <li>k&uuml;l&ouml;nf&eacute;le oper&aacute;ci&oacute;s rendszereken fut,</li>
+            <li>k&ouml;lts&eacute;ghat&eacute;kony,</li>
+            <li>kevesebb erőforr&aacute;ssal nagyobb piaci lefedetts&eacute;get biztos&iacute;t,</li>
+            <li>gyorsabb a piacra ker&uuml;l&eacute;si idő.</li>
+        </ol>
+        <p>Ugyanaz az alkalmaz&aacute;s b&aacute;rmilyen eszk&ouml;z&ouml;n k&eacute;pes futni, &eacute;s pont ez&eacute;rt magasabb a piaci el&eacute;r&eacute;se is. K&ouml;lts&eacute;ghat&eacute;kony, mivel nem nat&iacute;v kell minden nyelven minden eszk&ouml;zre lek&oacute;dolni, csak egyszer. Stabil, gyorsabb, hat&eacute;konyabb a hibajav&iacute;t&aacute;s.</p>
+        <p><strong>A legn&eacute;pszerűbb cross-platform keretrendszerek</strong></p>
+        <p><strong>1. Xamarin</strong></p>
+        <p>A Xamarin 2011-ben indult, elősz&ouml;r f&uuml;ggetlen alkalmaz&aacute;sfejleszt&eacute;si keretrendszerk&eacute;nt, majd 2016-ban a Microsoft megv&aacute;s&aacute;rolta, &iacute;gy sokak sz&aacute;m&aacute;ra megb&iacute;zhat&oacute;bb h&aacute;tt&eacute;rrel műk&ouml;d&ouml;tt a tov&aacute;bbiakban. Ez egy ny&iacute;lt forr&aacute;sk&oacute;d&uacute; rendszer, amely egyar&aacute;nt alkalmas nat&iacute;v &eacute;s cross-platform appok fejleszt&eacute;s&eacute;re.</p>
+        <p>Mivel C# programoz&aacute;st haszn&aacute;l, ez&eacute;rt sz&aacute;mos platformon z&ouml;kkenőmentesen műk&ouml;dik, bele&eacute;rtve az Android &eacute;s iOS rendszereket. Tov&aacute;bbi előnye, hogy a k&oacute;db&aacute;zis 75%-&aacute;t megoszthatod, &iacute;gy egyetlen m&oacute;dos&iacute;t&aacute;s sz&uuml;ks&eacute;ges, &eacute;s nem sz&uuml;ks&eacute;ges minden platform eset&eacute;ben k&uuml;l&ouml;n elv&eacute;gezni azt.</p>
+        <p>H&aacute;tr&aacute;nya, hogy viszonylag dr&aacute;ga. B&aacute;r mag&aacute;nszem&eacute;lyek &eacute;s startupok sz&aacute;m&aacute;ra ingyenes, a v&aacute;llalatoknak el&eacute;gg&eacute; k&ouml;lts&eacute;ges lehet ez a keretrendszer.</p>
+        <p><strong>2. React Native</strong></p>
+        <p>A React Native keretrendszert a Facebook 2015-ben ind&iacute;totta el, ezzel hull&aacute;mot ind&iacute;tva a hibrid keretrendszerek piac&aacute;n. Bevezet&eacute;se ut&aacute;n n&eacute;h&aacute;ny &eacute;ven bel&uuml;l az egyik legn&eacute;pszerűbb keretrendszernek sz&aacute;m&iacute;tott.</p>
+        <p>Seg&iacute;ts&eacute;g&eacute;vel React &eacute;s JavaScript technol&oacute;gi&aacute;kat &ouml;tv&ouml;zve k&eacute;sz&iacute;thet&uuml;nk mobilappokat. A Xamarinnal szemben a k&oacute;db&aacute;zis ak&aacute;r 80%-a oszthat&oacute; meg a platformok k&ouml;z&ouml;tt, amely gyorsabb &eacute;s k&ouml;lts&eacute;ghat&eacute;konyabb fejleszt&eacute;st jelent. Tov&aacute;bbi előnye, hogy lehetős&eacute;get biztos&iacute;t nat&iacute;v k&oacute;dr&eacute;szletek felhaszn&aacute;l&aacute;s&aacute;ra, &iacute;gy a fejlesztők b&aacute;rmikor kieg&eacute;sz&iacute;thetik ezzel a cross-platform k&oacute;dot.</p>
+        <p>pl: Instagram, Pinterest, Skype</p>
+        <p><strong>3. Flutter</strong></p>
+        <p>A Facebook ut&aacute;n a m&aacute;sik nagy &oacute;ri&aacute;s, a Google keretrendszere. A React Native-hoz hasonl&oacute;an nat&iacute;v komponensekre &eacute;p&uuml;l, &eacute;s a nat&iacute;v appokkal megegyező minős&eacute;get biztos&iacute;t. A fentiekhez k&eacute;pest viszonylag &uacute;j technol&oacute;gi&aacute;nak sz&aacute;m&iacute;t, ugyanis 2018-ban deb&uuml;t&aacute;lt, 2019 m&aacute;jus&aacute;ban pedig meg&eacute;rkezett a Flutter 1.7 verzi&oacute;, ami egy m&eacute;g enn&eacute;l is stabilabb fel&eacute;p&iacute;t&eacute;st k&iacute;n&aacute;l. Fejlesztői felm&eacute;r&eacute;sek szerint a Flutter a top 3 legkedveltebb keretrendszer k&ouml;z&eacute; tartozik. Nemcsak az alkalmaz&aacute;s, de m&aacute;r maga a fejleszt&eacute;s is gyorsabb, &iacute;gy a k&oacute;db&aacute;zisban v&eacute;grehajtott m&oacute;dos&iacute;t&aacute;sok ak&aacute;r m&aacute;sodpercek alatt l&aacute;that&oacute;k a fel&uuml;leten.</p>
+        <p>pl: Alibaba, Google, The New York Times</p>
+        <p><br></p>
+        <p><strong>Fejlesztői k&ouml;rnyezet, IDE</strong></p>
+        <p>Az integr&aacute;lt fejlesztői k&ouml;rnyezetek vagy r&ouml;viden IDE-k (Integrated Development Environment) alkalmaz&aacute;sok, melyek jelentősen megk&ouml;nny&iacute;tik &eacute;s meggyors&iacute;tj&aacute;k a szoftverfejleszt&eacute;st. Egy j&oacute; k&ouml;rnyezet jellemzői: Testreszabhat&oacute;, ismeri az adott nyelv szintaxis&aacute;t, tudja futtatni a projektet, rendelkezik valamilyen verzi&oacute;kezelő megold&aacute;ssal.</p>`,
       },
       {
         id: 6,
