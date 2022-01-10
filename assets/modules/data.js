@@ -343,26 +343,6 @@ export const data = [
           "Titkosítási algoritmusok (DES, RSA)",
           "Digitális aláírás",
         ],
-        content: "",
-      },
-      {
-        id: 10,
-        title:
-          "Egy táblajáték program tesztelését kell elvégezni. Feladata, hogy a béta állapotú szoftverben hibákat tárjon fel.",
-        task: [
-          "Tegyen javaslatot egy teljes körű tesztelési tervre! ",
-          "Határozza a „jó teszteset” kritériumait! ",
-          "Tegyen javaslatot a tesztelési dokumentum formájára és felépítésére! ",
-          "Ismertesse egy hibakezelő rendszer működését!",
-        ],
-        keys: [
-          "Programhibák típusai, felderítési módjuk",
-          "Szintaktikus és szemantikus hibák",
-          "Hibadetektálás, hibamodellek",
-          "Tesztelési módszerek: statikus és dinamikus tesztelés, fekete doboz, fehér doboz",
-          "Tesztelési módszertan. Szoftvertesztelés folyamata. Tesztelési vezérelvek",
-          "Hibakezelő rendszerek(pl.Bugzilla)",
-        ],
         content: `<p><strong>Dokumentum elő&aacute;ll&iacute;t&aacute;s&aacute;nak l&eacute;p&eacute;sei</strong></p>
         <p>1. Nyers adat elő&aacute;ll&iacute;t&aacute;s</p>
         <p>adatok kinyer&eacute;se, &aacute;talak&iacute;t&aacute;sa, rendez&eacute;se, c&eacute;lcsoportokra bont&aacute;s</p>
@@ -382,6 +362,26 @@ export const data = [
         <p>ez az ink&aacute;bb jog&aacute;szi, mint technol&oacute;giai szemsz&ouml;gből fel&aacute;ll&iacute;tott kateg&oacute;ria val&oacute;j&aacute;ban alapvetően k&uuml;l&ouml;nb&ouml;zik a t&eacute;nyleges, a fentebb ismertetett tulajdons&aacute;gokkal rendelkező elektronikus al&aacute;&iacute;r&aacute;st&oacute;l, mivel ide tartozik minden olyan al&aacute;&iacute;r&aacute;s, amelyet mondjuk egy e-mail vagy egy sz&ouml;veges dokumentum sz&ouml;veg&eacute;be sz&uacute;r be a felhaszn&aacute;l&oacute;. K&ouml;nnyen bel&aacute;that&oacute;, hogy a dokumentum szerkezet&eacute;be ezek oly m&oacute;don illeszkednek, hogy azok semmif&eacute;le hiteles&iacute;tő erővel nem rendelkeznek, k&ouml;nnyen m&oacute;dos&iacute;that&oacute;ak, nem azonos&iacute;that&oacute;ak stb.</p>
         <p>Az elektronikus al&aacute;&iacute;r&aacute;s fejlett technol&oacute;gi&aacute;ja lehetőv&eacute; teszi, hogy ma m&aacute;r szinte minden&uuml;tt elfogadj&aacute;k az &uuml;gyint&eacute;z&eacute;s sor&aacute;n: Magyarorsz&aacute;gon az elektronikus al&aacute;&iacute;r&aacute;sr&oacute;l sz&oacute;l&oacute; 2001. &eacute;vi XXXV. t&ouml;rv&eacute;ny hat&aacute;lyba l&eacute;p&eacute;se &oacute;ta a legal&aacute;bb fokozott biztons&aacute;g&uacute; elektronikus al&aacute;&iacute;r&aacute;ssal ell&aacute;tott dokumentum megfelel az &iacute;r&aacute;sba foglal&aacute;s k&ouml;vetelm&eacute;nyeinek, a minős&iacute;tett al&aacute;&iacute;r&aacute;ssal ell&aacute;tott dokumentum pedig &ndash; a polg&aacute;ri perrendtart&aacute;sr&oacute;l sz&oacute;l&oacute; t&ouml;rv&eacute;ny &eacute;rtelm&eacute;ben &ndash; teljes bizony&iacute;t&oacute; erejű mag&aacute;nokirat (ak&aacute;rcsak a k&eacute;t tan&uacute; előtt, vagy a k&ouml;zjegyző előtt al&aacute;&iacute;rt dokumentum).</p>
         <p><br></p>`,
+      },
+      {
+        id: 10,
+        title:
+          "Egy táblajáték program tesztelését kell elvégezni. Feladata, hogy a béta állapotú szoftverben hibákat tárjon fel.",
+        task: [
+          "Tegyen javaslatot egy teljes körű tesztelési tervre! ",
+          "Határozza a „jó teszteset” kritériumait! ",
+          "Tegyen javaslatot a tesztelési dokumentum formájára és felépítésére! ",
+          "Ismertesse egy hibakezelő rendszer működését!",
+        ],
+        keys: [
+          "Programhibák típusai, felderítési módjuk",
+          "Szintaktikus és szemantikus hibák",
+          "Hibadetektálás, hibamodellek",
+          "Tesztelési módszerek: statikus és dinamikus tesztelés, fekete doboz, fehér doboz",
+          "Tesztelési módszertan. Szoftvertesztelés folyamata. Tesztelési vezérelvek",
+          "Hibakezelő rendszerek(pl.Bugzilla)",
+        ],
+        content: ``,
       },
       {
         id: 11,
