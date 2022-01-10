@@ -323,7 +323,16 @@ export const data = [
           "Végrehajtási idők",
           "Állománykezelés, Indexelés",
         ],
-        content: "",
+        content: `<p><strong>Portable</strong></p>
+        <p>Portable, azaz hordozhat&oacute;v&aacute; tett programoknak nevezz&uuml;k az olyan programokat, amit nem kell install&aacute;lni-telep&iacute;teni (ellent&eacute;tben az install&aacute;lt (non-portable) szoftverekkel), &aacute;ltal&aacute;ban egy ind&iacute;that&oacute; .EXE (Executable program vagy Launcher) f&aacute;jlb&oacute;l &eacute;s egy&eacute;b minim&aacute;lis kieg&eacute;sz&iacute;tőf&aacute;jlokb&oacute;l, mapp&aacute;k b&oacute;l&aacute;ll. Ind&iacute;t&aacute;sa-futtat&aacute;sa term&eacute;szetesen ezen kereszt&uuml;l t&ouml;rt&eacute;nik &eacute;s ha j&oacute;l van elk&eacute;sz&iacute;tve, csak az előre be&aacute;ll&iacute;tott mapp&aacute;ban t&aacute;rolja a haszn&aacute;lathoz-be&aacute;ll&iacute;t&aacute;shoz sz&uuml;ks&eacute;ges f&aacute;jlokat;f&uuml;ggetlen&uuml;l att&oacute;l, hogy azhol tal&aacute;lhat&oacute;. Szint&eacute;n fontos krit&eacute;rium a g&eacute;pf&uuml;ggetlen alkalmaz&aacute;si felt&eacute;tele az, hogy az elk&eacute;sz&iacute;tett alkalmaz&aacute;s megfeleljen a gy&aacute;rilag t&aacute;masztott k&ouml;vetelm&eacute;nyeknek(hasonl&oacute;an műk&ouml;dj&ouml;n, mint a telep&iacute;tett v&aacute;ltozat).</p>
+        <p><strong>Előnyei:</strong></p>
+        <p>Hordozhat&oacute; eszk&ouml;z&ouml;kről futtathat&oacute;.</p>
+        <p>Nem ig&eacute;nyel telep&iacute;t&eacute;st vagy fix el&eacute;r&eacute;si utat.</p>
+        <p>Minden ind&iacute;t&aacute;sn&aacute;l azonos felt&eacute;telekkel haszn&aacute;lhat&oacute;.</p>
+        <p>Nem haszn&aacute;lja a DLL f&aacute;jlokat, a Registry-t &eacute;s a merevlemezt, ez&aacute;ltal nem hagy nyomokat a rendszerben, &eacute;s olyan felhaszn&aacute;l&oacute; is haszn&aacute;lhatja, akinek nincs Rendszergazda jogosults&aacute;ga.</p>
+        <p><strong>H&aacute;tr&aacute;nyai:</strong></p>
+        <p>Funkci&oacute;k, t&eacute;m&aacute;k, kieg&eacute;sz&iacute;tő modulok hi&aacute;nyozhatnak a telep&iacute;tett programhoz k&eacute;pest.</p>
+        <p>Szak&eacute;rtelemre lehet sz&uuml;ks&eacute;g ahhoz, hogy az oper&aacute;ci&oacute;s rendszer megszokott funkci&oacute;it haszn&aacute;ljuk.</p>`,
       },
       {
         id: 9,
