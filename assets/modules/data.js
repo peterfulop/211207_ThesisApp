@@ -240,7 +240,50 @@ export const data = [
           "Adatbázis-kapcsolatok megvalósítása. Lokális és hálózati adatbázis használata",
           "Üzenetközvetítő sorok (MQ)",
         ],
-        content: "",
+        content: `<p><strong>Adatb&aacute;zis architekt&uacute;r&aacute;k</strong></p>
+        <p><strong>Egyg&eacute;pes (Local Databases) acrhitekt&uacute;ra:<br></strong>Az adatb&aacute;zis &eacute;s az alkalmaz&aacute;s egy g&eacute;pre ker&uuml;l, csak lok&aacute;lisan, az adott rendszeren &eacute;rhető el minden.</p>
+        <p><strong>File-kiszolg&aacute;l&oacute; (File-Server) architekt&uacute;ra:<br></strong>Az adatb&aacute;zis egy file szerverre ker&uuml;l, ahonnan h&aacute;l&oacute;zaton kereszt&uuml;l t&ouml;bb felhaszn&aacute;l&oacute; is el&eacute;rheti az adatokat. A szerver csak az adatok t&aacute;rol&aacute;s&aacute;ra szolg&aacute;l. Viszonylag nagy adatforgalommal j&aacute;r minden adatművelet.</p>
+        <p><strong>&Uuml;gyf&eacute;l-kiszolg&aacute;l&oacute; (Client/Server) architekt&uacute;ra:<br></strong>Az adatok kiszolg&aacute;l&aacute;s&aacute;t egy adatb&aacute;zis szerver v&eacute;gzi (MS-SQL Server, Oracle). A rendszer legnagyobb előnye a gyorsas&aacute;g, hiszen un. SQL parancsok kiad&aacute;s&aacute;val csak a sz&uuml;ks&eacute;ges adatokat k&eacute;rj&uuml;k le a szervertől, nincs f&ouml;l&ouml;sleges tartalom utaztat&aacute;s. A SQL parancsok feldolgoz&aacute;s&aacute;t az adatb&aacute;zis szerver v&eacute;gzi.</p>
+        <p><strong>T&ouml;bbr&eacute;tegű (Multi-Tier) adatb&aacute;zis architekt&uacute;ra:<br></strong>Az adatok kiszolg&aacute;l&aacute;sa egy k&ouml;zbeiktatott applik&aacute;ci&oacute;s szerveren kereszt&uuml;l t&ouml;rt&eacute;nik, a felhaszn&aacute;l&oacute; nem k&ouml;zvetlen&uuml;l az adatb&aacute;zis-szerverrel kommunik&aacute;l.</p>
+        <p><strong>A legoptim&aacute;lisabb megold&aacute;s a client/server architekt&uacute;ra alkalmaz&aacute;sa.</strong></p>
+        <p><br></p>
+        <p><strong>Az adatb&aacute;zis normaliz&aacute;l&aacute;sa</strong></p>
+        <p>A normaliz&aacute;l&aacute;s egy adatb&aacute;zis adatainak rendszerez&eacute;se. Ide tartozik a t&aacute;bl&aacute;k l&eacute;trehoz&aacute;sa &eacute;s a t&aacute;bl&aacute;k k&ouml;z&ouml;tti kapcsolatok kialak&iacute;t&aacute;sa az adatok v&eacute;delm&eacute;re &eacute;s az adatb&aacute;zis rugalmasabb&aacute; l&eacute;trehoz&aacute;s&aacute;ra &uacute;gy, hogy kik&uuml;sz&ouml;b&ouml;li a redundanci&aacute;t &eacute;s a k&ouml;vetkezetlen f&uuml;ggős&eacute;get.</p>
+        <p>Redund&aacute;ns adat pazarolja a lemezter&uuml;letet, &eacute;s karbantart&aacute;si probl&eacute;m&aacute;kat okoz. Ha egyn&eacute;l t&ouml;bb helyen tal&aacute;lhat&oacute; adatokat kell m&oacute;dos&iacute;tani, az adatokat minden helyen ugyan&uacute;gy kell m&oacute;dos&iacute;tani.&Aacute;ltal&aacute;noss&aacute;gban elmondhat&oacute;, hogy a normaliz&aacute;l&aacute;shoz tov&aacute;bbi t&aacute;bl&aacute;kra van sz&uuml;ks&eacute;g.</p>
+        <p><strong>Normaliz&aacute;l&aacute;si szintek</strong></p>
+        <p><strong>1.NF - Első norm&aacute;lforma</strong></p>
+        <p>1. Az egyes t&aacute;bl&aacute;zatokban sz&uuml;ntesse meg az ism&eacute;tlődő csoportokat.</p>
+        <p>2. Hozzon l&eacute;tre egy k&uuml;l&ouml;n t&aacute;bl&aacute;t minden kapcsol&oacute;d&oacute; adathalmazhoz.</p>
+        <p>3. Azonos&iacute;tsa az egyes kapcsol&oacute;d&oacute; adatokat egy elsődleges kulccsal.</p>
+        <p><strong>2.NF - M&aacute;sodik norm&aacute;lforma</strong></p>
+        <p>1. Hozzon l&eacute;tre k&uuml;l&ouml;n t&aacute;bl&aacute;kat t&ouml;bb rekordra vonatkoz&oacute; &eacute;rt&eacute;khalmazokhoz.</p>
+        <p>2. Ezek a t&aacute;bl&aacute;k idegen kulcshoz kapcsol&oacute;dnak.</p>
+        <p><strong>3. NF - Harmadik norm&aacute;lforma</strong></p>
+        <p>1.T&aacute;vol&iacute;tsa el azokat a mezőket, amelyek nem f&uuml;ggnek a kulcst&oacute;l.</p>
+        <p><br></p>
+        <p><strong>T&aacute;rter&uuml;let meghat&aacute;roz&aacute;sa</strong></p>
+        <p>INT- 4 byte</p>
+        <p>FLOAT- 4 byte</p>
+        <p>DATETIME - 8 byte</p>
+        <p>VARCHAR - 3 byte</p>
+        <p><br></p>
+        <p><strong>Helyis&eacute;gek T&aacute;bla</strong></p>
+        <p>Id (int) 4 byte</p>
+        <p>HelyisegNev (varchar) 3 byte</p>
+        <p><em>1 rekord: 7 byte</em></p>
+        <p>300 rekord: 21000 byte</p>
+        <p><br></p>
+        <p><strong>M&eacute;r&eacute;sek T&aacute;bla</strong></p>
+        <p>Id(int) 4 byte</p>
+        <p>FK_Helyiseg(Int) 4 byte</p>
+        <p>Homerseklet(Float) 4 byte</p>
+        <p>Idopont (DateTime) 8 byte</p>
+        <p><em>1 rekord: 20 byte</em></p>
+        <p><br></p>
+        <p>10s (300 rekord): 6 000 byte</p>
+        <p>1h (300 rekord): 36 000 byte</p>
+        <p>24h (300 rekord): 864 000 byte (0,864 MB)</p>
+        <p>1 &eacute;v (300 rekord): 315 360 000 byte (315,36 MB)</p>`,
       },
       {
         id: 7,
