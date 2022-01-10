@@ -274,12 +274,11 @@ export const data = [
         <p>300 rekord: 21000 byte</p>
         <p><br></p>
         <p><strong>M&eacute;r&eacute;sek T&aacute;bla</strong></p>
-        <p>Id(int) 4 byte</p>
-        <p>FK_Helyiseg(Int) 4 byte</p>
-        <p>Homerseklet(Float) 4 byte</p>
+        <p>Id (int) 4 byte</p>
+        <p>FK_Helyiseg (Int) 4 byte</p>
+        <p>Homerseklet (Float) 4 byte</p>
         <p>Idopont (DateTime) 8 byte</p>
         <p><em>1 rekord: 20 byte</em></p>
-        <p><br></p>
         <p>10s (300 rekord): 6 000 byte</p>
         <p>1h (300 rekord): 36 000 byte</p>
         <p>24h (300 rekord): 864 000 byte (0,864 MB)</p>
