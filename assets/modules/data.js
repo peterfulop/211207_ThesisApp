@@ -366,7 +366,7 @@ export const data = [
         <p>Funkci&oacute;k, t&eacute;m&aacute;k, kieg&eacute;sz&iacute;tő modulok hi&aacute;nyozhatnak a telep&iacute;tett programhoz k&eacute;pest.</p>
         <p>Szak&eacute;rtelemre lehet sz&uuml;ks&eacute;g ahhoz, hogy az oper&aacute;ci&oacute;s rendszer megszokott funkci&oacute;it haszn&aacute;ljuk.</p>
         <p><u><strong>KERES&Eacute;SEK</strong></u></p>
-        <p><strong>Line&aacute;ris keres&eacute;s</strong><br>A teljes, vagy line&aacute;ris keres&eacute;s a legegyszerűbb keres&eacute;si forma. Egy rendezetlen &aacute;llom&aacute;ny elemeit egyes&eacute;vel vizsg&aacute;ljuk. A folyamat addig fut, am&iacute;g egyez&eacute;s nem lesz.&nbsp;</p>
+        <p><strong>Line&aacute;ris keres&eacute;s</strong><br>A teljes, vagy line&aacute;ris keres&eacute;s a legegyszerűbb keres&eacute;si forma. Egy rendezetlen &aacute;llom&aacute;ny elemeit egyes&eacute;vel vizsg&aacute;ljuk. A folyamat addig fut, am&iacute;g egyez&eacute;s nem lesz.</p>
         <p><strong>Logaritmikus keres&eacute;s</strong><br>A bin&aacute;ris, vagy logaritmikus keres&eacute;s egy olyan kereső algoritmus, amit egy rendezett t&ouml;mb elemein tudunk v&eacute;gezni. A keres&eacute;s l&eacute;nyege, hogy a t&ouml;mb elemeit sorba rendezve felező megold&aacute;sokkal intervallumokra szűk&iacute;t&uuml;nk. A keresett elemet ez&aacute;ltal mindig csak 1 adott intervallumban kell tov&aacute;bb keresni, amiben biztosan szerepel. Az intervallumokat folyamatosan tov&aacute;bb tudjuk felezni, &eacute;s szűk&iacute;teni, m&iacute;g meg nem tal&aacute;ljuk v&eacute;g&uuml;l a keresett elemet.</p>
         <p>A t&ouml;mb elemei: [1, 2, 3, 4, 5, 6, 7, 8, 9]</p>
         <p>A keresett elem: 3</p>
@@ -375,23 +375,23 @@ export const data = [
         <p><u><strong>RENDEZ&Eacute;SEK</strong></u></p>
         <p>Rendez&eacute;snek nevez&uuml;nk egy algoritmust, ha az valamilyen szempont alapj&aacute;n sorba &aacute;ll&iacute;tja elemek egy list&aacute;j&aacute;t. A rendez&eacute;si algoritmusok a programoz&aacute;s kezdete &oacute;ta jelen vannak &eacute;s &eacute;rdeklőd&eacute;s k&ouml;z&eacute;ppontj&aacute;ban &aacute;llnak, mivel egy rendezett adathalmazzal t&ouml;bb &eacute;s hat&eacute;konyabb műveletek v&eacute;gezhetők, mint egy rendezetlennel.</p>
         <p><strong>&Ouml;sszehasonl&iacute;t&oacute; rendez&eacute;s</strong><br><em>Az elemek &ouml;sszehasonl&iacute;t&aacute;sa alapj&aacute;n &aacute;ll&iacute;tj&aacute;k elő a rendezett kimenetet.</em><br>pl.: bubor&eacute;k rendez&eacute;s, gyorsrendez&eacute;s, besz&uacute;r&oacute; rendez&eacute;s</p>
-        <p><strong>Nem &ouml;sszehasonl&iacute;t&oacute; rendez&eacute;s</strong><br><em>&nbsp;Az elemek &ouml;sszehasonl&iacute;t&aacute;sa n&eacute;lk&uuml;l k&eacute;pesek rendezni az elemeket.</em></p>
-        <p>&nbsp;</p>
+        <p><strong>Nem &ouml;sszehasonl&iacute;t&oacute; rendez&eacute;s</strong><br><em>Az elemek &ouml;sszehasonl&iacute;t&aacute;sa n&eacute;lk&uuml;l k&eacute;pesek rendezni az elemeket.</em></p>
+        <p></p>
         <p><strong><u>MEM&Oacute;RIA FOGLAL&Aacute;S</u></strong></p>
         <p>A program a fut&aacute;sa sor&aacute;n h&aacute;rom j&oacute;l elk&uuml;l&ouml;n&iacute;thető szerepű mem&oacute;riater&uuml;lettel rendelkezik, ezek funkci&oacute;k szerint a glob&aacute;lis v&aacute;ltoz&oacute;k mem&oacute;riater&uuml;letei, a verem &eacute;s a dinamikusan lefoglalt mem&oacute;riater&uuml;letek.</p>
         <p><strong>Glob&aacute;lis mem&oacute;riater&uuml;let</strong><br>A glob&aacute;lis mem&oacute;riater&uuml;leten helyezkednek el, ahogyan a neve is mutatja, a glob&aacute;lis v&aacute;ltoz&oacute;k. Ezek a program eg&eacute;sz fut&aacute;sa alatt l&eacute;teznek. Az ott l&eacute;trehozott v&aacute;ltoz&oacute;k elhelyezked&eacute;se nem v&aacute;ltozik meg. A kioszt&aacute;suk m&aacute;r a program ford&iacute;t&aacute;sakor eldől.</p>
         <p><strong>Verem (stack)</strong><br>A verembe a f&uuml;ggv&eacute;nyek lok&aacute;lis v&aacute;ltoz&oacute;i ker&uuml;lnek. A verem speci&aacute;lis tulajdons&aacute;ga, hogy a tartalma fel-le v&aacute;ltozik; ha egy f&uuml;ggv&eacute;ny belsej&eacute;nek v&eacute;grehajt&aacute;s&aacute;ba kezd&uuml;nk, akkor a verem tetej&eacute;n l&eacute;trej&ouml;nnek a f&uuml;ggv&eacute;ny lok&aacute;lis v&aacute;ltoz&oacute;i, ha pedig a f&uuml;ggv&eacute;nyből visszat&eacute;r&uuml;nk, akkor azok a v&aacute;ltoz&oacute;k megszűnnek. Az adott f&uuml;ggv&eacute;nyh&iacute;v&aacute;shoz tartoz&oacute; mem&oacute;riater&uuml;letet a veremben stack frame-nek nevezz&uuml;k. A veremben minden f&uuml;ggv&eacute;ny csak a saj&aacute;t lok&aacute;lis v&aacute;ltoz&oacute;it l&aacute;tja.</p>
         <p><strong>Kupac (heap)</strong><br>A dinamikus mem&oacute;riater&uuml;let, vagyis a heap olyan ter&uuml;let, amelyből egy adott nagys&aacute;g&uacute; r&eacute;szt a program fut&aacute;sa k&ouml;zben k&eacute;rhet&uuml;nk, &eacute;s ha m&aacute;r nem kell, visszaadhatjuk. &Iacute;gy foglalhatunk le akkora m&eacute;retű mem&oacute;ri&aacute;t, amelynek a nagys&aacute;g&aacute;t a program &iacute;r&aacute;sa, ford&iacute;t&aacute;sa k&ouml;zben m&eacute;g nem ismerj&uuml;k. Referencia t&iacute;pusok</p>
-        <p>A lefoglal&aacute;skor egy pointert, vagyis egy mutat&oacute;t kapunk arra a mem&oacute;riahelyre, ahol a g&eacute;p megfelelő nagys&aacute;g&uacute; ter&uuml;letet tal&aacute;lt; amikor arra m&aacute;r nincs sz&uuml;ks&eacute;g&uuml;nk, akkor felszabad&iacute;tjuk azt. A ter&uuml;let a lefoglal&aacute;st&oacute;l kezdve mienk, eg&eacute;szen addig, am&iacute;g vissza nem adjuk.&nbsp;</p>
+        <p>A lefoglal&aacute;skor egy pointert, vagyis egy mutat&oacute;t kapunk arra a mem&oacute;riahelyre, ahol a g&eacute;p megfelelő nagys&aacute;g&uacute; ter&uuml;letet tal&aacute;lt; amikor arra m&aacute;r nincs sz&uuml;ks&eacute;g&uuml;nk, akkor felszabad&iacute;tjuk azt. A ter&uuml;let a lefoglal&aacute;st&oacute;l kezdve mienk, eg&eacute;szen addig, am&iacute;g vissza nem adjuk.</p>
         <p><strong>memory leak</strong> : Felhaszn&aacute;lt, de fel nem szabad&iacute;tott mem&oacute;ria ter&uuml;let</p>
         <p><em>alacsony szintű, magas teljes&iacute;tm&eacute;nyű nyelvek: C, C++</em></p>
-        <p><strong>Garbage collector, szem&eacute;tgyűjtő</strong> : A felhaszn&aacute;lt, &eacute;s fel nem szabad&iacute;tott mem&oacute;riater&uuml;letek karbantart&aacute;s&aacute;t v&eacute;gzi. T&ouml;rdezetts&eacute;gmentes&iacute;t is, illetve visszaadja a heap sz&aacute;m&aacute;ra a mem&oacute;riater&uuml;letet.&nbsp;</p>
+        <p><strong>Garbage collector, szem&eacute;tgyűjtő</strong> : A felhaszn&aacute;lt, &eacute;s fel nem szabad&iacute;tott mem&oacute;riater&uuml;letek karbantart&aacute;s&aacute;t v&eacute;gzi. T&ouml;rdezetts&eacute;gmentes&iacute;t is, illetve visszaadja a heap sz&aacute;m&aacute;ra a mem&oacute;riater&uuml;letet.</p>
         <p><br></p>
         <p><u><strong>INDEXEL&Eacute;S</strong></u></p>
-        <p>&nbsp;C&eacute;lok</p>
-        <p>&nbsp;&ndash; gyors lek&eacute;rdez&eacute;s</p>
-        <p>&nbsp;&ndash; gyors adatm&oacute;dos&iacute;t&aacute;s</p>
-        <p>&nbsp;&ndash; min&eacute;l kisebb t&aacute;rol&aacute;si ter&uuml;let</p>
+        <p>C&eacute;lok</p>
+        <p>&ndash; gyors lek&eacute;rdez&eacute;s</p>
+        <p>&ndash; gyors adatm&oacute;dos&iacute;t&aacute;s</p>
+        <p>&ndash; min&eacute;l kisebb t&aacute;rol&aacute;si ter&uuml;let</p>
         <p>Indexek haszn&aacute;lat&aacute;val cs&ouml;kken a keres&eacute;si idő, nő a t&aacute;rm&eacute;ret, &eacute;s nő a m&oacute;dos&iacute;t&aacute;si idő</p>
         <p>A mem&oacute;ria műveletek nagys&aacute;grenddel gyorsabbak, mint a h&aacute;tt&eacute;rt&aacute;rol&oacute;r&oacute;l beolvas&aacute;s, ki&iacute;r&aacute;s.</p>
         <p><br></p>`,
@@ -452,7 +452,54 @@ export const data = [
           "Tesztelési módszertan. Szoftvertesztelés folyamata. Tesztelési vezérelvek",
           "Hibakezelő rendszerek(pl.Bugzilla)",
         ],
-        content: ``,
+        content: `<p><strong>Programhib&aacute;k t&iacute;pusai</strong></p>
+        <p><strong>Szoftver-specifik&aacute;ci&oacute;s hib&aacute;k</strong></p>
+        <p>A szoftver valamilyen vonatkoz&aacute;sban nem teljes&iacute;ti a felhaszn&aacute;l&oacute;i k&ouml;vetelm&eacute;nyeket. A specifik&aacute;ci&oacute;s hiba ad&oacute;dhat: t&eacute;ves specifik&aacute;ci&oacute;b&oacute;l, ellentmond&aacute;sos specifik&aacute;ci&oacute;b&oacute;l, valamint hi&aacute;nyos specifik&aacute;ci&oacute;b&oacute;l</p>
+        <p><strong>Programoz&oacute;i hib&aacute;k</strong></p>
+        <p>A szoftver tervez&eacute;se &eacute;s k&oacute;dol&aacute;sa sor&aacute;n a programoz&oacute; &aacute;ltal elk&ouml;vetett hib&aacute;k k&ouml;r&eacute;t foglalja mag&aacute;ban.</p>
+        <ul>
+            <li>Hi&aacute;nyz&oacute; funkci&oacute;k</li>
+            <li>Adatkezel&eacute;si hib&aacute;k az adatb&aacute;zisban</li>
+            <li>Ind&iacute;t&aacute;si (inicializ&aacute;l&aacute;si) &eacute;s le&aacute;ll&iacute;t&aacute;si hib&aacute;k</li>
+            <li>Felhaszn&aacute;l&oacute;i interf&eacute;sz hib&aacute;i</li>
+            <li>Hat&aacute;r&eacute;rt&eacute;kek t&uacute;ll&eacute;p&eacute;se</li>
+            <li>Algoritmikus hiba</li>
+            <li>Kalkul&aacute;ci&oacute;s hib&aacute;k</li>
+            <li>Adattov&aacute;bb&iacute;t&aacute;si hiba</li>
+        </ul>
+        <p><br></p>
+        <p><strong>Szintaktikai hib&aacute;k</strong><br>A programoz&aacute;si nyelv jelleg&eacute;ből sz&aacute;rmaz&oacute; nyelvi hib&aacute;k</p>
+        <p><strong>Szemantikai hib&aacute;k<br></strong>Az algoritmus rossz implemet&aacute;l&aacute;sb&oacute;l eredő hib&aacute;k. A program lefordul, elindul, de nem azt csin&aacute;lja, amit szerett&uuml;nk volna. Tesztel&eacute;s sor&aacute;n vagy olyan &eacute;rt&eacute;ket kapunk vissza, ami nem lenne helyes, vagy egyszerűen szab&aacute;lytalan műveletet akar futtatni a program, ami automatikusan futtat&aacute;si hib&aacute;val &eacute;r v&eacute;get (Runtime Error) .</p>
+        <p><strong>Hibadetekt&aacute;l&aacute;s</strong><br>Egy hib&aacute;r&oacute;l akkor mondjuk, hogy detekt&aacute;lhat&oacute;, ha legal&aacute;bb egy tesztje l&eacute;tezik.</p>
+        <p><strong>Hibamodell</strong><br>Azon szoftver-hib&aacute;k halmaza, amelyeknek a felfed&eacute;s&eacute;re ir&aacute;nyul a teszttervez&eacute;s.</p>
+        <p><strong>Tesztel&eacute;si terv</strong><br>A tesztel&eacute;si terv c&eacute;lja a tesztel&eacute;s teljes k&ouml;rűs&eacute;g&eacute;nek biztos&iacute;t&aacute;sa, a tesztel&eacute;s sor&aacute;n alkalmazott elj&aacute;r&aacute;sok &eacute;s megold&aacute;sok meghat&aacute;roz&aacute;s&aacute;val. A tesztel&eacute;si terv le&iacute;rja a teszt t&iacute;pus&aacute;t, a metodol&oacute;gi&aacute;j&aacute;t &eacute;s a riport k&eacute;sz&iacute;t&eacute;s m&oacute;dszer&eacute;t. Emellett meghat&aacute;rozza a teszt elv&aacute;r&aacute;sokat, a teszt-esetek elv&aacute;rt eredm&eacute;nyeit, sikeress&eacute;g&eacute;nek krit&eacute;riumait, a kock&aacute;zatok kezel&eacute;s&eacute;t &eacute;s a hat&aacute;sk&ouml;r&ouml;n k&iacute;v&uuml;li eseteket.</p>
+        <p>A teszt v&eacute;grehajt&aacute;s&aacute;&eacute;rt a projektmenedzser felel, &eacute;s a tesztcsapat hajtja v&eacute;gre.</p>
+        <p><br></p>
+        <p><strong>A j&oacute; tesztel&eacute;s krit&eacute;riumai</strong></p>
+        <ul>
+            <li>Akkor tudunk a tesztel&eacute;s eredm&eacute;nyeiről b&aacute;rmit is mondani, ha van elk&eacute;pzel&eacute;s&uuml;nk arr&oacute;l, hogy adott bemenő adatra milyen eredm&eacute;nyt v&aacute;runk.<br><br></li>
+            <li>A j&oacute; teszteset az, ami nagy val&oacute;sz&iacute;nűs&eacute;ggel egy m&eacute;g felfedetlen hib&aacute;t mutat ki a programban.<br><br></li>
+            <li>A teszteset nemcsak bemenő adatokb&oacute;l, hanem a hozz&aacute;juk tartoz&oacute; eredm&eacute;nyekből is &aacute;ll. Egy&eacute;bk&eacute;nt nem tudn&aacute;nk a kapott eredm&eacute;ny helyes vagy hib&aacute;s volt&aacute;r&oacute;l besz&eacute;lni. A k&eacute;sőbbi felhaszn&aacute;l&aacute;s miatt c&eacute;lszerű a teszteseteket is le&iacute;rni a fejlesztői dokument&aacute;ci&oacute;ban vagy egy &ouml;n&aacute;ll&oacute; tesztel&eacute;si jegyzők&ouml;nyvben.<br><br></li>
+            <li>A meg nem ism&eacute;telhető tesztesetek ker&uuml;lendők, feleslegesen megn&ouml;velik a program-tesztel&eacute;s k&ouml;lts&eacute;geit, idej&eacute;t.<br><br></li>
+            <li>Teszteseteket mind az &eacute;rv&eacute;nytelen, mind az &eacute;rv&eacute;nyes adatokra kell k&eacute;sz&iacute;teni.<br><br></li>
+            <li>Minden tesztesetből a lehető legt&ouml;bb inform&aacute;ci&oacute;t &bdquo;ki kell b&aacute;ny&aacute;szni&rdquo;, azaz minden teszteset eredm&eacute;ny&eacute;t alaposan v&eacute;gig kell vizsg&aacute;lni. Ezzel jelentősen cs&ouml;kkenthető a sz&uuml;ks&eacute;ges pr&oacute;b&aacute;k sz&aacute;ma.<br><br></li>
+            <li>A program tesztel&eacute;s&eacute;t csak a program &iacute;r&oacute;j&aacute;t&oacute;l k&uuml;l&ouml;nb&ouml;ző szem&eacute;ly k&eacute;pes hat&eacute;konyan elv&eacute;gezni. Ennek oka, hogy a tesztel&eacute;s nem &bdquo;j&oacute;indulat&uacute;&rdquo; tev&eacute;kenys&eacute;g, saj&aacute;t munk&aacute;j&aacute;nak vizsg&aacute;lat&aacute;hoz mindenki &uacute;gy &aacute;ll hozz&aacute;, hogy &ouml;nk&eacute;ntelen&uuml;l j&oacute;nak felt&eacute;telezi.</li>
+        </ul>
+        <p><br></p>
+        <p><strong>Tesztel&eacute;si dokumentum form&aacute;ja &eacute;s fel&eacute;p&iacute;t&eacute;se</strong></p>
+        <p><strong>???</strong></p>
+        <p><strong>Hibakezelő rendszerek műk&ouml;d&eacute;se</strong></p>
+        <p>A fejlesztők, tesztelők, felhaszn&aacute;l&oacute;k &aacute;ltal &ouml;sszegyűjt&ouml;tt hib&aacute;k t&aacute;rol&aacute;s&aacute;ra szolg&aacute;l&oacute; fel&uuml;let, ami v&eacute;gigk&iacute;s&eacute;ri egy fejleszt&eacute;s folyamat&aacute;t. A hibajelens&eacute;gek r&ouml;gz&iacute;t&eacute;s&eacute;n&eacute;l k&uuml;l&ouml;nb&ouml;ző param&eacute;tereket &eacute;rdemes figyelembe venni:</p>
+        <ul>
+            <li>oper&aacute;ci&oacute;s rendszer t&iacute;pusa, verzi&oacute;ja</li>
+            <li>b&ouml;ng&eacute;sző t&iacute;pusa, verzi&oacute;ja</li>
+            <li>alkalmaz&aacute;s verzi&oacute;ja</li>
+            <li>tesztrendszer neve</li>
+            <li>adott modul neve</li>
+            <li>adott funkci&oacute; neve</li>
+            <li>tesztadatok</li>
+        </ul>
+        <p>Hibakezelő rendszer pl.: <strong>Bugzilla</strong></p>`,
       },
       {
         id: 11,
