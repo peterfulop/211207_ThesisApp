@@ -21,27 +21,41 @@ const renderThesisHTML = (thesis) => {
   return `<div class="thesis accordion-item">
                 <h2 class="accordion-header" id="flush-${thesis.id}">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapse_${thesis.id}" aria-expanded="false" aria-controls="flush-collapse_${thesis.id}">
+                        data-bs-target="#flush-collapse_${
+                          thesis.id
+                        }" aria-expanded="false" aria-controls="flush-collapse_${
+    thesis.id
+  }">
                         <div class="d-block">
-                        <b>${thesis.id}. <small class="">${thesis.title}</small></b>
+                        <b>${thesis.id}. <small class="">${
+    thesis.title
+  }</small></b>
                         </div>
                     </button>
                 </h2>
-                <div id="flush-collapse_${thesis.id}" class="accordion-collapse collapse" aria-labelledby="flush-${thesis.id}"
+                <div id="flush-collapse_${
+                  thesis.id
+                }" class="accordion-collapse collapse" aria-labelledby="flush-${
+    thesis.id
+  }"
                     data-bs-parent="#accordionFlushThesis">
                     <div class="accordion-body">
-                        ${renderListItems(thesis.task,"square")}
+                        ${renderListItems(thesis.task, "square")}
                         <div>
                           <b><p class="m-0 mt-2">Kulcsszavak, fogalmak:</p></b>
                           <ul>
                           <i>${renderListItems(thesis.keys)}</i>
                           </ul>
                         </div>
-                        <div class="d-flex justify-content-between">${thesis.content.length > 0 ? "<b>Tétel:</b><br>" : ""}</div>
+                        <div class="d-flex justify-content-between">${
+                          thesis.content.length > 0 ? "<b>Tétel:</b><br>" : ""
+                        }</div>
                         <div class="text-content">${thesis.content}</div>
-                        <!--<div class="form-control text textarea-thesis mt-2" contenteditable id="text_${thesis.id}">${thesis.content}</div>-->                        
+                        <!--<div class="form-control text textarea-thesis mt-2" contenteditable id="text_${
+                          thesis.id
+                        }">${thesis.content}</div>-->                        
                         </div>
-                        <div class="listening-modules mt-2"></div>
+                        <div class="d-none listening-modules mt-2"></div>
                     </div>
                 </div>
             </div>`;
@@ -75,16 +89,15 @@ const readerControlPanelHTML = () => {
         </div>`;
 };
 
-const renderListItems = (list,listStye = "disc")=>{
+const renderListItems = (list, listStye = "disc") => {
   let myList = "";
-  if(list.length > 0) {
-    list.forEach(e => {
-      myList+= `<li style="list-style-type:${listStye}">${e}</li>`;
+  if (list.length > 0) {
+    list.forEach((e) => {
+      myList += `<li style="list-style-type:${listStye}">${e}</li>`;
     });
   }
   return myList;
-
-}
+};
 
 export const loadFolderElements = () => {
   folderBlock.innerHTML = "";
@@ -173,13 +186,11 @@ const setAccordionEvents = () => {
         if (visible && text.innerHTML.length > 0) {
           listeningBlock.style.opacity = "1";
           setReadingEvents(text.innerHTML);
-
         } else {
           listeningBlock.innerHTML = "";
           listeningBlock.style.opacity = "0";
         }
       }, 500);
-
     });
   });
 };

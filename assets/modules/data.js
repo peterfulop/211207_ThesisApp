@@ -525,8 +525,8 @@ export const data = [
         task: [
           "Határozza meg a költségkalkuláció elemeit! ",
           "Ismertesse egy szoftverfejlesztési árajánlat tartalmi és formai elemeire vonatkozó legfontosabb jellemzőket! ",
-          "Mutassa be egy vállalkozói szerződés tartalmi és formai elemeire vonatkozó legfontosabb jellemzőket! I",
-          "smertesse egy szoftverfejlesztésre vonatkozó vállalkozói szerződés speciális tartalmi elemeit!",
+          "Mutassa be egy vállalkozói szerződés tartalmi és formai elemeire vonatkozó legfontosabb jellemzőket!",
+          "Ismertesse egy szoftverfejlesztésre vonatkozó vállalkozói szerződés speciális tartalmi elemeit!",
         ],
         keys: [
           "Árajánlat szerepe, tartalma, felépítése",
@@ -535,7 +535,83 @@ export const data = [
           "Pénzügyi adminisztrációra, számvitelre jellemző alaptevékenységek",
           "A vállalkozókat, vállalkozásokat, munkavállalókat terhelő adó- és közterhek",
         ],
-        content: "",
+        content: `<p><strong><u>A k&ouml;lts&eacute;gkalkul&aacute;ci&oacute; elemei</u></strong></p>
+        <p><strong>Előkalkul&aacute;ci&oacute;<br></strong>A v&aacute;rhat&oacute; &ouml;nk&ouml;lts&eacute;g, majd a nyeres&eacute;ggel n&ouml;velt &aacute;r meghat&aacute;roz&aacute;sa. A tev&eacute;kenys&eacute;g megkezd&eacute;se előtt kisz&aacute;m&iacute;t&aacute;sra ker&uuml;l a tervezett &ouml;nk&ouml;lts&eacute;g.</p>
+        <p><strong>K&ouml;zbenső kalkul&aacute;ci&oacute;<br></strong>A fejleszt&eacute;si folyamat befejez&eacute;se előtt, ellenőrz&eacute;si-beavatkoz&aacute;si c&eacute;lb&oacute;l k&eacute;sz&iacute;tett sz&aacute;m&iacute;t&aacute;s.</p>
+        <p><strong>Ut&oacute;kalkul&aacute;ci&oacute;<br></strong>A tev&eacute;kenys&eacute;g befejez&eacute;se ut&aacute;n hat&aacute;rozzuk meg az adott időszakban elk&eacute;sz&uuml;lt term&eacute;kek t&eacute;nyleges &ouml;nk&ouml;lts&eacute;g&eacute;t.</p>
+        <p><em>Bev&eacute;tel &ndash; Direkt k&ouml;lts&eacute;gek &ndash; &Aacute;ltal&aacute;nos k&ouml;lts&eacute;gek</em></p>
+        <p>Ha folyamatos az ut&oacute;kalkul&aacute;l&aacute;s a c&eacute;gedben akkor kirajzol&oacute;dik, hogy melyek a nyeres&eacute;ges &eacute;s a vesztes&eacute;ges term&eacute;keid, szolg&aacute;ltat&aacute;said.</p>
+        <p></p>
+        <p><strong><u>Szoftverfejleszt&eacute;si &aacute;raj&aacute;nlat tartalmi &eacute;s formai elemei</u></strong></p>
+        <p><strong>&Aacute;raj&aacute;nlat tartalmi k&ouml;vetelm&eacute;nyei</strong></p>
+        <ul>
+            <li>&aacute;raj&aacute;nlat műszaki tartalma</li>
+            <li>teljes&iacute;t&eacute;si hat&aacute;ridők</li>
+            <li>v&aacute;llalkoz&oacute;i d&iacute;j, &eacute;s fizet&eacute;si hat&aacute;ridők</li>
+            <li>szerzői jogok, felhaszn&aacute;l&aacute;si felt&eacute;telek</li>
+            <li>&aacute;raj&aacute;nlat &eacute;rv&eacute;nyess&eacute;ge</li>
+        </ul>
+        <p><strong>&Aacute;raj&aacute;nlat formai k&ouml;vetelm&eacute;nyei</strong></p>
+        <ul>
+            <li>al&aacute;&iacute;r&aacute;s, pecs&eacute;t</li>
+            <li>oldalsz&aacute;moz&aacute;s, fejl&eacute;c, l&aacute;bl&eacute;c alapvető adatokkal (c&eacute;gn&eacute;c, ad&oacute;sz&aacute;m, el&eacute;rhetős&eacute;g, sz&aacute;mlasz&aacute;m)</li>
+            <li>tartalom &aacute;tl&aacute;that&oacute; tagol&aacute;sa</li>
+            <li>k&ouml;nnyű olvashat&oacute;s&aacute;g</li>
+            <li>udvarias megfogalmaz&aacute;s</li>
+        </ul>
+        <p></p>
+        <p><strong><u>V&aacute;llalkoz&oacute;i szerződ&eacute;s tartalmi &eacute;s formai elemei</u></strong></p>
+        <p>Egy olyan szerződ&eacute;s, amely alapj&aacute;n a v&aacute;llalkoz&oacute; valamely dolog tervez&eacute;s&eacute;re, elk&eacute;sz&iacute;t&eacute;s&eacute;re, a megrendelő pedig a szolg&aacute;ltat&aacute;s &aacute;tv&eacute;tel&eacute;re &eacute;s d&iacute;j fizet&eacute;s&eacute;re k&ouml;teles.</p>
+        <p><strong>Szerződ&eacute;s tartalmi k&ouml;vetelm&eacute;nyei</strong></p>
+        <ul>
+            <li>Megrendelő szem&eacute;lyes adatai (N&eacute;v, anyja neve, sz&uuml;let&eacute;si hely &eacute;s idő, lakc&iacute;m)</li>
+            <li>V&aacute;llalkoz&oacute; szem&eacute;lyes adatai (n&eacute;v, sz&eacute;khely, v&aacute;llalkoz&oacute;i sz&aacute;m)</li>
+            <li>Szerződ&eacute;s hat&aacute;lya</li>
+            <li>Szerződ&eacute;s t&aacute;rgya</li>
+            <li>Munkav&eacute;gz&eacute;s &uuml;temez&eacute;se, teljes&iacute;t&eacute;si hat&aacute;ridők</li>
+            <li>D&iacute;jak, fizet&eacute;si felt&eacute;telek, m&oacute;dok</li>
+            <li>Sz&aacute;ml&aacute;z&aacute;si adatok</li>
+            <li>Kifizet&eacute;s &uuml;temez&eacute;se</li>
+            <li>Teljes&iacute;t&eacute;sigazol&aacute;si elj&aacute;r&aacute;s</li>
+            <li>J&oacute;t&aacute;ll&aacute;s, garancia, szavatoss&aacute;g</li>
+            <li>Szerződ&eacute;s megszűn&eacute;se</li>
+        </ul>
+        <p><strong>Szerződ&eacute;s formai k&ouml;vetelm&eacute;nyei</strong></p>
+        <ul>
+            <li>oldalsz&aacute;moz&aacute;s, fejl&eacute;c, l&aacute;bl&eacute;c</li>
+            <li>tartalom &aacute;tl&aacute;that&oacute; tagol&aacute;sa</li>
+            <li>k&ouml;nnyű olvashat&oacute;s&aacute;g</li>
+            <li>udvarias megfogalmaz&aacute;s</li>
+        </ul>
+        <p><br></p>
+        <p><strong><u>Egy szoftverfejleszt&eacute;sre vonatkoz&oacute; v&aacute;llalkoz&oacute;i szerződ&eacute;s speci&aacute;lis tartalmi elemei</u></strong></p>
+        <p><strong>A szoftverfejleszt&eacute;si szerződ&eacute;s fel&eacute;p&iacute;t&eacute;se:</strong></p>
+        <ol>
+            <li>v&aacute;llalkoz&aacute;si megb&iacute;z&aacute;si szerződ&eacute;s</li>
+            <li>felhaszn&aacute;l&aacute;si vagy jog&aacute;truh&aacute;z&aacute;si szerződ&eacute;s</li>
+        </ol>
+        <p><strong>A szerződ&eacute;s t&aacute;rgya tartalmazza:</strong></p>
+        <ul>
+            <li>meghat&aacute;rozott szoftver fejleszt&eacute;se &eacute;s &aacute;tad&aacute;sa a Megrendelőnek a mell&eacute;kletk&eacute;nt csatolt (!) funkci&oacute; specifik&aacute;ci&oacute; szerint;</li>
+            <li>a szoftver mellett a forr&aacute;sk&oacute;d vagy forr&aacute;sk&oacute;dok &aacute;tad&aacute;sa (lehetőleg titkos&iacute;tott form&aacute;ban) &eacute;s ezzel annak tulajdonjog&aacute;nak megszerz&eacute;se;</li>
+            <li>dokument&aacute;ci&oacute; &aacute;tad&aacute;sa &ndash; szint&eacute;n tulajdonjog megszerz&eacute;ssel;</li>
+            <li>szerzői vagyoni jogok &aacute;truh&aacute;z&aacute;sa vagy felhaszn&aacute;l&aacute;si jog enged&eacute;se a Megrendelő sz&aacute;m&aacute;ra.</li>
+        </ul>
+        <p><strong>A szerzői jogokr&oacute;l k&eacute;tf&eacute;lek&eacute;ppen rendelkezhet&uuml;nk:</strong></p>
+        <ul>
+            <li>a) felhaszn&aacute;l&aacute;si jog ad&aacute;sa</li>
+            <li>b) szerzői vagyoni jogok &aacute;truh&aacute;z&aacute;sa</li>
+        </ul>
+        <p>Szerzői vagyoni jogok &aacute;truh&aacute;z&aacute;s&aacute;ra is van lehetős&eacute;g&uuml;nk egy szoftver eset&eacute;n, amely egyedileg megrendelt szoftverek vonatkoz&aacute;s&aacute;ban kifejezetten előny&ouml;s, hiszen &iacute;gy valamennyi szerzői vagyoni jogot (kiv&eacute;ve az &aacute;tdolgoz&aacute;s jog&aacute;t) egyszerre &aacute;truh&aacute;zhatjuk a megrendelőre.</p>
+        <p><strong>A szerzői vagyoni jogok az al&aacute;bbiak:</strong></p>
+        <ul>
+            <li><strong>t&ouml;bbsz&ouml;r&ouml;z&eacute;s</strong></li>
+            <li>terjeszt&eacute;s</li>
+            <li>nyilv&aacute;nos előad&aacute;s</li>
+            <li>nyilv&aacute;noss&aacute;ghoz val&oacute; k&ouml;zvet&iacute;t&eacute;s</li>
+            <li>&aacute;tdolgoz&aacute;s joga</li>
+        </ul>
+        <p>A szoftverfejleszt&eacute;si szerződ&eacute;sekben sz&aacute;mos esetben tal&aacute;lkozhatunk &uuml;zleti titoktart&aacute;si k&ouml;telezetts&eacute;get elő&iacute;r&oacute; rendelkez&eacute;sekkel. A titoktart&aacute;sra vonatkoz&oacute; r&eacute;sz kiemelten fontos, hiszen az Szjt. alapj&aacute;n egy &ouml;tlet, elv, elgondol&aacute;s nem eshet szerzői jogi v&eacute;delem hat&aacute;lya al&aacute;.</p>`,
       },
       {
         id: 13,
