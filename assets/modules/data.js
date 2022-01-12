@@ -364,7 +364,37 @@ export const data = [
         <p>Nem haszn&aacute;lja a DLL f&aacute;jlokat, a Registry-t &eacute;s a merevlemezt, ez&aacute;ltal nem hagy nyomokat a rendszerben, &eacute;s olyan felhaszn&aacute;l&oacute; is haszn&aacute;lhatja, akinek nincs Rendszergazda jogosults&aacute;ga.</p>
         <p><strong>H&aacute;tr&aacute;nyai:</strong></p>
         <p>Funkci&oacute;k, t&eacute;m&aacute;k, kieg&eacute;sz&iacute;tő modulok hi&aacute;nyozhatnak a telep&iacute;tett programhoz k&eacute;pest.</p>
-        <p>Szak&eacute;rtelemre lehet sz&uuml;ks&eacute;g ahhoz, hogy az oper&aacute;ci&oacute;s rendszer megszokott funkci&oacute;it haszn&aacute;ljuk.</p>`,
+        <p>Szak&eacute;rtelemre lehet sz&uuml;ks&eacute;g ahhoz, hogy az oper&aacute;ci&oacute;s rendszer megszokott funkci&oacute;it haszn&aacute;ljuk.</p>
+        <p><u><strong>KERES&Eacute;SEK</strong></u></p>
+        <p><strong>Line&aacute;ris keres&eacute;s</strong><br>A teljes, vagy line&aacute;ris keres&eacute;s a legegyszerűbb keres&eacute;si forma. Egy rendezetlen &aacute;llom&aacute;ny elemeit egyes&eacute;vel vizsg&aacute;ljuk. A folyamat addig fut, am&iacute;g egyez&eacute;s nem lesz.&nbsp;</p>
+        <p><strong>Logaritmikus keres&eacute;s</strong><br>A bin&aacute;ris, vagy logaritmikus keres&eacute;s egy olyan kereső algoritmus, amit egy rendezett t&ouml;mb elemein tudunk v&eacute;gezni. A keres&eacute;s l&eacute;nyege, hogy a t&ouml;mb elemeit sorba rendezve felező megold&aacute;sokkal intervallumokra szűk&iacute;t&uuml;nk. A keresett elemet ez&aacute;ltal mindig csak 1 adott intervallumban kell tov&aacute;bb keresni, amiben biztosan szerepel. Az intervallumokat folyamatosan tov&aacute;bb tudjuk felezni, &eacute;s szűk&iacute;teni, m&iacute;g meg nem tal&aacute;ljuk v&eacute;g&uuml;l a keresett elemet.</p>
+        <p>A t&ouml;mb elemei: [1, 2, 3, 4, 5, 6, 7, 8, 9]</p>
+        <p>A keresett elem: 3</p>
+        <p>A keres&eacute;si intervallum: [ 1, 9 ] =&gt; [ 1, 2, 3, 4 ] =&gt; [ 3, 4 ]</p>
+        <p><br></p>
+        <p><u><strong>RENDEZ&Eacute;SEK</strong></u></p>
+        <p>Rendez&eacute;snek nevez&uuml;nk egy algoritmust, ha az valamilyen szempont alapj&aacute;n sorba &aacute;ll&iacute;tja elemek egy list&aacute;j&aacute;t. A rendez&eacute;si algoritmusok a programoz&aacute;s kezdete &oacute;ta jelen vannak &eacute;s &eacute;rdeklőd&eacute;s k&ouml;z&eacute;ppontj&aacute;ban &aacute;llnak, mivel egy rendezett adathalmazzal t&ouml;bb &eacute;s hat&eacute;konyabb műveletek v&eacute;gezhetők, mint egy rendezetlennel.</p>
+        <p><strong>&Ouml;sszehasonl&iacute;t&oacute; rendez&eacute;s</strong><br><em>Az elemek &ouml;sszehasonl&iacute;t&aacute;sa alapj&aacute;n &aacute;ll&iacute;tj&aacute;k elő a rendezett kimenetet.</em><br>pl.: bubor&eacute;k rendez&eacute;s, gyorsrendez&eacute;s, besz&uacute;r&oacute; rendez&eacute;s</p>
+        <p><strong>Nem &ouml;sszehasonl&iacute;t&oacute; rendez&eacute;s</strong><br><em>&nbsp;Az elemek &ouml;sszehasonl&iacute;t&aacute;sa n&eacute;lk&uuml;l k&eacute;pesek rendezni az elemeket.</em></p>
+        <p>&nbsp;</p>
+        <p><strong><u>MEM&Oacute;RIA FOGLAL&Aacute;S</u></strong></p>
+        <p>A program a fut&aacute;sa sor&aacute;n h&aacute;rom j&oacute;l elk&uuml;l&ouml;n&iacute;thető szerepű mem&oacute;riater&uuml;lettel rendelkezik, ezek funkci&oacute;k szerint a glob&aacute;lis v&aacute;ltoz&oacute;k mem&oacute;riater&uuml;letei, a verem &eacute;s a dinamikusan lefoglalt mem&oacute;riater&uuml;letek.</p>
+        <p><strong>Glob&aacute;lis mem&oacute;riater&uuml;let</strong><br>A glob&aacute;lis mem&oacute;riater&uuml;leten helyezkednek el, ahogyan a neve is mutatja, a glob&aacute;lis v&aacute;ltoz&oacute;k. Ezek a program eg&eacute;sz fut&aacute;sa alatt l&eacute;teznek. Az ott l&eacute;trehozott v&aacute;ltoz&oacute;k elhelyezked&eacute;se nem v&aacute;ltozik meg. A kioszt&aacute;suk m&aacute;r a program ford&iacute;t&aacute;sakor eldől.</p>
+        <p><strong>Verem (stack)</strong><br>A verembe a f&uuml;ggv&eacute;nyek lok&aacute;lis v&aacute;ltoz&oacute;i ker&uuml;lnek. A verem speci&aacute;lis tulajdons&aacute;ga, hogy a tartalma fel-le v&aacute;ltozik; ha egy f&uuml;ggv&eacute;ny belsej&eacute;nek v&eacute;grehajt&aacute;s&aacute;ba kezd&uuml;nk, akkor a verem tetej&eacute;n l&eacute;trej&ouml;nnek a f&uuml;ggv&eacute;ny lok&aacute;lis v&aacute;ltoz&oacute;i, ha pedig a f&uuml;ggv&eacute;nyből visszat&eacute;r&uuml;nk, akkor azok a v&aacute;ltoz&oacute;k megszűnnek. Az adott f&uuml;ggv&eacute;nyh&iacute;v&aacute;shoz tartoz&oacute; mem&oacute;riater&uuml;letet a veremben stack frame-nek nevezz&uuml;k. A veremben minden f&uuml;ggv&eacute;ny csak a saj&aacute;t lok&aacute;lis v&aacute;ltoz&oacute;it l&aacute;tja.</p>
+        <p><strong>Kupac (heap)</strong><br>A dinamikus mem&oacute;riater&uuml;let, vagyis a heap olyan ter&uuml;let, amelyből egy adott nagys&aacute;g&uacute; r&eacute;szt a program fut&aacute;sa k&ouml;zben k&eacute;rhet&uuml;nk, &eacute;s ha m&aacute;r nem kell, visszaadhatjuk. &Iacute;gy foglalhatunk le akkora m&eacute;retű mem&oacute;ri&aacute;t, amelynek a nagys&aacute;g&aacute;t a program &iacute;r&aacute;sa, ford&iacute;t&aacute;sa k&ouml;zben m&eacute;g nem ismerj&uuml;k. Referencia t&iacute;pusok</p>
+        <p>A lefoglal&aacute;skor egy pointert, vagyis egy mutat&oacute;t kapunk arra a mem&oacute;riahelyre, ahol a g&eacute;p megfelelő nagys&aacute;g&uacute; ter&uuml;letet tal&aacute;lt; amikor arra m&aacute;r nincs sz&uuml;ks&eacute;g&uuml;nk, akkor felszabad&iacute;tjuk azt. A ter&uuml;let a lefoglal&aacute;st&oacute;l kezdve mienk, eg&eacute;szen addig, am&iacute;g vissza nem adjuk.&nbsp;</p>
+        <p><strong>memory leak</strong> : Felhaszn&aacute;lt, de fel nem szabad&iacute;tott mem&oacute;ria ter&uuml;let</p>
+        <p><em>alacsony szintű, magas teljes&iacute;tm&eacute;nyű nyelvek: C, C++</em></p>
+        <p><strong>Garbage collector, szem&eacute;tgyűjtő</strong> : A felhaszn&aacute;lt, &eacute;s fel nem szabad&iacute;tott mem&oacute;riater&uuml;letek karbantart&aacute;s&aacute;t v&eacute;gzi. T&ouml;rdezetts&eacute;gmentes&iacute;t is, illetve visszaadja a heap sz&aacute;m&aacute;ra a mem&oacute;riater&uuml;letet.&nbsp;</p>
+        <p><br></p>
+        <p><u><strong>INDEXEL&Eacute;S</strong></u></p>
+        <p>&nbsp;C&eacute;lok</p>
+        <p>&nbsp;&ndash; gyors lek&eacute;rdez&eacute;s</p>
+        <p>&nbsp;&ndash; gyors adatm&oacute;dos&iacute;t&aacute;s</p>
+        <p>&nbsp;&ndash; min&eacute;l kisebb t&aacute;rol&aacute;si ter&uuml;let</p>
+        <p>Indexek haszn&aacute;lat&aacute;val cs&ouml;kken a keres&eacute;si idő, nő a t&aacute;rm&eacute;ret, &eacute;s nő a m&oacute;dos&iacute;t&aacute;si idő</p>
+        <p>A mem&oacute;ria műveletek nagys&aacute;grenddel gyorsabbak, mint a h&aacute;tt&eacute;rt&aacute;rol&oacute;r&oacute;l beolvas&aacute;s, ki&iacute;r&aacute;s.</p>
+        <p><br></p>`,
       },
       {
         id: 9,
