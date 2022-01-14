@@ -516,7 +516,57 @@ export const data = [
           "Megvalósíthatósági tanulmány",
           "Adatmodell megtervezése (UML adatbázis-diagram), objektumhierarchia megtervezése (UML osztálydiagram), algoritmizálás(UML aktivitás diagram, pszeudokód)",
         ],
-        content: "",
+        content: `
+        <p><strong><u>A tervez&eacute;s sor&aacute;n k&eacute;sz&iacute;tendő dokumentumok</u></strong></p>
+<p><u><strong>Dokument&aacute;ci&oacute; fajt&aacute;i: </strong></u></p>
+<p><strong>1. Fejlesztői dokument&aacute;ci&oacute;</strong></p>
+<p>A fejlesztői dokument&aacute;ci&oacute;t haszn&aacute;lja az, akinek a programban hib&aacute;t kell keresnie, a hib&aacute;t ki kell jav&iacute;tania, a programot hat&eacute;konyabbra kell &iacute;rnia, &aacute;t kell vinnie m&aacute;s g&eacute;pre, &aacute;t kell &iacute;rnia m&aacute;s nyelvre, valamint tov&aacute;bb kell fejlesztenie. Amiknek &eacute;rdemes szerepelni a dokument&aacute;ci&oacute;ban:&nbsp;</p>
+<ul>
+    <li>specifik&aacute;ci&oacute;k, k&ouml;vetelm&eacute;nyek</li>
+    <li>futtat&aacute;si k&ouml;rnyezet</li>
+    <li>fejlesztői k&ouml;rnyezet</li>
+    <li>algoritmusok, adatok le&iacute;r&aacute;sa, kapcsoalta</li>
+    <li>k&oacute;d</li>
+    <li>teszesetek</li>
+    <li>fejleszt&eacute;si lehetős&eacute;gek</li>
+    <li>k&eacute;sz&iacute;tő adatai</li>
+</ul>
+<p><strong>Koncepci&oacute;terv</strong></p>
+<p>Feladata a probl&eacute;ma lehets&eacute;ges megold&aacute;sainak bemutat&aacute;sa &eacute;s &eacute;rt&eacute;kel&eacute;se. Felhaszn&aacute;l&aacute;s&aacute;val a feladat kitűzője v&aacute;laszthat megold&aacute;si lehetős&eacute;gek k&ouml;z&ouml;tt.</p>
+<p><strong>Rendszerterv</strong></p>
+<p>Tartalmaznia kell a sz&uuml;ks&eacute;ges hardver-szoftver k&ouml;rnyezet le&iacute;r&aacute;s&aacute;t, amely meghat&aacute;rozza a rendszer haszn&aacute;lhat&oacute;s&aacute;gi k&ouml;r&eacute;t. Itt konkr&eacute;t d&ouml;nt&eacute;seket kell megfogalmazni, k&ouml;vetkezm&eacute;nyeikkel, indokl&aacute;sukkal egy&uuml;tt. Ez az a dokumentum, amelynek alapj&aacute;n a t&eacute;nyleges programoz&aacute;si munka elkezdődhet.</p>
+<p><strong>2. Felhaszn&aacute;l&oacute;i dokument&aacute;ci&oacute;</strong></p>
+<p>Ezt a dokumentumot haszn&aacute;lja a felhaszn&aacute;l&oacute;, az &uuml;zembe helyező, a betan&iacute;t&oacute;. Nekik sz&uuml;ks&eacute;g&uuml;k van a k&ouml;vetkezőkre:</p>
+<ul>
+    <li>a fut&aacute;si k&ouml;rnyezet le&iacute;r&aacute;sa</li>
+    <li>a haszn&aacute;lat le&iacute;r&aacute;sa</li>
+    <li>bemenő adatok, eredm&eacute;nyek, szolg&aacute;ltat&aacute;sok r&eacute;szletes le&iacute;r&aacute;sa</li>
+    <li>mintaalkalmaz&aacute;</li>
+    <li>hiba&uuml;zenetek&nbsp;</li>
+</ul>
+<p><strong>3. Programismertető</strong></p>
+<p>A programismertető c&eacute;lja a v&aacute;s&aacute;rl&oacute;, programkereső ember meggyőz&eacute;se arr&oacute;l, hogy e program felel meg legink&aacute;bb ig&eacute;nyeinek. Ez a hangzatos, rekl&aacute;m jellegű st&iacute;lus mellett a k&ouml;vetkezőket ig&eacute;nyli:</p>
+<ul>
+    <li>a feladat r&ouml;vid, sz&ouml;veges le&iacute;r&aacute;sa, &aacute;ttekint&eacute;si c&eacute;llal;</li>
+    <li>a program tulajdons&aacute;gainak r&ouml;vid le&iacute;r&aacute;sa.</li>
+    <li>minim&aacute;lis hardver &eacute;s szoftver k&ouml;rnyezet.</li>
+</ul>
+<p><strong>4. Install&aacute;l&aacute;si k&eacute;zik&ouml;nyv</strong></p>
+<p>Nagyobb programok eset&eacute;n k&uuml;l&ouml;n install&aacute;l&aacute;si (&uuml;zembe helyez&eacute;si) k&eacute;zik&ouml;nyvet mell&eacute;kelnek, m&aacute;skor ez a felhaszn&aacute;l&oacute;i dokument&aacute;ci&oacute; r&eacute;sze. Ebben szerepel mindaz az inform&aacute;ci&oacute;, aminek seg&iacute;ts&eacute;g&eacute;vel egy-t&ouml;bb gener&aacute;l&oacute; lemezről a program elhelyezhető a g&eacute;p&uuml;nk&ouml;n &uacute;gy, hogy az aktu&aacute;lis k&ouml;rnyezetben optim&aacute;lisan műk&ouml;dj&ouml;n.</p>
+<p><strong><u>A szoftver futtat&aacute;si k&ouml;rnyezete (platform)</u></strong></p>
+<p>A futtat&oacute;k&ouml;rnyezet programok futtat&aacute;s&aacute;hoz sz&uuml;ks&eacute;ges szoftverk&ouml;rnyezet. Ennek r&eacute;sz&eacute;t k&eacute;pezi az oper&aacute;ci&oacute;s rendszer, illetve a telep&iacute;tett programk&ouml;nyvt&aacute;rak, seg&eacute;dprogramok, esetenk&eacute;nt rendszerbe&aacute;ll&iacute;t&aacute;sok. A legt&ouml;bb program telep&iacute;tővel rendelkezik, mely &ouml;n&aacute;ll&oacute;an futtathat&oacute;, &eacute;s c&eacute;lja a futtat&aacute;si k&ouml;rnyezet l&eacute;trehoz&aacute;sa, illetve a program be&aacute;ll&iacute;t&aacute;sa. Ezek eset&eacute;ben a program futtat&aacute;sa nem csak a fentieket, hanem a fut&aacute;st seg&iacute;tő szolg&aacute;ltat&aacute;s(ok)at, illetve a kieg&eacute;sz&iacute;tendő rendszert is ig&eacute;nyli. P&eacute;ld&aacute;ul egy weboldalig&eacute;nyel egy webkiszolg&aacute;l&oacute;t, &eacute;s esetleg a szerver oldalon feldolgoz&aacute;sra ker&uuml;lő r&eacute;sz&eacute;nek interpreter&eacute;t.</p>
+<p>pl. Visual Studio</p>
+<p><u><strong>Szoftverarchitekt&uacute;ra kialak&iacute;t&aacute;sa</strong></u></p>
+<p>A j&oacute; szoftver architekt&uacute;ra egyik fő ism&eacute;rve, hogy modul&aacute;ris szerkezetű. A monolitikus szoftverek mindig probl&eacute;m&aacute;t jelentenek, cs&ouml;kkentik a minős&eacute;get &eacute;s a rendelkez&eacute;sre &aacute;ll&aacute;st. A szoftver architekt&uacute;ra t&ouml;bb szinten val&oacute;s&iacute;that&oacute; meg:</p>
+<ul>
+    <li>rendszerszinten: ekkor a k&uuml;l&ouml;nb&ouml;ző szoftverek egym&aacute;shoz kapcsol&oacute;d&aacute;s&aacute;t defini&aacute;lja, ezt nevezz&uuml;k rendszerszintű szoftver architekt&uacute;r&aacute;nak,</li>
+    <li>adott szoftver szinten: adott alkalmaz&aacute;s belső komponensei k&ouml;z&ouml;tti kapcsolatot mutatja. Ennek jelentős&eacute;ge a monolitikus szoftverek eltűn&eacute;s&eacute;vel jelentősen cs&ouml;kkent.</li>
+</ul>
+<p>A programok kapcs&aacute;n besz&eacute;lhet&uuml;nk alkalmaz&aacute;s- &eacute;s v&aacute;llalati architekt&uacute;r&aacute;kr&oacute;l. Az előbbi alatt &eacute;rthetj&uuml;k az &ouml;n&aacute;ll&oacute; alkalmaz&aacute;s tervez&eacute;sekor magas szinten meghozott d&ouml;nt&eacute;seket (pl. az &aacute;ltal&aacute;nos fel&eacute;p&iacute;t&eacute;s&eacute;t, a telep&iacute;t&eacute;s m&oacute;djait, az &aacute;ltala ny&uacute;jtott szolg&aacute;ltat&aacute;sok &eacute;s adatok k&ouml;r&eacute;t), az ut&oacute;bbi pedig egy konkr&eacute;t k&ouml;rnyezetben (pl. a megrendelő v&aacute;llalatn&aacute;l) &iacute;rja le a c&eacute;g &uuml;zleti műk&ouml;d&eacute;s&eacute;hez sz&uuml;ks&eacute;ges programok kapcsolat&aacute;t (melyik program hol fut, ki a felelős &uuml;zemeltetője, ki a felelőse a tov&aacute;bbfejleszt&eacute;si ig&eacute;nyeknek, mely m&aacute;s programokt&oacute;l / hardverektől f&uuml;gg, milyen adatokat milyen csatorn&aacute;kon kap meg, stb).</p>
+<p><strong>Az alkalmaz&aacute;s kritikus pontjai</strong></p>
+<p><strong>???</strong></p>
+<p><br></p>
+        `,
       },
       {
         id: 12,
