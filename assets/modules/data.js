@@ -520,7 +520,7 @@ export const data = [
         <p><strong><u>A tervez&eacute;s sor&aacute;n k&eacute;sz&iacute;tendő dokumentumok</u></strong></p>
 <p><u><strong>Dokument&aacute;ci&oacute; fajt&aacute;i: </strong></u></p>
 <p><strong>1. Fejlesztői dokument&aacute;ci&oacute;</strong></p>
-<p>A fejlesztői dokument&aacute;ci&oacute;t haszn&aacute;lja az, akinek a programban hib&aacute;t kell keresnie, a hib&aacute;t ki kell jav&iacute;tania, a programot hat&eacute;konyabbra kell &iacute;rnia, &aacute;t kell vinnie m&aacute;s g&eacute;pre, &aacute;t kell &iacute;rnia m&aacute;s nyelvre, valamint tov&aacute;bb kell fejlesztenie. Amiknek &eacute;rdemes szerepelni a dokument&aacute;ci&oacute;ban:&nbsp;</p>
+<p>A fejlesztői dokument&aacute;ci&oacute;t haszn&aacute;lja az, akinek a programban hib&aacute;t kell keresnie, a hib&aacute;t ki kell jav&iacute;tania, a programot hat&eacute;konyabbra kell &iacute;rnia, &aacute;t kell vinnie m&aacute;s g&eacute;pre, &aacute;t kell &iacute;rnia m&aacute;s nyelvre, valamint tov&aacute;bb kell fejlesztenie. Amiknek &eacute;rdemes szerepelni a dokument&aacute;ci&oacute;ban:</p>
 <ul>
     <li>specifik&aacute;ci&oacute;k, k&ouml;vetelm&eacute;nyek</li>
     <li>futtat&aacute;si k&ouml;rnyezet</li>
@@ -542,7 +542,7 @@ export const data = [
     <li>a haszn&aacute;lat le&iacute;r&aacute;sa</li>
     <li>bemenő adatok, eredm&eacute;nyek, szolg&aacute;ltat&aacute;sok r&eacute;szletes le&iacute;r&aacute;sa</li>
     <li>mintaalkalmaz&aacute;</li>
-    <li>hiba&uuml;zenetek&nbsp;</li>
+    <li>hiba&uuml;zenetek</li>
 </ul>
 <p><strong>3. Programismertető</strong></p>
 <p>A programismertető c&eacute;lja a v&aacute;s&aacute;rl&oacute;, programkereső ember meggyőz&eacute;se arr&oacute;l, hogy e program felel meg legink&aacute;bb ig&eacute;nyeinek. Ez a hangzatos, rekl&aacute;m jellegű st&iacute;lus mellett a k&ouml;vetkezőket ig&eacute;nyli:</p>
@@ -678,7 +678,54 @@ export const data = [
           "Iterációs lépések",
           "Agilis módszertanok, Scrum",
         ],
-        content: "",
+        content: `
+        <p><strong><u>A szoftverfejleszt&eacute;s sor&aacute;n haszn&aacute;lhat&oacute; m&oacute;dszertanok</u></strong></p>
+<p><strong>Gyors alkalmaz&aacute;sfejleszt&eacute;s</strong></p>
+<p>A szoftverek &bdquo;tervez&eacute;s&eacute;t&rdquo; mag&aacute;ban foglalja a szoftver &iacute;r&aacute;sa. A kiterjedt előzetes tervez&eacute;s hi&aacute;nya &aacute;ltal&aacute;ban lehetőv&eacute; teszi a szoftver sokkal gyorsabb &iacute;r&aacute;s&aacute;t, &eacute;s megk&ouml;nny&iacute;ti a k&ouml;vetelm&eacute;nyek megv&aacute;ltoztat&aacute;s&aacute;t.</p>
+<p><strong>V&iacute;zes&eacute;s modell</strong></p>
+<p>A v&iacute;zes&eacute;s modell k&ouml;nnyen &eacute;rthető &eacute;s egyszerű modell. A teljes folyamat t&ouml;bb szakaszra oszlik. Az egyik f&aacute;zist be kell fejezni a k&ouml;vetkező szakasz el&eacute;r&eacute;se &eacute;rdek&eacute;ben. A v&iacute;zes&eacute;s modell alapelve az, hogy a projektben elv&eacute;gzendő tev&eacute;kenys&eacute;geket szakmai &eacute;s projektmenedzsment szakaszokra, f&aacute;zisokra osztja, ahol minden f&aacute;zis v&eacute;g&eacute;n a projektcsapat fel&uuml;lvizsg&aacute;lja az adott f&aacute;zist, majd lez&aacute;rja azt. &Iacute;gy a v&iacute;zes&eacute;s modell fenntartja, hogy a k&ouml;vetkező f&aacute;zisra csak akkor lehet tov&aacute;bbl&eacute;pni, ha az előző f&aacute;zist fel&uuml;lvizsg&aacute;lj&aacute;k &eacute;s verifik&aacute;lj&aacute;k. Idő- &eacute;s k&ouml;lts&eacute;gig&eacute;nyes volt, ha v&aacute;ltoztat&aacute;sra volt sz&uuml;ks&eacute;g, hiszen mindig az előző &aacute;llapotra kellett visszal&eacute;pni.</p>
+<p><strong>V modell</strong></p>
+<p>A V modell a v&iacute;zes&eacute;s modell kiterjeszt&eacute;se. Minden fejleszt&eacute;si szakaszhoz tartozik egy megfelelő tesztel&eacute;si szakasz. Ez&eacute;rt a fejleszt&eacute;si ciklus minden szakasz&aacute;hoz t&aacute;rsul egy tesztel&eacute;si szakasz. A fejleszt&eacute;si szakasz megfelelő tesztel&eacute;si szakasz&aacute;t p&aacute;rhuzamosan tervezik. Ez a modell hiteles&iacute;t&eacute;si &eacute;s valid&aacute;l&aacute;si modellk&eacute;nt is ismert. A szoftverfejleszt&eacute;s sor&aacute;n a V modell olyan fejleszt&eacute;si folyamatot k&eacute;pvisel, amelyet a v&iacute;zes&eacute;smodell kiterjeszt&eacute;s&eacute;nek tekinthet&uuml;nk, &eacute;s egy esete az &aacute;ltal&aacute;nos V modellnek. A V modell a nev&eacute;t onnan kapta, hogy k&eacute;t sz&aacute;ra van, &eacute;s &iacute;gy egy V betűh&ouml;z hasonl&iacute;t. A modell &aacute;br&aacute;ja a fejleszt&eacute;s k&eacute;t folyamat&aacute;nak k&eacute;t megk&ouml;zel&iacute;t&eacute;s&eacute;t t&uuml;kr&ouml;zi, bemutatja a kapcsolatokat a fejleszt&eacute;si &eacute;letciklus egyes szakaszai &eacute;s a kapcsol&oacute;d&oacute; tesztel&eacute;si szakaszok k&ouml;z&ouml;tt. Top-down megk&ouml;zel&iacute;t&eacute;sk&eacute;nt kifejezi a tervez&eacute;si folyamat fentről lefel&eacute; t&ouml;rt&eacute;nő halad&aacute;s&aacute;t a diagram bal oldali &aacute;g&aacute;ban, m&iacute;g bottom-up megk&ouml;zel&iacute;t&eacute;sben a jobb oldali &aacute;gban a tesztel&eacute;si folyamat lentről felfel&eacute; halad.</p>
+<p>&Aacute;ltal&aacute;ban a felhaszn&aacute;l&oacute;kkal egy interj&uacute;t k&eacute;sz&iacute;tenek &eacute;s ez alapj&aacute;n alkotj&aacute;k meg a felhaszn&aacute;l&oacute;i k&ouml;vetelm&eacute;nyek dokument&aacute;ci&oacute;j&aacute;t.</p>
+<p></p>
+<p><strong>Protot&iacute;pus fogalma</strong></p>
+<p>A szoftver protot&iacute;pus&aacute;nak meghat&aacute;roz&aacute;sa protot&iacute;pusok l&eacute;trehoz&aacute;s&aacute;t jelenti, azaz a fejleszt&eacute;s alatt &aacute;ll&oacute; szoftver hi&aacute;nyos verzi&oacute;it.</p>
+<p>alapelvei:</p>
+<ul>
+    <li>Kisebb kock&aacute;zat az egys&eacute;gekre val&oacute; bont&aacute;s miatt</li>
+    <li>Az &uuml;gyfelet bevonj&aacute;k a fejleszt&eacute;si folyamatba, ami n&ouml;veli annak val&oacute;sz&iacute;nűs&eacute;g&eacute;t, hogy az &uuml;gyf&eacute;l elfogadja a v&eacute;gső megval&oacute;s&iacute;t&aacute;st.</li>
+    <li>M&iacute;g n&eacute;h&aacute;ny protot&iacute;pust azzal a tudattal fejlesztenek ki, hogy el fogj&aacute;k t&aacute;vol&iacute;tani, bizonyos esetekben lehets&eacute;ges a protot&iacute;pusr&oacute;l a műk&ouml;dő rendszerre t&ouml;rt&eacute;nő &aacute;tt&eacute;r&eacute;s.</li>
+</ul>
+<p></p>
+<p><strong><u>Agilis fejleszt&eacute;s (Kanban, Scrum)</u></strong></p>
+<p><strong>Alapelvei:<br></strong></p>
+<p><strong>Az &uuml;gyf&eacute;llel legyen megfelelő kapcsolattart&aacute;s</strong></p>
+<p>Az agilis fejleszt&eacute;s saj&aacute;toss&aacute;ga, hogy szoros kapcsolatot t&eacute;telez fel a szoftver felhaszn&aacute;l&oacute;ja &eacute;s fejlesztői k&ouml;z&ouml;tt. A fejleszt&eacute;s csak akkor lehet eredm&eacute;nyes, ha az &eacute;rintettek k&ouml;z&ouml;tti kommunik&aacute;ci&oacute; megfelelő m&eacute;lys&eacute;gű.</p>
+<p><strong>Egy terv legyen hihető, re&aacute;lis</strong></p>
+<p>A tervez&eacute;s mindenhat&oacute;s&aacute;g&aacute;ba vetett hit megk&eacute;rdőjelez&eacute;se</p>
+<p><strong>&Ouml;nszerveződ&eacute;ssel jav&iacute;tsjuk a csapat teljes&iacute;tm&eacute;ny&eacute;t</strong></p>
+<p>Az agilis munkav&eacute;gz&eacute;s tov&aacute;bbi saj&aacute;toss&aacute;ga, hogy a munkat&aacute;rsak maguk v&aacute;llalkoznak egyes feladatok elv&eacute;gz&eacute;s&eacute;re. A csapat tagjainak k&eacute;pesnek kell lenni&uuml;k arra, hogy elv&eacute;gezz&eacute;k a v&aacute;llalt feladatot, &eacute;s el&eacute;g ambici&oacute;zusnak ahhoz, hogy kellően kezdem&eacute;nyezők legyenek.</p>
+<p><strong>Transzparens feladat nyomk&ouml;vet&eacute;s</strong></p>
+<p>A csapat minden tagja l&aacute;thatja, hogy a t&ouml;bbiek mit v&eacute;geztek el egy nap alatt. Az &aacute;tl&aacute;that&oacute;s&aacute;got seg&iacute;ti az is, hogy a csapat tagjai egy helyis&eacute;gben dolgoznak. Az előrehalad&aacute;st &eacute;s a h&aacute;tralevő feladatokat lehetőleg grafikusan, mindenki &aacute;ltal j&oacute;l l&aacute;that&oacute; helyen teszik k&ouml;zz&eacute;.</p>
+<p><strong>Vizualiz&aacute;c&oacute;</strong></p>
+<p>Az agilis fejleszt&eacute;sek tov&aacute;bbi jellegzetess&eacute;ge a vizualiz&aacute;ci&oacute;, ami legt&ouml;bbsz&ouml;r egy nyomon k&ouml;vet&eacute;st szolg&aacute;l&oacute; t&aacute;bla alkalmaz&aacute;s&aacute;t jelenti. Mindenki sz&aacute;m&aacute;ra egy&eacute;rtelmű, hogy ki mit v&eacute;gzett el, &eacute;s mi lesz a k&ouml;vetkező l&eacute;p&eacute;s.</p>
+<p><br></p>
+<p><strong>SCRUM</strong></p>
+<p>A scrum m&oacute;dszertan eset&eacute;n az egyes fejleszt&eacute;si ciklusokat <strong>sprint</strong>eknek nevezz&uuml;k.</p>
+<p>A sprintek &uacute;gynevezett <strong>product backlog</strong>-okat tartalmaznak, amik a m&eacute;g h&aacute;tral&eacute;vő, megoldand&oacute; feladatokat tartalmazz&aacute;k.</p>
+<p>A fejleszt&eacute;st kisebb, 3-9 fős csapatokban v&eacute;gzik. 2 szerepet n&eacute;vvel is megk&uuml;l&ouml;nb&ouml;ztet&uuml;nk a m&oacute;dszertanban.</p>
+<p><strong>Product owner</strong> : Egy olyan felhaszn&aacute;l&oacute;, aki meg tudja fogalmazni a fejlesztendő szoftver elv&aacute;rt funkci&oacute;it.</p>
+<p><strong>Scrum-master</strong> : A m&oacute;dszertan szab&aacute;lyainak betartat&aacute;s&aacute;&eacute;rt felelős.</p>
+<p>A scrum l&eacute;nyege, hogy a csapatok &ouml;nk&eacute;nt v&aacute;lasztanak feladatot, sprintet, melynek időtartama legfeljebb 1 h&oacute;nap, a r&eacute;szfeladatotk&eacute; pedig &aacute;ltal&aacute;ban 1 nap.</p>
+<p><strong>Daily Stand-Up (Napi scrum)</strong></p>
+<p>Minden nap maximum 15 percben a k&ouml;vetkező 24 &oacute;ra terveit besz&eacute;lik &aacute;t. 3 k&eacute;rd&eacute;sre kell v&aacute;laszolnia mindenkinek:</p>
+<ol>
+    <li>Mit siker&uuml;lt elv&eacute;gezni az előző megbesz&eacute;l&eacute;s &oacute;ta?</li>
+    <li>Mit fog csin&aacute;lni a k&ouml;vetkező megbesz&eacute;l&eacute;sig?</li>
+    <li>Milyen akad&aacute;lyoz&oacute; t&eacute;nyezők mer&uuml;lnek fel?</li>
+</ol>
+<p>Minden sprint v&eacute;g&eacute;n <strong>sprint fel&uuml;lvizsg&aacute;lat</strong> t&ouml;rt&eacute;nik. &Aacute;ttekintik az elk&eacute;sz&uuml;lt, &eacute;s el nem k&eacute;sz&uuml;lt r&eacute;szeket, megvizsg&aacute;lj&aacute;k ezek okait, &eacute;s lehets&eacute;ges k&ouml;vetkezm&eacute;nyeit.</p>
+<p>Sprint z&aacute;r&aacute;s ut&aacute;n k&ouml;vetkezik egy <strong>sprint visszatekint&eacute;s</strong>, ahol a csapat munk&aacute;j&aacute;t &eacute;rt&eacute;kelik ki.</p>`,
       },
       {
         id: 14,
