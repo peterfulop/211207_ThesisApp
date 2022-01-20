@@ -742,7 +742,28 @@ export const data = [
           "Screencast készítése",
           "Animációk készítése",
         ],
-        content: "",
+        content: `
+        <p><strong><u>A &nbsp;felhaszn&aacute;l&oacute;i dokumentumok jellemzői</u></strong></p>
+<p>Ezt a dokumentumot haszn&aacute;lja a felhaszn&aacute;l&oacute;, az &uuml;zembe helyező, a betan&iacute;t&oacute;. Nekik sz&uuml;ks&eacute;g&uuml;k van a k&ouml;vetkezőkre:</p>
+<ul>
+    <li>a fut&aacute;si k&ouml;rnyezet le&iacute;r&aacute;sa</li>
+    <li>a haszn&aacute;lat le&iacute;r&aacute;sa</li>
+    <li>bemenő adatok, eredm&eacute;nyek, szolg&aacute;ltat&aacute;sok r&eacute;szletes le&iacute;r&aacute;sa</li>
+    <li>mintaalkalmaz&aacute;s</li>
+    <li>hiba&uuml;zenetek</li>
+</ul>
+<p><strong><u>Milyen tartalmi elemeket kell egy felhaszn&aacute;l&oacute;i dokumentumnak tartalmaznia?</u></strong></p>
+<p>A dokument&aacute;ci&oacute; elsődleges c&eacute;lja seg&iacute;ts&eacute;gny&uacute;jt&aacute;s a program leendő felhaszn&aacute;l&oacute;inak. A felhaszn&aacute;l&oacute;i dokument&aacute;ci&oacute; elsősorban r&eacute;szletes sz&ouml;veges le&iacute;r&aacute;s, amely időnk&eacute;nt lehet &bdquo;sz&aacute;jbar&aacute;g&oacute;&rdquo; is. Ez&eacute;rt olyannak kell lennie, hogy minden sz&aacute;mukra sz&uuml;ks&eacute;ges tudnival&oacute;hoz k&ouml;nnyen hozz&aacute;juthassanak. Ehhez elsődleges szempont term&eacute;szetesen, hogy a dokument&aacute;ci&oacute; mindezeket tartalmazza, de a haszn&aacute;lat&aacute;t egy&eacute;b k&ouml;vetelm&eacute;nyek betart&aacute;s&aacute;val jelentősen megk&ouml;nny&iacute;thetj&uuml;k. Ezek a k&ouml;vetkezők:</p>
+<ul>
+    <li>a dokument&aacute;ci&oacute; ne legyen t&uacute;l hossz&uacute;, hiszen egy program haszn&aacute;lat&aacute;hoz senki sem akar egy &bdquo;reg&eacute;nyt&rdquo; elolvasni;</li>
+    <li>a dokument&aacute;ci&oacute; ne legyen t&uacute;l r&ouml;vid, mert akkor t&ouml;m&ouml;rs&eacute;ge miatt &eacute;rthetetlen lesz, s &iacute;gy haszn&aacute;lhatatlan;</li>
+    <li>a dokument&aacute;ci&oacute; legyen vil&aacute;gosan tagolt, &eacute;s a tagol&aacute;s seg&iacute;tse elő az egyes tudnival&oacute;k gyors keres&eacute;s&eacute;t;</li>
+    <li>a dokument&aacute;ci&oacute; legyen t&ouml;m&ouml;r: az olvas&oacute;ja ne vesszen el a r&eacute;szletekben;</li>
+    <li>a dokument&aacute;ci&oacute; legyen olvashat&oacute;: a t&uacute;ls&aacute;gos (&eacute;s kiz&aacute;r&oacute;lagos) formaliz&aacute;l&aacute;s az &eacute;rthetős&eacute;g rov&aacute;s&aacute;ra megy;</li>
+    <li>a dokument&aacute;ci&oacute; legyen pontos: az olvas&oacute;ja minden k&eacute;rd&eacute;s&eacute;re tartalmazza a v&aacute;laszt.</li>
+</ul>
+<p><br></p>
+        `,
       },
       {
         id: 15,
@@ -759,7 +780,34 @@ export const data = [
           "Adatbázisok normalizálása, optimalizálása. Redundancia csökkentése, megszüntetése",
           "Adatmodellezés: egyed-kapcsolat diagramok, tervezési alapelvek, megszorítások (constraint) modellezése",
         ],
-        content: "",
+        content: `
+        <p><strong><u>Az adatb&aacute;zis-tervez&eacute;s alapfogalmai</u></strong></p>
+<p><strong>A tervez&eacute;s folyamata:</strong></p>
+<ul>
+    <li>Adatb&aacute;zis c&eacute;lj&aacute;nak meghat&aacute;roz&aacute;sa</li>
+    <li>Sz&uuml;ks&eacute;ges inform&aacute;ci&oacute;k megkeres&eacute;se &eacute;s rendszerez&eacute;se</li>
+    <li>Inform&aacute;ci&oacute;k t&aacute;bl&aacute;ba oszt&aacute;sa</li>
+    <li>Elemek oszlopokk&aacute; alak&iacute;t&aacute;sa</li>
+    <li>Elsődleges kulcsok megad&aacute;sa</li>
+    <li>T&aacute;blakapcsolatok be&aacute;ll&iacute;t&aacute;sa</li>
+    <li>Terv finom&iacute;t&aacute;sa</li>
+    <li>Normaliz&aacute;ci&oacute;s szab&aacute;lyok&nbsp;</li>
+</ul>
+<p><strong>Adatmodellez&eacute;s</strong></p>
+<p>Ugyanarra a feldolgozand&oacute; adathalmazra elt&eacute;rő szerkezeti tulajdons&aacute;gokkal elő&aacute;ll&iacute;tott adatmodellek k&eacute;sz&iacute;thetők.</p>
+<p><strong>A modellek alkot&oacute;elemei</strong></p>
+<p><strong>Egyed:</strong> azokat a t&aacute;rgyakat, szem&eacute;lyeket, fogalmakat, amelyeket bizonyos jellemzőik felsorol&aacute;s&aacute;val hat&aacute;rozunk meg, az adatfeldolgoz&aacute;s sor&aacute;n egyedeknek nevezz&uuml;k. Pl.: szem&eacute;ly, k&ouml;nyv, aut&oacute;, &eacute;rzelem, v&aacute;llalat stb. Egyed az, amit le akarunk &iacute;rni, amiről adatokat gyűjt&uuml;nk, t&aacute;rolunk.</p>
+<p><strong>Tulajdons&aacute;g:</strong> Az egyedek jellemzőinek megad&aacute;sakor megfogalmazott ismereteket az egyedre vonatkoz&oacute; tulajdons&aacute;goknak (attrib&uacute;tum) nevezz&uuml;k. A szem&eacute;ly attrib&uacute;tuma lehet pl. n&eacute;v, sz&uuml;let&eacute;si hely, sz&uuml;let&eacute;si d&aacute;tum, lakc&iacute;m, stb.</p>
+<p><strong>Kapcsolat:</strong> az egyedek k&ouml;z&ouml;tti viszonyt kapcsolatnak nevezz&uuml;k.Pl. egyedek k&ouml;z&ouml;tti viszony, hogy a szem&eacute;lyek a v&aacute;llalat dolgoz&oacute;i.</p>
+<p><br></p>
+<p><strong>A kapcsolatok fajt&aacute;i</strong></p>
+<p><strong>- Egy-egy t&iacute;pus&uacute; kapcsolat (1:1 kapcsolat)</strong><br>Az egyik egyedhalmaz mindegyik elem&eacute;hez a m&aacute;sik egyedhalmaz pontosan egy eleme kapcsol&oacute;dik. Pl. Szem&eacute;lyi azonos&iacute;t&oacute; mint egyed &eacute;s a szem&eacute;ly egyed.</p>
+<p><br></p>
+<p><strong>- Egy-t&ouml;bb t&iacute;pus&uacute; kapcsolat (1:N kapcsolat)</strong><br>Ha az A egyedhalmaz mindegyik elem&eacute;hez a B egyedhalmaz t&ouml;bb eleme is tartozhat. Pl. a megye egyed &eacute;s a telep&uuml;l&eacute;s egyed k&ouml;z&ouml;tt 1:N kapcsolat van.</p>
+<p><br></p>
+<p><strong>- T&ouml;bb-t&ouml;bb t&iacute;pus&uacute; kapcsolat (M:N kapcsolat)</strong><br>Az A egyedhalmaz minden elem&eacute;hez a B egyedhalmaz t&ouml;bb eleme tartozhat, &eacute;s ford&iacute;tva, egy B-beli elemhez is t&ouml;bb A-beli elemet rendelhet&uuml;nk hozz&aacute;.</p>
+<p><strong>Redundancia:</strong> felesleges adatism&eacute;tl&eacute;st jelent. Olyan t&aacute;blaszerkezetet kell tal&aacute;lni a tervez&eacute;s sor&aacute;n, mely elker&uuml;li a redundanci&aacute;t.</p>
+<p>A redundancia<br>- rossz helyfoglal&aacute;s szempontj&aacute;b&oacute;l,<br>- a v&aacute;ltoz&aacute;sok &aacute;tvezet&eacute;s&eacute;t neh&eacute;zkess&eacute; teszi.</p>`,
       },
       {
         id: 16,
