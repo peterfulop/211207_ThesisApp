@@ -907,10 +907,57 @@ export const data = [
         ],
         keys: [
           "Web service (SOAP, REST, XML, JSON)",
-          "Web szerver (Apache, IIS, …stb",
+          "Web szerver (Apache, IIS, …stb)",
           "Titkosítás (egy vagy többkulcsos)",
         ],
-        content: "",
+        content: `
+        <p>Az interneten t&ouml;rt&eacute;nő kommunik&aacute;ci&oacute; k&uuml;l&ouml;nb&ouml;ző protokollok k&ouml;vet&eacute;s&eacute;vel zajlik. Ahhoz, hogy 2 rendszer kommunik&aacute;lni tudjon, t&ouml;bb, egym&aacute;sra &eacute;p&uuml;lő protokoll megval&oacute;sul&aacute;s&aacute;ra is sz&uuml;ks&eacute;g lehet.</p>
+<p>TCP/IP protokoll&nbsp;</p>
+<p>P&eacute;lda:&nbsp;<br>B&ouml;ng&eacute;sző &rarr; Webszerver</p>
+<ol>
+    <li>A kiszolg&aacute;l&oacute; webszerver el&eacute;r&eacute;se: HTTP protokoll</li>
+    <li>A 2 sz&aacute;m&iacute;t&oacute;g&eacute;p k&ouml;z&ouml;tti kommunik&aacute;ci&oacute;t biztos&iacute;tja: TCP protokoll</li>
+    <li>Az adatok interneten t&ouml;rt&eacute;nő utaztat&aacute;s&aacute;hoz: IP protokoll</li>
+    <li>Helyi h&aacute;l&oacute;zat eset&eacute;n, h&aacute;l&oacute;zati k&aacute;rty&aacute;k kommunik&aacute;ci&oacute;j&aacute;hoz: Ethernet protokoll</li>
+    <li>Elektromos jelk&eacute;nt t&ouml;rt&eacute;nő utaz&aacute;s</li>
+</ol>
+<p>A jelek feldolgoz&aacute;s&aacute;t a fogad&oacute; f&eacute;l ford&iacute;tott sorrendben v&eacute;gzi, sz&eacute;pen vissza csomagolja a k&uuml;l&ouml;nb&ouml;ző protokollok szerint a tartalmat.&nbsp;</p>
+<p><br></p>
+<p><strong>Webservice, webszolg&aacute;ltat&aacute;s</strong><br>Alkalmaz&aacute;sok k&ouml;z&ouml;tti adatcser&eacute;re szolg&aacute;l&oacute; protokollok &eacute;s szabv&aacute;nyok gyűjtem&eacute;nye. K&uuml;l&ouml;nb&ouml;ző programnyelveken &iacute;rt &eacute;s k&uuml;l&ouml;nb&ouml;ző platformokon fut&oacute; szoftveralkalmaz&aacute;sok sz&aacute;m&iacute;t&oacute;g&eacute;p-h&aacute;l&oacute;zatokon kereszt&uuml;l t&ouml;rt&eacute;nő adatcser&eacute;re haszn&aacute;lj&aacute;k a webszolg&aacute;ltat&aacute;sokat.&nbsp;</p>
+<p><strong>Protokoll</strong><br>Az informatik&aacute;ban a protokoll egy egyezm&eacute;ny, vagy szabv&aacute;ny, amely le&iacute;rja, hogy a h&aacute;l&oacute;zat r&eacute;sztvevői mik&eacute;pp tudnak egym&aacute;ssal kommunik&aacute;lni. Ez t&ouml;bbnyire a kapcsolat felv&eacute;tel&eacute;t, kommunik&aacute;ci&oacute;t, adattov&aacute;bb&iacute;t&aacute;st jelent.</p>
+<p><strong>SOAP</strong><br>A sz&aacute;m&iacute;t&aacute;stechnik&aacute;ban a SOAP (Simple Object Access Protocol) egy protokoll, amelyet webszolg&aacute;ltat&aacute;sok h&aacute;l&oacute;zaton kereszt&uuml;li kommunik&aacute;ci&oacute;j&aacute;hoz terveztek. Az &uuml;zenetek XML-alap&uacute;ak &eacute;s &aacute;ltal&aacute;ban m&aacute;s, alkalmaz&aacute;s r&eacute;tegbeli protokollokra t&aacute;maszkodva tov&aacute;bb&iacute;t&oacute;dnak, mint pl HTTP, HTTPS, SMTP protokoll.</p>
+<p>Jellemző &uuml;zenet form&aacute;tuma az XML.&nbsp;</p>
+<p><strong>XML<br></strong>Az elsődleges c&eacute;lja struktur&aacute;lt sz&ouml;veg &eacute;s inform&aacute;ci&oacute; megoszt&aacute;sa az interneten kereszt&uuml;l.</p>
+<ol>
+    <li>Az XML adatok t&aacute;rol&aacute;s&aacute;ra &eacute;s<span style="white-space:pre;">&nbsp;</span>sz&aacute;ll&iacute;t&aacute;s&aacute;ra tervezett &ouml;nle&iacute;r&oacute; nyelv</li>
+    <li>Az adatokat sz&ouml;vegesen t&aacute;rolja&nbsp;</li>
+    <li>Szem&eacute;lyek &eacute;s<span style="white-space:pre;">&nbsp;</span>g&eacute;pek<span style="white-space:pre;">&nbsp;</span>&aacute;ltal is<span style="white-space:pre;">&nbsp;</span>olvashat&oacute; &eacute;s &eacute;rtelmezhető</li>
+</ol>
+<p><strong>REST</strong><br>A REST (Representational State Transfer) egy szoftverarchitekt&uacute;ra t&iacute;pus, elosztott kapcsolat nagy, internet alap&uacute; rendszerek sz&aacute;m&aacute;ra, amilyen p&eacute;ld&aacute;ul a vil&aacute;gh&aacute;l&oacute;.&nbsp;</p>
+<p><strong>JSON<br></strong>A JSON (JavaScript Object Notation) egy kis m&eacute;retű, sz&ouml;veg alap&uacute; szabv&aacute;ny, ember &aacute;ltal olvashat&oacute; adatcser&eacute;re. A JavaScript szkriptnyelvből alakult ki egyszerű adatstrukt&uacute;r&aacute;k &eacute;s asszociat&iacute;v t&ouml;mb&ouml;k reprezent&aacute;l&aacute;s&aacute;ra.</p>
+<p>A JSON-t legt&ouml;bbsz&ouml;r egy szerver &eacute;s egy kliens sz&aacute;m&iacute;t&oacute;g&eacute;p k&ouml;zti adat&aacute;tvitelre haszn&aacute;lj&aacute;k (legt&ouml;bbsz&ouml;r AJAX technol&oacute;gi&aacute;val), az XML egyik alternat&iacute;v&aacute;jak&eacute;nt. &Aacute;ltal&aacute;noss&aacute;gban struktur&aacute;lt adatok t&aacute;rol&aacute;s&aacute;ra, tov&aacute;bb&iacute;t&aacute;s&aacute;ra szolg&aacute;l.&nbsp;</p>
+<p><strong>AJAX</strong><br>Az Ajax (Asynchronous JavaScript and XML) interakt&iacute;v webalkalmaz&aacute;sok l&eacute;trehoz&aacute;s&aacute;ra szolg&aacute;l&oacute; webfejleszt&eacute;si technika. A weblap kis mennyis&eacute;gű adatot cser&eacute;l a szerverrel a h&aacute;tt&eacute;rben, &iacute;gy a lapot nem kell &uacute;jrat&ouml;lteni minden egyes alkalommal, amikor a felhaszn&aacute;l&oacute; m&oacute;dos&iacute;t valamit. Ez n&ouml;veli a honlap interaktivit&aacute;s&aacute;t, sebess&eacute;g&eacute;t &eacute;s haszn&aacute;lhat&oacute;s&aacute;g&aacute;t.</p>
+<p><strong>Webszerverek</strong><br>A webkiszolg&aacute;l&oacute;/webszerver egy kiszolg&aacute;l&oacute;, mely el&eacute;rhetőv&eacute; teszi a helyileg (esetleg m&aacute;s kiszolg&aacute;l&oacute;n) t&aacute;rolt weblapokat a HTTP protokollon kereszt&uuml;l.</p>
+<p>Egy webszervernek 2 fajt&aacute;ja lehet:&nbsp;</p>
+<ol>
+    <li>Fizikailag, csak a feladatra elők&eacute;sz&iacute;tett sz&aacute;m&iacute;t&oacute;g&eacute;p</li>
+    <li>Szoftver, ami elv&eacute;gzi a kiszolg&aacute;l&aacute;st a h&aacute;tt&eacute;rben</li>
+</ol>
+<p><strong>Apache HTTP Szerver</strong><br>Az Apache HTTP Server (r&ouml;viden Apache) ny&iacute;lt forr&aacute;sk&oacute;d&uacute; webkiszolg&aacute;l&oacute; alkalmaz&aacute;s, szabad szoftver. Statikus &eacute;s dinamikus weboldalak k&ouml;zz&eacute;t&eacute;tel&eacute;re egyar&aacute;nt haszn&aacute;lj&aacute;k. Sok webalkalmaz&aacute;st az Apache &aacute;ltal ny&uacute;jtott k&ouml;rnyezethez &eacute;s szolg&aacute;ltat&aacute;sokhoz terveznek. Az Apache alkotja a webszerver komponenst a n&eacute;pszerű LAMP alkalmaz&aacute;scsomagban, melynek tov&aacute;bbi komponensei a MySQL adatb&aacute;zisszerver &eacute;s a PHP/Perl/Python programoz&aacute;si nyelvek mellett.</p>
+<p><strong>NginX</strong><br>A kicsi erőforr&aacute;s kihaszn&aacute;l&aacute;sa &eacute;s minim&aacute;lis hardware-en val&oacute; hib&aacute;tlan műk&ouml;d&eacute;se miatt az Nginx n&eacute;pszerűs&eacute;ge kiad&aacute;sa &oacute;ta is folyamatosan nő. Az Nginx kiv&aacute;l&oacute;an kezeli a statikus tartalmakat, &eacute;s &uacute;gy hozt&aacute;k l&eacute;tre, hogy a dinamikus ig&eacute;nyeket egy m&aacute;sik szoftverhez ir&aacute;ny&iacute;tja, amely annak kezel&eacute;s&eacute;re j&oacute;val alkalmasabb.</p>
+<p><strong>IIS Szerver (Internet Information Services)</strong><br>A Microsoft &aacute;ltal a Windows NT oper&aacute;ci&oacute;s rendszercsal&aacute;dhoz k&eacute;sz&iacute;tett bőv&iacute;thető webszerver.</p>
+<p><u>Szerver stackek</u></p>
+<p><strong>LAMP </strong>- Linux, Apache, MySQL, PHP / Python / Pearl</p>
+<p><strong>MAMP </strong>- MacOS, Apache, MySQL, PHP</p>
+<p><strong>WAMP </strong>- Windows, Apache, MySQL, PHP</p>
+<p><strong>XAMP&nbsp;</strong>- Windows / MacOS &nbsp;/ Linux, Apache, MariaDB, PHP / Pearl</p>
+<p><br></p>
+<p><strong>A h&aacute;l&oacute;zati kommunik&aacute;ci&oacute; titkos&iacute;t&aacute;sa</strong></p>
+<p>A g&eacute;pek &aacute;ltal k&uuml;ld&ouml;tt &eacute;s fogadott adatokat elfoghatj&aacute;k, felt&ouml;rhetik &eacute;s m&oacute;dos&iacute;thatj&aacute;k az adat&aacute;tvitel sor&aacute;n.</p>
+<p>Az internetes inform&aacute;ci&oacute;&aacute;tvitelt a HTTP (HyperText Transfer Protocol) műszaki szabv&aacute;nya hat&aacute;rozza meg. Ennek az alapvető protokollnak van egy titkos&iacute;t&oacute;-hiteles&iacute;tő r&eacute;teggel kieg&eacute;sz&iacute;tett, kifejezetten biztons&aacute;gos v&aacute;ltozata: ezt a s&eacute;m&aacute;t HTTPS-nek nevezik.</p>
+<p>A https-t a Netscape fejlesztette ki, hogy a webes kommunik&aacute;ci&oacute; titkos&iacute;that&oacute; &eacute;s autentik&aacute;lhat&oacute; legyen. Ma sz&eacute;les k&ouml;rben haszn&aacute;lj&aacute;k ezt a rendszert a weben biztons&aacute;gilag kritikus kommunik&aacute;ci&oacute;kn&aacute;l, mint amilyenek p&eacute;ld&aacute;ul a fizet&eacute;si tranzakci&oacute;k &eacute;s a felhaszn&aacute;l&oacute;i jelszavas bejelentkez&eacute;sek.</p>
+<p>A https alapja a k&eacute;tkulcsos titkos&iacute;t&aacute;s. A kulcsp&aacute;r k&eacute;t &ouml;sszetartoz&oacute;, nagyon nagy (t&ouml;bb sz&aacute;z jegyű) sz&aacute;m. A titkos&iacute;tand&oacute; sz&ouml;veget az egyik sz&aacute;m seg&iacute;ts&eacute;g&eacute;vel, egy nyilv&aacute;nos elj&aacute;r&aacute;ssal rejtjelezz&uuml;k. Az &iacute;gy kapott &uuml;zenet ugyanazzal az elj&aacute;r&aacute;ssal, de a kulcsp&aacute;r m&aacute;sik tagj&aacute;nak seg&iacute;ts&eacute;g&eacute;vel fejthető csak vissza.</p>
+        `,
       },
       {
         id: 19,
