@@ -891,11 +891,8 @@ export const data = [
     <li>Multi Page Application</li>
     <li>Single Page Application</li>
 </ul>
-<p><br></p>
-<p><strong>Szerver oldali technol&oacute;gi&aacute;k:&nbsp;</strong></p>
-<p>NodeJS, PHP, ASP.NET&hellip;</p>
-<p><strong>Kliens oldali technol&oacute;gi&aacute;k:&nbsp;</strong></p>
-<p>A JavaScript keretrendszerek seg&iacute;tenek a fejlesztőknek abban, hogy gyorsan, előre elk&eacute;sz&iacute;tett megold&aacute;sokkal, komponensekkel k&eacute;sz&iacute;thessenek webinterf&eacute;szeket. Teh&aacute;t ezek l&eacute;nyegesen meggyors&iacute;tj&aacute;k a munkafolyamatokat, mert nem kell &ldquo;null&aacute;r&oacute;l&rdquo; kezdeni a k&oacute;dol&aacute;st &eacute;s struktur&aacute;ltabb&aacute; v&aacute;lik. K&uuml;l&ouml;nb&ouml;ző t&iacute;pus&uacute; JavaScript frameworkok l&eacute;teznek k&uuml;l&ouml;nb&ouml;ző ig&eacute;nyekhez, a legn&eacute;pszerűbbek a React, az Angular, a Vue &eacute;s a jQuery.</p>
+<p><strong>Szerver oldali technol&oacute;gi&aacute;k:&nbsp;</strong><br>NodeJS, PHP, ASP.NET&hellip;</p>
+<p><strong>Kliens oldali technol&oacute;gi&aacute;k:&nbsp;</strong><br>A JavaScript keretrendszerek seg&iacute;tenek a fejlesztőknek abban, hogy gyorsan, előre elk&eacute;sz&iacute;tett megold&aacute;sokkal, komponensekkel k&eacute;sz&iacute;thessenek webinterf&eacute;szeket. Teh&aacute;t ezek l&eacute;nyegesen meggyors&iacute;tj&aacute;k a munkafolyamatokat, mert nem kell &ldquo;null&aacute;r&oacute;l&rdquo; kezdeni a k&oacute;dol&aacute;st &eacute;s struktur&aacute;ltabb&aacute; v&aacute;lik. K&uuml;l&ouml;nb&ouml;ző t&iacute;pus&uacute; JavaScript frameworkok l&eacute;teznek k&uuml;l&ouml;nb&ouml;ző ig&eacute;nyekhez, a legn&eacute;pszerűbbek a React, az Angular, a Vue &eacute;s a jQuery.</p>
         `,
       },
       {
