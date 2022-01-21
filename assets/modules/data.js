@@ -859,7 +859,7 @@ export const data = [
       {
         id: 17,
         title:
-          "*** Egy ingatlan iroda weboldalát kell megvalósítani. Az oldalon az iroda aktuális hirdetései szerepelnének képekkel, leírásokkal. Tegyen javaslatot a fejlesztési környezet kialakítására!",
+          "*** Egy ingatlaniroda weboldalát kell megvalósítani. Az oldalon az iroda aktuális hirdetései szerepelnének képekkel, leírásokkal. Tegyen javaslatot a fejlesztési környezet kialakítására!",
         task: [
           "Határozza meg a kliens és szerver oldali funkcióit! ",
           "Határozza meg az alkalmazott program nyelvet, keretrendszert!Döntését indokolja! ",
