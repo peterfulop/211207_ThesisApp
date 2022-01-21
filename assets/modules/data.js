@@ -799,12 +799,9 @@ export const data = [
 <p><strong>Egyed:</strong> azokat a t&aacute;rgyakat, szem&eacute;lyeket, fogalmakat, amelyeket bizonyos jellemzőik felsorol&aacute;s&aacute;val hat&aacute;rozunk meg, az adatfeldolgoz&aacute;s sor&aacute;n egyedeknek nevezz&uuml;k. Pl.: szem&eacute;ly, k&ouml;nyv, aut&oacute;, &eacute;rzelem, v&aacute;llalat stb. Egyed az, amit le akarunk &iacute;rni, amiről adatokat gyűjt&uuml;nk, t&aacute;rolunk.</p>
 <p><strong>Tulajdons&aacute;g:</strong> Az egyedek jellemzőinek megad&aacute;sakor megfogalmazott ismereteket az egyedre vonatkoz&oacute; tulajdons&aacute;goknak (attrib&uacute;tum) nevezz&uuml;k. A szem&eacute;ly attrib&uacute;tuma lehet pl. n&eacute;v, sz&uuml;let&eacute;si hely, sz&uuml;let&eacute;si d&aacute;tum, lakc&iacute;m, stb.</p>
 <p><strong>Kapcsolat:</strong> az egyedek k&ouml;z&ouml;tti viszonyt kapcsolatnak nevezz&uuml;k.Pl. egyedek k&ouml;z&ouml;tti viszony, hogy a szem&eacute;lyek a v&aacute;llalat dolgoz&oacute;i.</p>
-<p><br></p>
 <p><strong>A kapcsolatok fajt&aacute;i</strong></p>
 <p><strong>- Egy-egy t&iacute;pus&uacute; kapcsolat (1:1 kapcsolat)</strong><br>Az egyik egyedhalmaz mindegyik elem&eacute;hez a m&aacute;sik egyedhalmaz pontosan egy eleme kapcsol&oacute;dik. Pl. Szem&eacute;lyi azonos&iacute;t&oacute; mint egyed &eacute;s a szem&eacute;ly egyed.</p>
-<p><br></p>
 <p><strong>- Egy-t&ouml;bb t&iacute;pus&uacute; kapcsolat (1:N kapcsolat)</strong><br>Ha az A egyedhalmaz mindegyik elem&eacute;hez a B egyedhalmaz t&ouml;bb eleme is tartozhat. Pl. a megye egyed &eacute;s a telep&uuml;l&eacute;s egyed k&ouml;z&ouml;tt 1:N kapcsolat van.</p>
-<p><br></p>
 <p><strong>- T&ouml;bb-t&ouml;bb t&iacute;pus&uacute; kapcsolat (M:N kapcsolat)</strong><br>Az A egyedhalmaz minden elem&eacute;hez a B egyedhalmaz t&ouml;bb eleme tartozhat, &eacute;s ford&iacute;tva, egy B-beli elemhez is t&ouml;bb A-beli elemet rendelhet&uuml;nk hozz&aacute;.</p>
 <p><strong>Redundancia:</strong> felesleges adatism&eacute;tl&eacute;st jelent. Olyan t&aacute;blaszerkezetet kell tal&aacute;lni a tervez&eacute;s sor&aacute;n, mely elker&uuml;li a redundanci&aacute;t.</p>
 <p>A redundancia<br>- rossz helyfoglal&aacute;s szempontj&aacute;b&oacute;l,<br>- a v&aacute;ltoz&aacute;sok &aacute;tvezet&eacute;s&eacute;t neh&eacute;zkess&eacute; teszi.</p>`,
