@@ -872,7 +872,31 @@ export const data = [
           "Alkalmazás kapcsolata az adatbázissal",
           "Saját hardver és a bérelt eszközök előnyei, hátrányai",
         ],
-        content: "",
+        content: `
+        <p><strong>A klines-szerver architekt&uacute;ra</strong></p>
+<p>Egy weboldal egy olyan dokumentum, melynek v&aacute;za HTML form&aacute;ban ker&uuml;l kiszolg&aacute;l&aacute;sra. Ez tartalmazhat sz&ouml;veget, k&eacute;peket, vide&oacute;kat, hangokat, stb. A design&eacute;rt felelős komponens a CSS, illetve a dinamikus műk&ouml;d&eacute;st a JavaScript biztos&iacute;tja.&nbsp;</p>
+<p>A dokumentumok kiszolg&aacute;l&aacute;s&aacute;ra sz&uuml;ks&eacute;ges van egy helymeghat&aacute;roz&oacute; szabv&aacute;nyra, ami az URL. A dokumentumokat webszerverek t&aacute;rolj&aacute;k, &eacute;s szolg&aacute;lj&aacute;k ki. A kiszolg&aacute;lt dokumentum a kliens b&ouml;ng&eacute;szőj&eacute;ben ker&uuml;l megjelen&iacute;t&eacute;sre.&nbsp;</p>
+<p>Egy weboldal kiszolg&aacute;l&aacute;si folyamata teh&aacute;t a kliens-szerver architekt&uacute;r&aacute;n alapul. A kliens b&ouml;ng&eacute;szője URL megad&aacute;s&aacute;val HTTP protokollon kereszt&uuml;l k&eacute;r&eacute;st ind&iacute;t a webszervernek. A webszerver visszak&uuml;ldi a k&eacute;rt tartalmat a b&ouml;ng&eacute;szőnek, ami pedig megjelen&iacute;ti azt.</p>
+<p><strong>Statikus vs. Dinamikus oldalak</strong></p>
+<p><u>Statikus, szerver oldalr&oacute;l:</u><br>A szerverek szempontj&aacute;b&oacute;l akkor besz&eacute;lhet&uuml;nk statikus oldalr&oacute;l, ha a k&eacute;rt file fizikailag m&aacute;r l&eacute;tezik valahol, &eacute;s egy az egyben ez a tartalom ker&uuml;l kiszolg&aacute;l&aacute;sra.&nbsp;</p>
+<p><u>Statikus, kliens oldalr&oacute;l:&nbsp;</u></p>
+<ol>
+    <li>Felhaszn&aacute;l&oacute;i interakci&oacute;ra nem t&ouml;rt&eacute;nik semilyen v&aacute;ltoz&aacute;s. Sem tartalmi, sem vizu&aacute;lis hat&aacute;s.</li>
+    <li>T&ouml;rt&eacute;nhet vizu&aacute;lis v&aacute;ltoz&aacute;s, de ezek kiz&aacute;r&oacute;lag a CSS st&iacute;luslap &aacute;ltal meghat&aacute;rozott hat&aacute;sok. </li>
+</ol>
+<p><u>Dinamikus, szerver oldalr&oacute;l:</u><br>A k&eacute;rt dokumentum a k&eacute;r&eacute;s pillanat&aacute;ban nem, vagy csak r&eacute;szben l&eacute;tezik a szerveren. Dinamikus tartalommal ruh&aacute;zza fel a szerver, a k&eacute;r&eacute;snek megfelelően. A k&eacute;r&eacute;s &aacute;ltal&aacute;ban adatb&aacute;zis kapcsolattal is j&aacute;r, innen nyerj&uuml;k ki a sz&uuml;ks&eacute;ges adatokat.&nbsp;</p>
+<p><u>Dinamikus, kliens oldalr&oacute;l:</u><br>Dinamikusnak nevezhetj&uuml;k akkor is az oldalt, ha b&aacute;r szerver oldalr&oacute;l 1 dokumentum ker&uuml;l kiszolg&aacute;l&aacute;sra, annak tartalma a kliens b&ouml;ng&eacute;szőj&eacute;ben dinamikusan v&aacute;ltoztathat&oacute;, m&oacute;dos&iacute;that&oacute;, JavaScript seg&iacute;ts&eacute;g&eacute;vel.&nbsp;</p>
+<p><strong>Dinamikus oldalak fajt&aacute;i: </strong></p>
+<ul>
+    <li>Multi Page Application</li>
+    <li>Single Page Application</li>
+</ul>
+<p><br></p>
+<p><strong>Szerver oldali technol&oacute;gi&aacute;k:&nbsp;</strong></p>
+<p>NodeJS, PHP, ASP.NET&hellip;</p>
+<p><strong>Kliens oldali technol&oacute;gi&aacute;k:&nbsp;</strong></p>
+<p>A JavaScript keretrendszerek seg&iacute;tenek a fejlesztőknek abban, hogy gyorsan, előre elk&eacute;sz&iacute;tett megold&aacute;sokkal, komponensekkel k&eacute;sz&iacute;thessenek webinterf&eacute;szeket. Teh&aacute;t ezek l&eacute;nyegesen meggyors&iacute;tj&aacute;k a munkafolyamatokat, mert nem kell &ldquo;null&aacute;r&oacute;l&rdquo; kezdeni a k&oacute;dol&aacute;st &eacute;s struktur&aacute;ltabb&aacute; v&aacute;lik. K&uuml;l&ouml;nb&ouml;ző t&iacute;pus&uacute; JavaScript frameworkok l&eacute;teznek k&uuml;l&ouml;nb&ouml;ző ig&eacute;nyekhez, a legn&eacute;pszerűbbek a React, az Angular, a Vue &eacute;s a jQuery.</p>
+        `,
       },
       {
         id: 18,
