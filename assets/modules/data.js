@@ -971,7 +971,31 @@ export const data = [
           "Adatbázisok normalizálása, optimalizálása. Redundancia csökkentése, megszüntetése",
           "Adatmodellezés: egyed-kapcsolat diagramok, tervezési alapelvek, megszorítások(constraint) modellezése.",
         ],
-        content: "",
+        content: `
+        <p><strong><u>Az adatb&aacute;zis-tervez&eacute;s alapfogalmai</u></strong></p>
+<p><strong>A tervez&eacute;s folyamata:</strong></p>
+<ul>
+    <li>Adatb&aacute;zis c&eacute;lj&aacute;nak meghat&aacute;roz&aacute;sa</li>
+    <li>Sz&uuml;ks&eacute;ges inform&aacute;ci&oacute;k megkeres&eacute;se &eacute;s rendszerez&eacute;se</li>
+    <li>Inform&aacute;ci&oacute;k t&aacute;bl&aacute;ba oszt&aacute;sa</li>
+    <li>Elemek oszlopokk&aacute; alak&iacute;t&aacute;sa</li>
+    <li>Elsődleges kulcsok megad&aacute;sa</li>
+    <li>T&aacute;blakapcsolatok be&aacute;ll&iacute;t&aacute;sa</li>
+    <li>Terv finom&iacute;t&aacute;sa</li>
+    <li>Normaliz&aacute;ci&oacute;s szab&aacute;lyok&nbsp;</li>
+</ul>
+<p><strong>Adatmodellez&eacute;s</strong></p>
+<p>Ugyanarra a feldolgozand&oacute; adathalmazra elt&eacute;rő szerkezeti tulajdons&aacute;gokkal elő&aacute;ll&iacute;tott adatmodellek k&eacute;sz&iacute;thetők.</p>
+<p><strong>A modellek alkot&oacute;elemei</strong></p>
+<p><strong>Egyed:</strong> azokat a t&aacute;rgyakat, szem&eacute;lyeket, fogalmakat, amelyeket bizonyos jellemzőik felsorol&aacute;s&aacute;val hat&aacute;rozunk meg, az adatfeldolgoz&aacute;s sor&aacute;n egyedeknek nevezz&uuml;k. Pl.: szem&eacute;ly, k&ouml;nyv, aut&oacute;, &eacute;rzelem, v&aacute;llalat stb. Egyed az, amit le akarunk &iacute;rni, amiről adatokat gyűjt&uuml;nk, t&aacute;rolunk.</p>
+<p><strong>Tulajdons&aacute;g:</strong> Az egyedek jellemzőinek megad&aacute;sakor megfogalmazott ismereteket az egyedre vonatkoz&oacute; tulajdons&aacute;goknak (attrib&uacute;tum) nevezz&uuml;k. A szem&eacute;ly attrib&uacute;tuma lehet pl. n&eacute;v, sz&uuml;let&eacute;si hely, sz&uuml;let&eacute;si d&aacute;tum, lakc&iacute;m, stb.</p>
+<p><strong>Kapcsolat:</strong> az egyedek k&ouml;z&ouml;tti viszonyt kapcsolatnak nevezz&uuml;k.Pl. egyedek k&ouml;z&ouml;tti viszony, hogy a szem&eacute;lyek a v&aacute;llalat dolgoz&oacute;i.</p>
+<p><strong>A kapcsolatok fajt&aacute;i</strong></p>
+<p><strong>- Egy-egy t&iacute;pus&uacute; kapcsolat (1:1 kapcsolat)</strong><br>Az egyik egyedhalmaz mindegyik elem&eacute;hez a m&aacute;sik egyedhalmaz pontosan egy eleme kapcsol&oacute;dik. Pl. Szem&eacute;lyi azonos&iacute;t&oacute; mint egyed &eacute;s a szem&eacute;ly egyed.</p>
+<p><strong>- Egy-t&ouml;bb t&iacute;pus&uacute; kapcsolat (1:N kapcsolat)</strong><br>Ha az A egyedhalmaz mindegyik elem&eacute;hez a B egyedhalmaz t&ouml;bb eleme is tartozhat. Pl. a megye egyed &eacute;s a telep&uuml;l&eacute;s egyed k&ouml;z&ouml;tt 1:N kapcsolat van.</p>
+<p><strong>- T&ouml;bb-t&ouml;bb t&iacute;pus&uacute; kapcsolat (M:N kapcsolat)</strong><br>Az A egyedhalmaz minden elem&eacute;hez a B egyedhalmaz t&ouml;bb eleme tartozhat, &eacute;s ford&iacute;tva, egy B-beli elemhez is t&ouml;bb A-beli elemet rendelhet&uuml;nk hozz&aacute;.</p>
+<p><strong>Redundancia:</strong> felesleges adatism&eacute;tl&eacute;st jelent. Olyan t&aacute;blaszerkezetet kell tal&aacute;lni a tervez&eacute;s sor&aacute;n, mely elker&uuml;li a redundanci&aacute;t.</p>
+<p>A redundancia<br>- rossz helyfoglal&aacute;s szempontj&aacute;b&oacute;l,<br>- a v&aacute;ltoz&aacute;sok &aacute;tvezet&eacute;s&eacute;t neh&eacute;zkess&eacute; teszi.</p>`,
       },
       {
         id: 20,
@@ -988,7 +1012,21 @@ export const data = [
           "Üzenetközvetítő sorok (MQ), Web szerviz (SOAP, REST, XML, JSON)",
           "AJAX",
         ],
-        content: "",
+        content: `
+        <p><strong>Webservice, webszolg&aacute;ltat&aacute;s</strong><br>Alkalmaz&aacute;sok k&ouml;z&ouml;tti adatcser&eacute;re szolg&aacute;l&oacute; protokollok &eacute;s szabv&aacute;nyok gyűjtem&eacute;nye. K&uuml;l&ouml;nb&ouml;ző programnyelveken &iacute;rt &eacute;s k&uuml;l&ouml;nb&ouml;ző platformokon fut&oacute; szoftveralkalmaz&aacute;sok sz&aacute;m&iacute;t&oacute;g&eacute;p-h&aacute;l&oacute;zatokon kereszt&uuml;l t&ouml;rt&eacute;nő adatcser&eacute;re haszn&aacute;lj&aacute;k a webszolg&aacute;ltat&aacute;sokat.&nbsp;</p>
+<p><strong>Protokoll</strong><br>Az informatik&aacute;ban a protokoll egy egyezm&eacute;ny, vagy szabv&aacute;ny, amely le&iacute;rja, hogy a h&aacute;l&oacute;zat r&eacute;sztvevői mik&eacute;pp tudnak egym&aacute;ssal kommunik&aacute;lni. Ez t&ouml;bbnyire a kapcsolat felv&eacute;tel&eacute;t, kommunik&aacute;ci&oacute;t, adattov&aacute;bb&iacute;t&aacute;st jelent.</p>
+<p><strong>SOAP</strong><br>A sz&aacute;m&iacute;t&aacute;stechnik&aacute;ban a SOAP (Simple Object Access Protocol) egy protokoll, amelyet webszolg&aacute;ltat&aacute;sok h&aacute;l&oacute;zaton kereszt&uuml;li kommunik&aacute;ci&oacute;j&aacute;hoz terveztek. Az &uuml;zenetek XML-alap&uacute;ak &eacute;s &aacute;ltal&aacute;ban m&aacute;s, alkalmaz&aacute;s r&eacute;tegbeli protokollokra t&aacute;maszkodva tov&aacute;bb&iacute;t&oacute;dnak, mint pl HTTP, HTTPS, SMTP protokoll.</p>
+<p>Jellemző &uuml;zenet form&aacute;tuma az XML.&nbsp;</p>
+<p><strong>XML<br></strong>Az elsődleges c&eacute;lja struktur&aacute;lt sz&ouml;veg &eacute;s inform&aacute;ci&oacute; megoszt&aacute;sa az interneten kereszt&uuml;l.</p>
+<ol>
+    <li>Az XML adatok t&aacute;rol&aacute;s&aacute;ra &eacute;s<span style="white-space:pre;">&nbsp;</span>sz&aacute;ll&iacute;t&aacute;s&aacute;ra tervezett &ouml;nle&iacute;r&oacute; nyelv</li>
+    <li>Az adatokat sz&ouml;vegesen t&aacute;rolja&nbsp;</li>
+    <li>Szem&eacute;lyek &eacute;s<span style="white-space:pre;">&nbsp;</span>g&eacute;pek<span style="white-space:pre;">&nbsp;</span>&aacute;ltal is<span style="white-space:pre;">&nbsp;</span>olvashat&oacute; &eacute;s &eacute;rtelmezhető</li>
+</ol>
+<p><strong>REST</strong><br>A REST (Representational State Transfer) egy szoftverarchitekt&uacute;ra t&iacute;pus, elosztott kapcsolat nagy, internet alap&uacute; rendszerek sz&aacute;m&aacute;ra, amilyen p&eacute;ld&aacute;ul a vil&aacute;gh&aacute;l&oacute;.&nbsp;</p>
+<p><strong>JSON<br></strong>A JSON (JavaScript Object Notation) egy kis m&eacute;retű, sz&ouml;veg alap&uacute; szabv&aacute;ny, ember &aacute;ltal olvashat&oacute; adatcser&eacute;re. A JavaScript szkriptnyelvből alakult ki egyszerű adatstrukt&uacute;r&aacute;k &eacute;s asszociat&iacute;v t&ouml;mb&ouml;k reprezent&aacute;l&aacute;s&aacute;ra.</p>
+<p>A JSON-t legt&ouml;bbsz&ouml;r egy szerver &eacute;s egy kliens sz&aacute;m&iacute;t&oacute;g&eacute;p k&ouml;zti adat&aacute;tvitelre haszn&aacute;lj&aacute;k (legt&ouml;bbsz&ouml;r AJAX technol&oacute;gi&aacute;val), az XML egyik alternat&iacute;v&aacute;jak&eacute;nt. &Aacute;ltal&aacute;noss&aacute;gban struktur&aacute;lt adatok t&aacute;rol&aacute;s&aacute;ra, tov&aacute;bb&iacute;t&aacute;s&aacute;ra szolg&aacute;l.&nbsp;</p>
+<p><strong>AJAX</strong><br>Az Ajax (Asynchronous JavaScript and XML) interakt&iacute;v webalkalmaz&aacute;sok l&eacute;trehoz&aacute;s&aacute;ra szolg&aacute;l&oacute; webfejleszt&eacute;si technika. A weblap kis mennyis&eacute;gű adatot cser&eacute;l a szerverrel a h&aacute;tt&eacute;rben, &iacute;gy a lapot nem kell &uacute;jrat&ouml;lteni minden egyes alkalommal, amikor a felhaszn&aacute;l&oacute; m&oacute;dos&iacute;t valamit. Ez n&ouml;veli a honlap interaktivit&aacute;s&aacute;t, sebess&eacute;g&eacute;t &eacute;s haszn&aacute;lhat&oacute;s&aacute;g&aacute;t.</p>`,
       },
     ],
   },
