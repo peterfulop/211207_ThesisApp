@@ -22,56 +22,89 @@
   </head>
 
   <body>
-
     <div class="container mb-5" id="main-container">
       <h1 class="bd-title text-center mb-5">Vizsga tételek</h1>
 
       <div class="ball-btn d-none">
-         <div class="content d-flex">
-          <img src="./assets/folder.png" class="folder-img z-10" alt="folder-icon" />
+        <div class="content d-flex">
+          <img
+            src="./assets/folder.png"
+            class="folder-img z-10"
+            alt="folder-icon"
+          />
           <p class="ball-btn-text z-10">Teszt gomb [20]</p>
+        </div>
+        <div id="cursor-ball"></div>
       </div>
-      <div id="cursor-ball"></div>
-    </div>
 
-    <div class="nav d-block">
-      <div class="d-block folder-list" id="folder-list"></div>
-      <a href="https://wordtohtml.net/" target="blank">Szövegszerkesztés HTML kimenettel</a>
-    </div>
+      <div class="nav d-block">
+        <div class="d-block folder-list" id="folder-list"></div>
+        <a href="https://wordtohtml.net/" target="blank"
+          >Szövegszerkesztés HTML kimenettel</a
+        >
+      </div>
 
-    <div class="d-flex flex-column justify-content-center random-thesis-block my-3">
-        <button id="random-thesis-btn" class="btn btn-success">Kérek egy tételt!</button>
-      <div class="bg-white mt-3" id="random-thesis">
-        <div class="heading h5 text-center bg-secondary text-white mb-0 lh-lg"></div>
-        <div class="body"></div>
+      <div
+        class="d-flex flex-column justify-content-center random-thesis-block my-3"
+      >
+        <div class="controll-box d-flex justify-content-center">
+          <button id="random-thesis-btn" class="btn btn-primary">
+            Kérek egy tételt!
+          </button>
+          <button id="random-hide-btn" class="btn btn-warning ms-3 d-none">
+            Gyakorlás vége
+          </button>
+        </div>
+
+        <div class="bg-white mt-3" id="random-thesis">
+          <div
+            class="heading h5 text-center bg-secondary text-white mb-0 lh-lg"
+          ></div>
+          <div class="body"></div>
+        </div>
+      </div>
+
+      <div
+        class="input-list-control d-flex justify-content-lenft align-items-center"
+      >
+        <label for="list-visibility">Tétellista</label>
+        <input
+          checked
+          type="checkbox"
+          class="ms-2"
+          name="list-visibility"
+          id="list-visibility"
+        />
+      </div>
+
+      <div id="list-content">
+        <div class="d-flex mb-2 justify-content-end" id="pagination-block">
+          <div id="pagination-block">
+            <nav>
+              <ul class="pagination m-0" id="page-items">
+                <li class="cursor-pointer page-item">
+                  <span class="page-link button" data-btnid="0">1</span>
+                </li>
+                <li class="cursor-pointer page-item">
+                  <span class="page-link button" data-btnid="5">2</span>
+                </li>
+                <li class="cursor-pointer page-item">
+                  <span class="page-link button" data-btnid="10">3</span>
+                </li>
+                <li class="cursor-pointer page-item">
+                  <span class="page-link button" data-btnid="15">4</span>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div
+          class="thesis-list p-3 accordion accordion-flush"
+          id="accordionFlushThesis"
+        ></div>
       </div>
     </div>
 
-    <div class="d-flex mb-2 justify-content-end" id="pagination-block">
-      <div id="pagination-block">
-        <nav>
-          <ul class="pagination m-0" id="page-items">
-            <li class="cursor-pointer page-item">
-              <span class="page-link button" data-btnid="0">1</span>
-            </li>
-            <li class="cursor-pointer page-item">
-              <span class="page-link button" data-btnid="5">2</span>
-            </li>
-            <li class="cursor-pointer page-item">
-              <span class="page-link button" data-btnid="10">3</span>
-            </li>
-            <li class="cursor-pointer page-item">
-              <span class="page-link button" data-btnid="15">4</span>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-    <div
-      class="thesis-list p-3 accordion accordion-flush"
-      id="accordionFlushThesis"
-    ></div>
     <script type="module" src="./app.js"></script>
   </body>
 </html>
