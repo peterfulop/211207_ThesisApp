@@ -44,7 +44,25 @@ export const data = [
         <p><strong>3. K&ouml;vetelm&eacute;nyspecifik&aacute;ci&oacute;</strong></p>
         <p>Az &ouml;sszegyűjt&ouml;tt inform&aacute;ci&oacute;k egys&eacute;gbe foglal&aacute;sa, dokument&aacute;ci&oacute; k&eacute;sz&iacute;t&eacute;se. Ez lesz maga a szoftverspecifik&aacute;ci&oacute;.</p>
         <p><strong>4. K&ouml;vetelm&eacute;ny valid&aacute;ci&oacute;</strong></p>
-        <p>A kor&aacute;bban meghat&aacute;rozott k&ouml;vetelm&eacute;nyek fel&uuml;lvizsg&aacute;lata, &uuml;tk&ouml;z&eacute;sek kiszűr&eacute;se.</p>`,
+        <p>A kor&aacute;bban meghat&aacute;rozott k&ouml;vetelm&eacute;nyek fel&uuml;lvizsg&aacute;lata, &uuml;tk&ouml;z&eacute;sek kiszűr&eacute;se.</p>
+        <p><strong>Funkcion&aacute;lis k&ouml;vetelm&eacute;nyek</strong></p>
+        <p>Le&iacute;rja, hogy az adott rendszernek mit kell tudnia. A funkcion&aacute;lis k&ouml;vetelm&eacute;nyek modulonk&eacute;nt v&aacute;ltozhatnak, hiszen 1-1 modul m&aacute;s m&aacute;s feladatot l&aacute;t el. Pl.:</p>
+        <ul>
+            <li>Bejelentkeztet&eacute;s modul, ami az authentik&aacute;ci&oacute;&eacute;rt felelős</li>
+            <li>Term&eacute;k kezel&eacute;s modul, ahol term&eacute;kek r&ouml;gz&iacute;t&eacute;se t&ouml;rt&eacute;nik adatb&aacute;zisba</li>
+            <li>Rakt&aacute;rk&eacute;szlet modul, ahol a term&eacute;kek aktu&aacute;lis k&eacute;szlet&eacute;t l&aacute;tjuk</li>
+            <li>Lelt&aacute;r modul, aminek seg&iacute;ts&eacute;g&eacute;vel lelt&aacute;rozni fogunk tudni</li>
+        </ul>
+        <p><strong>Minős&eacute;gi k&ouml;vetelm&eacute;nyek</strong></p>
+        <p>A rendszter műk&ouml;d&eacute;s&eacute;t le&iacute;r&oacute; k&ouml;vetelm&eacute;nyek. Olyan, &aacute;ltal&aacute;nos k&ouml;vetelm&eacute;nyek ezek, amik a szoftver funkcion&aacute;lis k&ouml;vetelm&eacute;nyeitől f&uuml;ggetlenek. Pl.:</p>
+        <ul>
+            <li>Gyorsas&aacute;g</li>
+            <li>K&ouml;nnyű kezelhetős&eacute;g</li>
+            <li>Adatbiztons&aacute;g</li>
+            <li>Karbantarthat&oacute;s&aacute;g</li>
+        </ul>
+        <p><br></p>
+        `,
       },
       {
         id: 2,
