@@ -44,7 +44,25 @@ export const data = [
         <p><strong>3. K&ouml;vetelm&eacute;nyspecifik&aacute;ci&oacute;</strong></p>
         <p>Az &ouml;sszegyűjt&ouml;tt inform&aacute;ci&oacute;k egys&eacute;gbe foglal&aacute;sa, dokument&aacute;ci&oacute; k&eacute;sz&iacute;t&eacute;se. Ez lesz maga a szoftverspecifik&aacute;ci&oacute;.</p>
         <p><strong>4. K&ouml;vetelm&eacute;ny valid&aacute;ci&oacute;</strong></p>
-        <p>A kor&aacute;bban meghat&aacute;rozott k&ouml;vetelm&eacute;nyek fel&uuml;lvizsg&aacute;lata, &uuml;tk&ouml;z&eacute;sek kiszűr&eacute;se.</p>`,
+        <p>A kor&aacute;bban meghat&aacute;rozott k&ouml;vetelm&eacute;nyek fel&uuml;lvizsg&aacute;lata, &uuml;tk&ouml;z&eacute;sek kiszűr&eacute;se.</p>
+        <p><strong>Funkcion&aacute;lis k&ouml;vetelm&eacute;nyek</strong></p>
+        <p>Le&iacute;rja, hogy az adott rendszernek mit kell tudnia. A funkcion&aacute;lis k&ouml;vetelm&eacute;nyek modulonk&eacute;nt v&aacute;ltozhatnak, hiszen 1-1 modul m&aacute;s m&aacute;s feladatot l&aacute;t el. Pl.:</p>
+        <ul>
+            <li>Bejelentkeztet&eacute;s modul, ami az authentik&aacute;ci&oacute;&eacute;rt felelős</li>
+            <li>Term&eacute;k kezel&eacute;s modul, ahol term&eacute;kek r&ouml;gz&iacute;t&eacute;se t&ouml;rt&eacute;nik adatb&aacute;zisba</li>
+            <li>Rakt&aacute;rk&eacute;szlet modul, ahol a term&eacute;kek aktu&aacute;lis k&eacute;szlet&eacute;t l&aacute;tjuk</li>
+            <li>Lelt&aacute;r modul, aminek seg&iacute;ts&eacute;g&eacute;vel lelt&aacute;rozni fogunk tudni</li>
+        </ul>
+        <p><strong>Minős&eacute;gi k&ouml;vetelm&eacute;nyek</strong></p>
+        <p>A rendszter műk&ouml;d&eacute;s&eacute;t le&iacute;r&oacute; k&ouml;vetelm&eacute;nyek. Olyan, &aacute;ltal&aacute;nos k&ouml;vetelm&eacute;nyek ezek, amik a szoftver funkcion&aacute;lis k&ouml;vetelm&eacute;nyeitől f&uuml;ggetlenek. Pl.:</p>
+        <ul>
+            <li>Gyorsas&aacute;g</li>
+            <li>K&ouml;nnyű kezelhetős&eacute;g</li>
+            <li>Adatbiztons&aacute;g</li>
+            <li>Karbantarthat&oacute;s&aacute;g</li>
+        </ul>
+        <p><br></p>
+        `,
       },
       {
         id: 2,
@@ -108,7 +126,7 @@ export const data = [
           "Telepítőcsomag készítése",
           "Verziókövetés, hibajavítás az egyes verziókba, programfrissítések készítése",
         ],
-        content: `<p>Egy j&aacute;t&eacute;kfejleszt&eacute;s viszonylag &ouml;sszetett feladat, &iacute;gy az &aacute;tlagosn&aacute;l t&ouml;bb r&eacute;szegs&eacute;gre tagoljuk a feladatokat. A legelső feladat egy fejleszt&eacute;si architekt&uacute;ra meghat&aacute;roz&aacute;sa, pl MVC logika alapj&aacute;n. A k&ouml;z&ouml;s fejleszt&eacute;s legalapvetőbb probl&eacute;m&aacute;ja tal&aacute;n a k&uuml;l&ouml;nb&ouml;ző fejlesztők &aacute;ltal &iacute;rt k&oacute;d kezel&eacute;se, k&ouml;vet&eacute;se, &ouml;sszef&eacute;s&uuml;l&eacute;se.</p>
+        content: `<p>Egy j&aacute;t&eacute;kfejleszt&eacute;s viszonylag &ouml;sszetett feladat, &iacute;gy az &aacute;tlagosn&aacute;l t&ouml;bb r&eacute;szegys&eacute;gre tagoljuk a feladatokat. A legelső feladat egy fejleszt&eacute;si architekt&uacute;ra meghat&aacute;roz&aacute;sa, pl MVC logika alapj&aacute;n. A k&ouml;z&ouml;s fejleszt&eacute;s legalapvetőbb probl&eacute;m&aacute;ja tal&aacute;n a k&uuml;l&ouml;nb&ouml;ző fejlesztők &aacute;ltal &iacute;rt k&oacute;d kezel&eacute;se, k&ouml;vet&eacute;se, &ouml;sszef&eacute;s&uuml;l&eacute;se.</p>
         <p>A fejleszt&eacute;si folyamatok k&ouml;vethetős&eacute;g&eacute;re l&eacute;teznek &uacute;gynevezett verzi&oacute;kezelő technol&oacute;gi&aacute;k, amik megk&ouml;nny&iacute;tik a csapatban val&oacute; munk&aacute;t, &eacute;s azt &iacute;rt k&oacute;d k&ouml;vethetős&eacute;g&eacute;t.</p>
         <p>Alapvetően 2 fő kateg&oacute;ri&aacute;ra oszthatjuk a verzi&oacute;kezelőket: L&eacute;teznek centraliz&aacute;lt, &eacute;s decentraliz&aacute;lt megold&aacute;sok. M&iacute;g a centraliz&aacute;lt eset&eacute;ben a k&oacute;dunk egy szerveren van, addig a decentraliz&aacute;lt rendszerekn&eacute;l a teljes k&oacute;d minden fejlesztőn&eacute;l megtal&aacute;lhat&oacute;, a saj&aacute;t sz&aacute;m&iacute;t&oacute;g&eacute;p&eacute;n.</p>
         <p>Az egyik legn&eacute;pszerűbb decentraliz&aacute;lt rendszer a git, illetve ennek online kliense a github. A fejlesztett program k&uuml;l&ouml;nb&ouml;ző moduljait k&uuml;l&ouml;nb&ouml;ző &aacute;gakba t&ouml;ltik a fejlesztők, &iacute;gy a m&aacute;r k&eacute;sz, ellenőrz&ouml;tt master k&oacute;dj&aacute;t&oacute;l f&uuml;ggetlen&uuml;l tudnak dolgozni. Amikor egy modul fejleszt&eacute;se befejeződ&ouml;tt, &eacute;s t&ouml;bb ellenőrz&eacute;si f&aacute;zison is &aacute;tesett, akkor ker&uuml;l a mell&eacute;k&aacute;gb&oacute;l &ouml;sszef&eacute;s&uuml;l&eacute;sre a fő&aacute;ggal. (merge)</p>
@@ -1084,8 +1102,18 @@ export const data = [
           "Melyiket kinek ajánlja?",
         ],
         keys: ["Fájlkezelés", "Biztonság", "Frissítések"],
-        content:
-          "Well, what we call operating system at all? An Operating system(OS) is a software which acts as an interface between the end user and the computer hardware. Every computer must have at least one OS to run other programmes. The OS is similar to a steering wheel.It means that it doesn’t have a real function, but it gives the opportunity to make other programmes run. It has two roles. It’s a resourse allocator and a control programme. I would like to compare two operation systems, the Linux and the Windows. Windows is the most wide spread – more than sixty percent, Linux is less popular. Windows is closed source- code.It can’t be changed. If we alter it, it’s against the law. Linux system is an open source - code.Anyone can alter or improve it and it can be freely spread. The Windows licence is precisely given.It means that a company buys a a certain number of licences which can be installed on the computers. The Linux system can be installed on all computers.There is no limit and it is free of charge. The Windows has an official support. It costs a lat of money but you must prove that the OS is original.You can for help on forums as well. As for Linux, you can ask for help only on forums.You decide whether you change for a later version or not. Sometimes Windows download things but we don’t know what. As for the price, there isn’t a free version.You must pay for it.Linux is completely free of charge. Recommendation:I would recommend Windows OS for simple users because they can buy a computer with this Windows system, bat the Linux isn’t on the computer.Linux must be installed first and users must be computer literate.",
+        content: `
+        <br>
+        <ul>
+        <li>Source Code</li>
+        <li>Licence</li>
+        <li>Price</li>
+        <li>Stability</li>
+        <li>Support</li>
+        <li>Security</li>
+        </ul>
+        <br>
+        Well, what we call operating system at all? An Operating system(OS) is a software which acts as an interface between the end user and the computer hardware. Every computer must have at least one OS to run other programmes. The OS is similar to a steering wheel.It means that it doesn’t have a real function, but it gives the opportunity to make other programmes run. It has two roles. It’s a resourse allocator and a control programme. I would like to compare two operation systems, the Linux and the Windows. Windows is the most wide spread – more than sixty percent, Linux is less popular. Windows is closed source- code.It can’t be changed. If we alter it, it’s against the law. Linux system is an open source - code.Anyone can alter or improve it and it can be freely spread. The Windows licence is precisely given.It means that a company buys a a certain number of licences which can be installed on the computers. The Linux system can be installed on all computers.There is no limit and it is free of charge. The Windows has an official support. It costs a lat of money but you must prove that the OS is original.You can for help on forums as well. As for Linux, you can ask for help only on forums.You decide whether you change for a later version or not. Sometimes Windows download things but we don’t know what. As for the price, there isn’t a free version.You must pay for it.Linux is completely free of charge. Recommendation:I would recommend Windows OS for simple users because they can buy a computer with this Windows system, bat the Linux isn’t on the computer.Linux must be installed first and users must be computer literate.`,
       },
       {
         id: 5,
@@ -1112,8 +1140,9 @@ export const data = [
           "Raktári bevételezés, kiadások, leltár, selejtezés",
           "Adatbáziskezelő rendszerek",
         ],
-        content:
-          "Dear Ladies and Gentlemen, My name is XY and I work for a small software developing company.Our company has developed a new software which makes warehouse management much easier.With the help of this software we can trace the storage works from the expenses, the inventory to the scapping(shipping).This software can handle the management of multiple warehouses at the same time.It can read bar codes so the goods handling is more efficient, the inventory is easier.The goods can be traced faster and more precisely.The programme can also show the amount of the stored goods and it alerts when there is shortage in a certain kind of product.The user can set the limit where it is needed to order more goods.It can make CMRs and reports and it can handle the partner sas well. The programme can handle more users at the same time.The system administrator can enable each user to use a certain function of the programme.We store the database of the users and goods on the central server.That’s why it is possible to use the system from different places at the same time.The central handling of the data makes it possible to ask query(lekérdez) of the stock(készlet) of different warehouses in real time.When it is needed, different warehouses have the opporunity to ask certain goods from another one.As a result of it, warehouses can save some money so it is much more cost- effective. If you are interested in the software, you can download the demo version from our website free of charge.Although the demo version has only restricted functions, it is worth trying it and if you are satisfied with the programme, you can order the full version on 20% discount.If you have any questions, feel free to ask for more information.",
+        content: `
+        Dear Ladies and Gentlemen, My name is XY and I work for a small software developing company.Our company has developed a new software which makes warehouse management much easier. With the help of this software we can trace the storage works from the expenses, the inventory to the scapping(shipping). This software can handle the management of multiple warehouses at the same time.It can read bar codes so the goods handling is more efficient, the inventory is easier. The goods can be traced faster and more precisely. The programme can also show the amount of the stored goods and it alerts when there is shortage in a certain kind of product. The user can set the limit where it is needed to order more goods.It can make CMRs and reports and it can handle the partner sas well. The programme can handle more users at the same time. The system administrator can enable each user to use a certain function of the programme. We store the database of the users and goods on the central server. That’s why it is possible to use the system from different places at the same time. The central handling of the data makes it possible to ask query(lekérdez) of the stock(készlet) of different warehouses in real time. When it is needed, different warehouses have the opporunity to ask certain goods from another one. As a result of it, warehouses can save some money so it is much more cost- effective. If you are interested in the software, you can download the demo version from our website free of charge. Although the demo version has only restricted functions, it is worth trying it and if you are satisfied with the programme, you can order the full version on 20% discount. If you have any questions, feel free to ask for more information.
+        `,
       },
       {
         id: 7,
@@ -1164,8 +1193,11 @@ export const data = [
           "Zártság, öröklődés, polimorfizmus, interface-ek, virtuális metódusok",
           "Jellemzők, metódusok, láthatósági szintek",
         ],
-        content:
-          "Dear Tom. You are new here so let me introduce our company to you. I’ve heard that you aren’t really familiar with the OOP so I’d like to tell you some useful information about it which is necessary for being able to use it. There are a lot of different kinds of programming techniques such as cascading model, agile programming and iterative programming. However, we mainly use OOP which means that the main programme is divided into set of objects.The emphasis given on objects, not on procedures.All the programming activities revolve around objects.An object is a real world entity.It may be airplane, ship, car, house, horse, customer, bank Account, loan, petrol, fee, courses, and Registration number etc.Objects are tied with functions.Objects are not free for walk without leg of functions.One object talks with other through earphone of functions.Object is a boss but captive of functions.",
+        content: `
+          As you know, there are many type of programming methodology. For example: waterfall model, spiral model, kanban, agile software developing, rapid, and extreme developing. 
+          In our company we use agile methodology. There are many way to write your code, but we mostly use the object oriented programing. If we want to comapre the OOP with the sequential programing, we can se many differentes. The OOP has four fundamental atributes: Encapsulation, Inheritance, Polymorphism, and Data abstraction. The point of the OOP is, that we describe everything as an object, as everithing around us. We use classes, to group our objects. A class has properties, constructor function, public, or private methods. I show you an easy example. We want to manage cars. We can create a class, with the name cars. Every car has similar properties, as year of manufacture, motortype, number of doors, type of fuel, color, and so on. This properties describe a car. But, there are other type of cars, as trucks. A truck has the same properties as all car, but there are others to, what a simple car doesn't have. I can make a new Truck class, with inheritance from the cars class.
+          <br>
+          Dear Tom. You are new here so let me introduce our company to you. I’ve heard that you aren’t really familiar with the OOP so I’d like to tell you some useful information about it which is necessary for being able to use it. There are a lot of different kinds of programming techniques such as cascading model, agile programming and iterative programming. However, we mainly use OOP which means that the main programme is divided into set of objects.The emphasis given on objects, not on procedures.All the programming activities revolve around objects.An object is a real world entity.It may be airplane, ship, car, house, horse, customer, bank Account, loan, petrol, fee, courses, and Registration number etc.Objects are tied with functions.Objects are not free for walk without leg of functions.One object talks with other through earphone of functions.Object is a boss but captive of functions.`,
       },
       {
         id: 11,

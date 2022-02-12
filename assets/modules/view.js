@@ -4,6 +4,19 @@ import { startSpeech } from "./global.js";
 
 const folderBlock = document.getElementById("folder-list");
 const thesisBlock = document.getElementById("accordionFlushThesis");
+const randomBlock = document.getElementById("random-thesis");
+const listVisibilityControl = document.getElementById("list-visibility");
+const listContentBlock = document.getElementById("list-content");
+
+listVisibilityControl.addEventListener("change", (event) => {
+  if (event.target.checked) {
+    listContentBlock.classList.remove("d-none");
+    listContentBlock.classList.add("d-block");
+  } else {
+    listContentBlock.classList.remove("d-block");
+    listContentBlock.classList.add("d-none");
+  }
+});
 
 const renderFolderHTML = (folder) => {
   return `
@@ -17,15 +30,15 @@ const renderFolderHTML = (folder) => {
   </div>`;
 };
 
-const renderThesisHTML = (thesis) => {
+const renderThesisHTML = (thesis, salt) => {
   return `<div class="thesis accordion-item">
-                <h2 class="accordion-header" id="flush-${thesis.id}">
+                <h2 class="accordion-header" id="flush-${thesis.id}-${salt}">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapse_${
                           thesis.id
-                        }" aria-expanded="false" aria-controls="flush-collapse_${
+                        }-${salt}" aria-expanded="false" aria-controls="flush-collapse_${
     thesis.id
-  }">
+  }-${salt}">
                         <div class="d-block">
                         <b>${thesis.id}. <small class="">${
     thesis.title
@@ -35,9 +48,9 @@ const renderThesisHTML = (thesis) => {
                 </h2>
                 <div id="flush-collapse_${
                   thesis.id
-                }" class="accordion-collapse collapse" aria-labelledby="flush-${
+                }-${salt}" class="accordion-collapse collapse" aria-labelledby="flush-${
     thesis.id
-  }"
+  }-${salt}"
                     data-bs-parent="#accordionFlushThesis">
                     <div class="accordion-body">
                         ${renderListItems(thesis.task, "square")}
@@ -123,8 +136,46 @@ const loadThesisElements = () => {
   let folder = getSelelectedFolder();
   let myArray = sliceArray(folder, state.selectedPage);
   myArray.forEach((thesis) => {
-    thesisBlock.innerHTML += renderThesisHTML(thesis);
+    thesisBlock.innerHTML += renderThesisHTML(thesis, "list");
   });
+};
+
+const loadRandomThesisElement = () => {
+  const hideRandomBtn = document.getElementById("random-hide-btn");
+  hideRandomBtn.classList.remove("d-none");
+  randomBlock.classList.remove("d-none");
+
+  const heading = randomBlock.querySelector(".heading");
+  const body = randomBlock.querySelector(".body");
+  body.innerHTML = "";
+  heading.innerHTML = "";
+
+  let randomFolder = getRandomInt(0, data.length);
+  let randomId = getRandomInt(0, 19);
+
+  heading.innerHTML = data
+    .find((x) => x.id === randomFolder + 1)
+    .name.split(" ")[0];
+  body.innerHTML = renderThesisHTML(data[randomFolder].items[randomId], "quiz");
+};
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min);
+}
+
+export const randomThesisEvent = () => {
+  document
+    .getElementById("random-hide-btn")
+    .addEventListener("click", (event) => {
+      randomBlock.classList.add("d-none");
+      event.target.classList.add("d-none");
+    });
+
+  document
+    .getElementById("random-thesis-btn")
+    .addEventListener("click", loadRandomThesisElement);
 };
 
 const setFolderElementEvents = () => {
