@@ -1324,7 +1324,7 @@ export const data = [
         ],
         keys: ["Tanulmányok, tapasztalatok", "Korábbi munkahelyek"],
         content:
-          "I am John Doe, a twenty-eight year old software developer. This is my first workplace as developer,  and I have been working here for 2 years. I am a frontend developer on my team, we are currently developing a web application for a real estate agency. Before that, we worked on an online gaming platform. I love working here because the colleagues are very helpful, friendly and the company is very flexible. If I want, I can work remotely, I can start the day whenever I want.",
+          "I am John Doe, a twenty-eight year old software developer. This is my first workplace as developer,  and I have been working here for 2 years. I am a frontend developer on my team, we are currently developing a web application for a real estate agency. Before that, we worked on an online gaming platform. I love working here because the colleagues are very helpful, friendly and the company is very flexible. If I want, I can work remotely, I can start the day whenever I want. There are a lot of programs waiting for us, we have the opportunity to acquire new knowledge and technologies.",
       },
       {
         id: 20,
