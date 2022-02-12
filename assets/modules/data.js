@@ -1292,7 +1292,7 @@ export const data = [
         ],
         keys: ["Tanulmányok, tapasztalatok", "Korábbi munkahelyek"],
         content:
-          "My name is .... and I work for this company as a software developer. I have been working here for ten years.This is my first workplace.I finished my studies at Óbuda University in Budapest.I am an computer engineering. I have taken part in a lot of projects.For example, our team developed a new banking system, an invoice system.At the moment we are working on a programme which sends data to the tax office. I like working here because my colleagues are reliable(megbízható), hard- working(szorgalmas), flexible(rugalmasak), cooperative and they are experts(jó szakemberek).We can work together successfully.The job is interesting.We can take part in (részt venni) in different courses wher we can learn a lot of new things.The team building courses are also useful. I hope we will be good colleagues and we we will get on on well with each other.",
+          "I am John Doe, a twenty-eight year old software developer. This is my first workplace as developer,  and I have been working here for 2 years. I am a frontend developer on my team, we are currently developing a web application for a real estate agency. Before that, we worked on an online gaming platform. I love working here because the colleagues are very helpful, friendly and the company is very flexible. If I want, I can work remotely, I can start the day whenever I want.",
       },
       {
         id: 20,
@@ -1302,8 +1302,13 @@ export const data = [
           "Mutasson be egyet ezek közül részletesen!",
         ],
         keys: ["Folyamatábra", "Mondatszerű leírás", "Struktogram"],
-        content:
-          "Algorithm descriptive / descpting method. The aim of the algorithm describing method is to use them for introducing the processes.The alg.desc.meth.is independent from the programming languages.Everyone understands it. The programming languages have a strict sintax and they contain a lot of information which isn’t necessary for the alg.desc.methods. A simple and independent language is used to write the whole process. There are 2 types of the the alg.descr.method, the drawings and the texts Drawings are the flowcharts, stuctograms, Jackson- diagrams, tree structures. The texts are the description using a programming language, sentences, phrases, abstract functions. Flowchart It’s one of the oldest(alg.desc.) method.It depicts the processes in details. The program is described as ‘graph’.The graphs contain hubs and spokes. There are hubs which are connected with spokes. geometric shapes are in used to sign the processes.Their use is bound. Types of the hubs: The rectangle is used as an instruction. The diamond is used as a decision. The circle is used to combine flow lines.",
+        content: `
+        <p>Before we start coding, we need to plan what we want to achieve. We use an algorithm description method for this process.</p>
+        <p>The algorithm description method is independent of programming languages and everyone understands it. We use a simple language to write the whole process.</p>
+        <p>There are 2 main types of method: Simple text like short sentences, and drawings, like flow charts, structograms, Jackson-diagram, tree diagram.</p>
+        <p>Flow chart is one of the oldest methods, what descript the program with a &quot;graph&quot;. We use geometric shapes for the different nodes. There are instruction-, condition-, and collection node.&nbsp;</p>
+        <p>We use a rectangle for describe an instruction. We draw a diamond, if we want to create a condition, and we use the circle form, to collect the threads.</p>
+        `,
       },
     ],
   },
